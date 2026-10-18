@@ -149,7 +149,7 @@
 
     var cropX = 0;
     function layout() {
-      var crop = narrow.matches && band.crop ? band.crop : [0, W.width];
+      var crop = [0, W.width]; // スマホでも切り出さない
       cropX = crop[0];
       canvas.width = crop[1] - crop[0];
       canvas.height = W.height;

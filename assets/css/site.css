@@ -93,11 +93,7 @@ h3 { font-size: 17px; line-height: 1.45; margin: 0 0 6px; }
 .wu-plate { transition: opacity .3s; }
 .wu-clock { text-align: center; font-weight: 700; display: flex; flex-direction: column; justify-content: center; }
 .world-note { font-size: 12px; color: #b9c4d6; margin: 10px 0 0; }
-@media (max-width: 719px) {
-  /* スマホは x=168〜552 を切り出す（world.js の CROP_NARROW と同じ値） */
-  .world { aspect-ratio: 384 / 256; }
-  .world.world-lower { aspect-ratio: 688 / 256; } /* 下段は x=40〜728（階段の中心 x=384 を上段とそろえる） */
-  .world-ui { width: 200%; left: -43.75%; right: auto; font-size: calc(100cqw / 384 * 6.4); }
+/* スマホでも全体を表示（切り出さない。10/19 将さん：EQUA HQ が見切れる） */
 }
 
 /* ---------- board ---------- */
