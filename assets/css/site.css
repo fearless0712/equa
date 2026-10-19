@@ -177,3 +177,12 @@ body { min-height: 100vh; display: flex; flex-direction: column; }
 main { flex: 1 0 auto; width: 100%; }
 .grid.books { grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr)); }
 main.wrap { padding-bottom: 56px; }
+
+/* 引っぱって更新（ptr.js） */
+.ptr{position:fixed;left:50%;top:-44px;transform:translate(-50%,0);z-index:9999;display:flex;align-items:center;gap:8px;padding:8px 16px;border-radius:999px;background:#1f2a44;color:#fff;font-size:14px;box-shadow:0 4px 14px rgba(0,0,0,.25);opacity:0;transition:opacity .15s;pointer-events:none}
+.ptr.on{opacity:1}
+.ptr-ico{display:inline-block;transition:transform .2s}
+.ptr.ready .ptr-ico{transform:rotate(180deg)}
+.ptr.loading .ptr-ico{animation:ptrspin .8s linear infinite}
+@keyframes ptrspin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.ptr,.ptr-ico{transition:none}.ptr.loading .ptr-ico{animation:none}}
