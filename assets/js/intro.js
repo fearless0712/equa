@@ -1,6 +1,7 @@
 (function(){
   var el=document.getElementById('intro'); if(!el) return;
   var seen=false; try{ seen=sessionStorage.getItem('equa_intro')==='1'; }catch(e){}
+  if(/[?&](skip|nointro)=1(&|$)/.test(location.search)) seen=true;
   if(seen){ el.parentNode.removeChild(el); return; }
   document.documentElement.classList.add('intro-lock');
   var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;

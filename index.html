@@ -3,20 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>EQUA</title>
   <meta name="description" content="EQUAは、AIと一緒に、仕事や暮らしの小さな困りごとを道具にするブランドです。売上ボードと、無料ツール・ブログ・商品への入り口。">
-  <link rel="icon" type="image/png" href="favicon.png?v=202610202321">
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=202610202321">
-  <link rel="manifest" href="manifest.webmanifest?v=202610202321">
+  <link rel="icon" type="image/png" href="favicon.png?v=202610202335">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=202610202335">
+  <link rel="manifest" href="manifest.webmanifest?v=202610202335">
   <meta name="apple-mobile-web-app-title" content="EQUA">
-  <meta name="theme-color" content="#1f2a44">
-  <link rel="stylesheet" href="assets/css/site.css?v=202610202321">
-  <link rel="stylesheet" href="assets/css/intro.css?v=202610202321">
-  <script src="assets/js/world.js?v=202610202321" defer></script>
-  <script src="assets/js/board.js?v=202610202321" defer></script>
-  <script src="assets/js/ptr.js?v=202610202321" defer></script>
+  <meta name="theme-color" content="#07080c">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Noto+Serif+JP:wght@500;700&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/site.css?v=202610202335">
+  <link rel="stylesheet" href="assets/css/intro.css?v=202610202335">
+  <script src="assets/js/world.js?v=202610202335" defer></script>
+  <script src="assets/js/board.js?v=202610202335" defer></script>
+  <script src="assets/js/ptr.js?v=202610202335" defer></script>
 </head>
 <body>
   <div class="intro" id="intro" role="presentation">
@@ -25,12 +28,12 @@
     <div class="intro__brand">EQUA</div>
     <button class="intro__skip" type="button">SKIP</button>
   </div>
-  <script src="assets/js/intro.js?v=202610202321"></script>
+  <script src="assets/js/intro.js?v=202610202335"></script>
   <a class="skip" href="#main">本文へ移動</a>
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="index.html" aria-label="EQUA トップへ">
-        <img src="assets/img/mark.png" alt="" width="34" height="30">
+        <img class="brand-mark" src="assets/img/ep-mark.png?v=202610202335" alt="" width="44" height="44">
         <span class="brand-text"><span class="brand-name">EQUA</span><span class="brand-sub">Eternal Philosophy</span></span>
       </a>
       <nav class="nav" aria-label="サイト内">
@@ -51,7 +54,7 @@
       <div class="world-stack">
         <div class="world" id="world" data-band="upper" data-base="assets/world/">
           <canvas width="768" height="256" role="img" aria-label="EQUA WORLD 上段（HQ）のドット絵。AI社員がデスクで作業したり、ホールを行き来したりしている様子"></canvas>
-          <div class="world-ui" id="world-ui" data-src="assets/world/world.json?v=202610202321" aria-hidden="true"></div>
+          <div class="world-ui" id="world-ui" data-src="assets/world/world.json?v=202610202335" aria-hidden="true"></div>
         </div>
         <div class="world world-lower" id="world-lower" data-band="lower" data-base="assets/world/">
           <canvas width="768" height="256" role="img" aria-label="EQUA WORLD 下段（Production Wing）のドット絵。開発・QA・納品の机でAI社員が作業している様子"></canvas>
