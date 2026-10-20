@@ -6,16 +6,15 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>無料ツール｜EQUA</title>
-  <meta name="description" content="EQUAの無料ツールの一覧。iPhoneの機種判定、売る前チェック、充電器の相性チェック、業務ツールの体験版。">
+  <meta name="description" content="EQUAの無料ツールの一覧。仕事・事務の自動化、スマホ・ネット、暮らし、買い切りツールの体験版。">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="apple-mobile-web-app-title" content="EQUA">
   <meta name="theme-color" content="#1f2a44">
-  <link rel="stylesheet" href="assets/css/site.css?v=202610192214">
+  <link rel="stylesheet" href="assets/css/site.css?v=202610201855">
 
-
-  <script src="assets/js/ptr.js?v=202610192214" defer></script>
+  <script src="assets/js/ptr.js?v=202610201855" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">本文へ移動</a>
@@ -28,9 +27,9 @@
       <nav class="nav" aria-label="サイト内">
         <a href="index.html">トップ</a>
         <a href="tools.html" aria-current="page">ツール</a>
+        <a href="blog.html">ブログ</a>
         <a href="products.html">商品</a>
         <a href="about.html">About</a>
-        <a href="privacy.html">プライバシー</a>
       </nav>
     </div>
   </header>
@@ -38,102 +37,162 @@
     <div class="page-head">
       <p class="eyebrow">Free tools</p>
       <h1>無料ツール</h1>
-      <p>登録なしで、ブラウザからすぐに使えます。</p>
+      <p>登録なしで、ブラウザからすぐに使えます。カードを押すと、ツールが新しいタブで開きます。</p>
     </div>
-    <section aria-label="ツールの一覧">
+    <nav class="jump" aria-label="ツールの分類">
+      <ul>
+        <li><a href="#work">仕事・事務の自動化<span class="n">6</span></a></li>
+        <li><a href="#phone">スマホ・ネット<span class="n">7</span></a></li>
+        <li><a href="#life">暮らし<span class="n">1</span></a></li>
+        <li><a href="#demo">体験版<span class="n">4</span></a></li>
+      </ul>
+    </nav>
+    <section class="cat" id="work" aria-labelledby="work-title">
+      <div class="cat-head">
+        <h2 id="work-title">仕事・事務の自動化</h2>
+        <p>請求・帳簿・値付けなど、小さな会社や個人事業の事務に使うツールです。</p>
+      </div>
       <div class="grid">
-        <div class="card">
-          <span class="tag">業務・無料</span>
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/dx/" target="_blank" rel="noopener">
+          <span class="tags"><span class="tag rec">おすすめ</span></span>
           <h3>業務の自動化 診断＆推進プラン</h3>
-          <p>業種と業務、時間、パソコンの環境を選ぶと、自動化しやすい業務と方法、進める順のチェックリストがわかります。40業種に対応。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/dx/" target="_blank" rel="noopener">ツールを開く<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
-        <div class="card">
-          <span class="tag">English・Free</span>
-          <h3>Small Business Automation Check</h3>
-          <p>英語版の業務自動化診断です。アメリカ・イギリス・カナダ・オーストラリアなど国ごとの仕事のやり方に合わせています。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/dx-en/" target="_blank" rel="noopener">Open tool<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
-        <div class="card">
-          <span class="tag">経理・無料</span>
+          <p>業種と業務を選ぶと、自動化しやすい業務と方法、進める順のチェックリストがわかります。</p>
+          <span class="go" aria-hidden="true">使う →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/dx-en/" target="_blank" rel="noopener">
+          <span class="tags"><span class="tag en">English</span></span>
+          <h3 lang="en">Small Business Automation Check</h3>
+          <p>英語版の業務自動化診断です。アメリカ・イギリス・カナダ・オーストラリアの仕事のやり方に合わせています。</p>
+          <span class="go" aria-hidden="true">使う →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/hozon/" target="_blank" rel="noopener">
+          
           <h3>帳簿・領収書の保存期間チェッカー</h3>
           <p>青色・白色申告やインボイス登録の有無を選ぶと、帳簿・領収書・請求書を何年保存するかが一覧でわかります。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/hozon/" target="_blank" rel="noopener">ツールを開く<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
-        <div class="card">
-          <span class="tag">English・Free</span>
-          <h3>Record Retention Calculator</h3>
-          <p>アメリカ・イギリス・カナダ・オーストラリアの事業者向けに、書類の保存期限の目安を出す英語のツールです。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/records/" target="_blank" rel="noopener">Open tool<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
-        <div class="card">
-          <span class="tag">スマホ・無料</span>
+          <span class="go" aria-hidden="true">使う →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/records/" target="_blank" rel="noopener">
+          <span class="tags"><span class="tag en">English</span></span>
+          <h3 lang="en">Record Retention Calculator</h3>
+          <p>アメリカ・イギリス・カナダ・オーストラリアの事業者向けに、書類の保存期限の目安を出します。</p>
+          <span class="go" aria-hidden="true">使う →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/riekiritsu/" target="_blank" rel="noopener">
+          
+          <h3>利益率・上乗せ率 計算ツール</h3>
+          <p>売値と原価を入れると、利益率・上乗せ率と、目標の利益率に必要な売値がわかります。</p>
+          <span class="go" aria-hidden="true">使う →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/jobcost/" target="_blank" rel="noopener">
+          <span class="tags"><span class="tag en">English</span></span>
+          <h3 lang="en">Job Profit Calculator</h3>
+          <p>職人・小さなサービス業向け。見積額と費用から、利益・利益率と必要な見積額を出します。</p>
+          <span class="go" aria-hidden="true">使う →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+      </div>
+      <a class="toplink" href="#main">↑ 分類の一覧へ戻る</a>
+    </section>
+    <section class="cat" id="phone" aria-labelledby="phone-title">
+      <div class="cat-head">
+        <h2 id="phone-title">スマホ・ネット</h2>
+        <p>スマホの乗り換え・修理・売る前の準備や、家のネット回線えらびに使うツールです。</p>
+      </div>
+      <div class="grid">
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/phone/switch/" target="_blank" rel="noopener">
+          
           <h3>スマホ乗り換え診断</h3>
           <p>使い方を選ぶと、公式の料金をもとに合いそうなプランの候補を比べられます。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/phone/switch/" target="_blank" rel="noopener">ツールを開く<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
-        <div class="card">
-          <span class="tag">暮らし・無料</span>
+          <span class="go" aria-hidden="true">使う →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/phone/net/" target="_blank" rel="noopener">
+          
           <h3>家のネット回線 えらび診断</h3>
           <p>光回線・ホームルーター・WiMAXから、住まいと使い方に合う回線の種類を選べます。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/phone/net/" target="_blank" rel="noopener">ツールを開く<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
-        <div class="card">
-          <span class="tag">スマホ・無料</span>
+          <span class="go" aria-hidden="true">使う →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/phone/storage/" target="_blank" rel="noopener">
+          
           <h3>スマホ容量・クラウド診断</h3>
           <p>写真や動画の量から、本体の容量とクラウドの選び方の目安がわかります。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/phone/storage/" target="_blank" rel="noopener">ツールを開く<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
-        <div class="card">
-          <span class="tag">スマホ・無料</span>
+          <span class="go" aria-hidden="true">使う →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/phone/repair/" target="_blank" rel="noopener">
+          
           <h3>スマホが壊れたら？保証・修理えらび診断</h3>
           <p>壊れ方と加入中の保証から、修理・保証・買い替えのどれが合うかを確認できます。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/phone/repair/" target="_blank" rel="noopener">ツールを開く<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
-        <div class="card">
-          <span class="tag">暮らし・無料</span>
-          <h3>引越しやることリスト 自動作成</h3>
-          <p>引越しの日と状況から、役所・ライフライン・ネットなどの手続きを期限順のリストにします。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/move/" target="_blank" rel="noopener">ツールを開く<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
-        <div class="card">
-          <span class="tag">ブログ</span>
-          <h3>MisaNeco Works ブログ</h3>
-          <p>暮らしの手続きや、小さな会社の事務の自動化について、公式の情報で確かめて書いています。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/blog/" target="_blank" rel="noopener">ブログを読む<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
-        <div class="card">
-          <span class="tag">Blog・English</span>
-          <h3>MisaNeco Works Blog (English)</h3>
-          <p>英語のブログです。小さな会社の請求・事務の自動化などを書いています。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/blog/en/" target="_blank" rel="noopener">Read the blog<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
-        <div class="card">
-          <span class="tag">iPhone・無料</span>
+          <span class="go" aria-hidden="true">使う →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/iphone/model-check/" target="_blank" rel="noopener">
+          
           <h3>iPhone機種判定＆合うケース・充電器チェッカー</h3>
-          <p>設定画面のモデル番号などから機種を調べ、その機種に合うケースや充電器の目安を確認できます。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/iphone/model-check/" target="_blank" rel="noopener">ツールを開く<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
-        <div class="card">
-          <span class="tag">iPhone・無料</span>
+          <p>モデル番号から機種を調べ、その機種に合うケースや充電器の目安を確認できます。</p>
+          <span class="go" aria-hidden="true">使う →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/iphone/sell-check/" target="_blank" rel="noopener">
+          
           <h3>iPhoneを売る・譲る前チェック</h3>
           <p>バックアップ、サインアウト、データの消去など、手放す前にやることを順番に確認できます。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/iphone/sell-check/" target="_blank" rel="noopener">ツールを開く<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
-        <div class="card">
-          <span class="tag">iPhone・無料</span>
+          <span class="go" aria-hidden="true">使う →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/iphone/charge-check/" target="_blank" rel="noopener">
+          
           <h3>充電器・ケーブル相性チェッカー</h3>
-          <p>手持ちの機器と充電器・ケーブルの組み合わせで、充電できるか・速く充電できるかの目安を調べられます。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/iphone/charge-check/" target="_blank" rel="noopener">ツールを開く<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
-        <div class="card">
-          <span class="tag">体験版・無料</span>
-          <h3>業務ツールの体験版</h3>
-          <p>販売している業務ツールを、サンプルデータでそのまま試せる体験版の一覧です。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/" target="_blank" rel="noopener">ツールを開く<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
+          <p>手持ちの機器と充電器・ケーブルで、充電できるか・速く充電できるかの目安を調べられます。</p>
+          <span class="go" aria-hidden="true">使う →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
       </div>
-      <p class="callout">ツールのページには、広告（アフィリエイトリンク）が表示されることがあります。くわしくは<a href="privacy.html">プライバシー</a>をご覧ください。</p>
+      <a class="toplink" href="#main">↑ 分類の一覧へ戻る</a>
+    </section>
+    <section class="cat" id="life" aria-labelledby="life-title">
+      <div class="cat-head">
+        <h2 id="life-title">暮らし</h2>
+        <p>引越しなど、暮らしの手続きに使うツールです。</p>
+      </div>
+      <div class="grid">
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/move/" target="_blank" rel="noopener">
+          
+          <h3>引越しやることリスト 自動作成</h3>
+          <p>引越しの日と状況から、役所・ライフライン・ネットなどの手続きを期限順のリストにします。</p>
+          <span class="go" aria-hidden="true">使う →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+      </div>
+      <a class="toplink" href="#main">↑ 分類の一覧へ戻る</a>
+    </section>
+    <section class="cat" id="demo" aria-labelledby="demo-title">
+      <div class="cat-head">
+        <h2 id="demo-title">体験版（買い切りツールのお試し）</h2>
+        <p>販売している業務ツールを、サンプルデータでそのまま試せます。インストール・登録は不要です。</p>
+      </div>
+      <div class="grid">
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/" target="_blank" rel="noopener">
+          
+          <h3>体験版の一覧</h3>
+          <p>請求書・帳簿・名簿の整理・セキュリティ・不動産業務など、すべての体験版をまとめて見られます。</p>
+          <span class="go" aria-hidden="true">一覧を見る →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/InvoiceBatch.html" target="_blank" rel="noopener">
+          
+          <h3>請求書一括作成</h3>
+          <p>一覧から、インボイス対応の請求書をまとめてPDFにします。</p>
+          <span class="go" aria-hidden="true">試す →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/KichoAuto.html" target="_blank" rel="noopener">
+          
+          <h3>KichoAuto（明細から仕訳）</h3>
+          <p>銀行・カードの明細から勘定科目を振り分けて、仕訳帳を作ります。</p>
+          <span class="go" aria-hidden="true">試す →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+        <a class="card card-link" href="https://fearless0712.github.io/misaneco-tools/PropertySurvey.html" target="_blank" rel="noopener">
+          
+          <h3>物件調査チェック</h3>
+          <p>現地・法務局・役所の調査項目を確認して、調査報告書にまとめます（不動産業向け）。</p>
+          <span class="go" aria-hidden="true">試す →</span><span class="sr">（新しいタブで開きます）</span>
+        </a>
+      </div>
+      <a class="toplink" href="#main">↑ 分類の一覧へ戻る</a>
+    </section>
+    <section aria-label="ブログへの案内">
+      <p class="callout">使い方の解説や、手続きのまとめは <a href="blog.html">ブログ</a> にあります。ツールのページには、広告（アフィリエイトリンク）が表示されることがあります。くわしくは<a href="privacy.html">プライバシー</a>をご覧ください。</p>
     </section>
   </main>
 
@@ -148,6 +207,7 @@
       <nav class="foot-nav" aria-label="フッター">
         <a href="index.html">トップ</a>
         <a href="tools.html" aria-current="page">ツール</a>
+        <a href="blog.html">ブログ</a>
         <a href="products.html">商品</a>
         <a href="about.html">About</a>
         <a href="privacy.html">プライバシー</a>

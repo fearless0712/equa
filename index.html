@@ -6,17 +6,17 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>EQUA</title>
-  <meta name="description" content="EQUAは、AIと一緒に、仕事や暮らしの小さな困りごとを道具にするブランドです。売上ボードと無料ツール・商品の一覧。">
+  <meta name="description" content="EQUAは、AIと一緒に、仕事や暮らしの小さな困りごとを道具にするブランドです。売上ボードと、無料ツール・ブログ・商品への入り口。">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="apple-mobile-web-app-title" content="EQUA">
   <meta name="theme-color" content="#1f2a44">
-  <link rel="stylesheet" href="assets/css/site.css?v=202610192214">
-  <link rel="stylesheet" href="assets/css/intro.css?v=202610192214">
-  <script src="assets/js/world.js?v=202610192214" defer></script>
-  <script src="assets/js/board.js?v=202610192214" defer></script>
-  <script src="assets/js/ptr.js?v=202610192214" defer></script>
+  <link rel="stylesheet" href="assets/css/site.css?v=202610201855">
+  <link rel="stylesheet" href="assets/css/intro.css?v=202610201855">
+  <script src="assets/js/world.js?v=202610201855" defer></script>
+  <script src="assets/js/board.js?v=202610201855" defer></script>
+  <script src="assets/js/ptr.js?v=202610201855" defer></script>
 </head>
 <body>
   <div class="intro" id="intro" role="presentation">
@@ -25,7 +25,7 @@
     <div class="intro__brand">EQUA</div>
     <button class="intro__skip" type="button">SKIP</button>
   </div>
-  <script src="assets/js/intro.js?v=202610192214"></script>
+  <script src="assets/js/intro.js?v=202610201855"></script>
   <a class="skip" href="#main">本文へ移動</a>
   <header class="site-header">
     <div class="wrap">
@@ -36,9 +36,9 @@
       <nav class="nav" aria-label="サイト内">
         <a href="index.html" aria-current="page">トップ</a>
         <a href="tools.html">ツール</a>
+        <a href="blog.html">ブログ</a>
         <a href="products.html">商品</a>
         <a href="about.html">About</a>
-        <a href="privacy.html">プライバシー</a>
       </nav>
     </div>
   </header>
@@ -51,7 +51,7 @@
       <div class="world-stack">
         <div class="world" id="world" data-band="upper" data-base="assets/world/">
           <canvas width="768" height="256" role="img" aria-label="EQUA WORLD 上段（HQ）のドット絵。AI社員がデスクで作業したり、ホールを行き来したりしている様子"></canvas>
-          <div class="world-ui" id="world-ui" data-src="assets/world/world.json?v=202610192214" aria-hidden="true"></div>
+          <div class="world-ui" id="world-ui" data-src="assets/world/world.json?v=202610201855" aria-hidden="true"></div>
         </div>
         <div class="world world-lower" id="world-lower" data-band="lower" data-base="assets/world/">
           <canvas width="768" height="256" role="img" aria-label="EQUA WORLD 下段（Production Wing）のドット絵。開発・QA・納品の机でAI社員が作業している様子"></canvas>
@@ -60,6 +60,43 @@
     </div>
   </div>
   <main id="main" class="wrap">
+    <section aria-labelledby="find-title">
+      <h2 id="find-title">何を探していますか？</h2>
+      <div class="cta">
+        <div>
+          <span class="tag rec">おすすめ・無料</span>
+          <h3>業務の自動化 診断＆推進プラン</h3>
+          <p>業種と業務を選ぶと、自動化しやすい業務と方法、進める順のチェックリストがわかります。英語版（米英加豪）もあります。</p>
+        </div>
+        <a class="btn gold" href="https://fearless0712.github.io/misaneco-tools/dx/" target="_blank" rel="noopener">無料で診断する<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
+      </div>
+      <div class="grid pick-grid">
+        <a class="card card-link pick" href="tools.html">
+          
+          <h3>無料ツール</h3>
+          <p>ブラウザですぐ使えるツール（14本）。事務の自動化・スマホ・引越しなど。</p>
+          <span class="go" aria-hidden="true">見る →</span>
+        </a>
+        <a class="card card-link pick" href="blog.html">
+          
+          <h3>ブログ・読みもの</h3>
+          <p>お金・帳簿、スマホ・ネット、事務の自動化の記事。英語の記事もあります。</p>
+          <span class="go" aria-hidden="true">見る →</span>
+        </a>
+        <a class="card card-link pick" href="products.html">
+          
+          <h3>商品</h3>
+          <p>買い切りの業務ツール・テンプレートと、電子書籍です。</p>
+          <span class="go" aria-hidden="true">見る →</span>
+        </a>
+        <a class="card card-link pick" href="about.html">
+          
+          <h3>EQUAについて</h3>
+          <p>どんな考えで、誰が運営しているのかをまとめています。</p>
+          <span class="go" aria-hidden="true">見る →</span>
+        </a>
+      </div>
+    </section>
     <section aria-labelledby="board-title">
       <div class="board" id="board" data-src="data/public.json">
         <div class="board-head">
@@ -82,36 +119,6 @@
         </ul>
       </div>
     </section>
-
-    <section aria-labelledby="next-title">
-      <h2 id="next-title">EQUAでできること</h2>
-      <div class="grid">
-        <div class="card">
-          <span class="tag">業務・無料</span>
-          <h3>業務の自動化 診断＆推進プラン</h3>
-          <p>業種と業務を選ぶと、自動化しやすい業務と方法、進める順のチェックリストがわかります。英語版（米英加豪）もあります。</p>
-          <a class="btn" href="https://fearless0712.github.io/misaneco-tools/dx/" target="_blank" rel="noopener">診断する<span class="ext" aria-hidden="true">↗</span><span class="sr">（新しいタブで開きます）</span></a>
-        </div>
-        <div class="card">
-          <span class="tag">無料</span>
-          <h3>無料ツール</h3>
-          <p>スマホの乗り換え・回線えらび・引越しの手続きなど、ブラウザですぐ使えるツールとブログです。</p>
-          <a class="btn" href="tools.html">ツールを見る</a>
-        </div>
-        <div class="card">
-          <span class="tag">販売中</span>
-          <h3>テンプレート・業務ツール</h3>
-          <p>請求書・経費・不動産業務などのテンプレートと、オフラインで使える業務ツールです。</p>
-          <a class="btn" href="products.html">商品を見る</a>
-        </div>
-        <div class="card">
-          <span class="tag">About</span>
-          <h3>EQUAについて</h3>
-          <p>どんな考えで、誰が運営しているのかをまとめています。</p>
-          <a class="btn" href="about.html">EQUAについて</a>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="site-footer">
@@ -125,6 +132,7 @@
       <nav class="foot-nav" aria-label="フッター">
         <a href="index.html" aria-current="page">トップ</a>
         <a href="tools.html">ツール</a>
+        <a href="blog.html">ブログ</a>
         <a href="products.html">商品</a>
         <a href="about.html">About</a>
         <a href="privacy.html">プライバシー</a>
