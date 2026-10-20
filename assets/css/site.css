@@ -236,3 +236,8 @@ a.card-link:hover .go { background: var(--navy-2); }
   .go { align-self: stretch; justify-content: center; }
 }
 @media (prefers-reduced-motion: reduce) { a.card-link { transition: none; } a.card-link:hover { transform: none; } }
+
+.foot-line { display: flex; flex-direction: column; gap: 8px; max-width: 320px; }
+.foot-line p { margin: 0; font-size: 13px; color: rgba(255,255,255,.8); }
+.line-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 8px 20px; border-radius: 999px; background: #06c755; color: #fff; font-weight: 700; text-decoration: none; align-self: flex-start; }
+.line-btn:hover, .line-btn:focus-visible { filter: brightness(1.08); }
