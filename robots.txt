@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://equaglobal.com/sitemap.xml
