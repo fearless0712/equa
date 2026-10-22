@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="../assets/css/site.css?v=202610221900">
   <link rel="stylesheet" href="../assets/css/intro.css?v=202610210023">
   <link rel="stylesheet" href="../assets/css/hq-embed.css?v=202610221700">
-  <script src="../assets/js/board.js?v=202610221900" defer></script>
+  <script src="../assets/js/board.js?v=202610222010" defer></script>
 </head>
 <body>
   <div class="intro" id="intro" role="presentation">
@@ -105,13 +105,14 @@
         <div class="kpis" id="kpis" aria-live="polite"></div>
         <div class="table-wrap">
           <table class="money">
-            <caption class="sr">Sales, expenses and profit by category (Japanese yen)</caption>
+            <caption class="sr">Sales, expenses and profit by category (US dollars, converted from Japanese yen)</caption>
             <thead><tr><th scope="col">Category</th><th scope="col" id="th-today">Today</th><th scope="col" id="th-month">This month</th><th scope="col">All time</th></tr></thead>
             <tbody id="board-rows"></tbody>
           </table>
         </div>
         <ul class="notes">
-          <li>Amounts are in Japanese yen (JPY). Dates are counted in Japan time (JST); “today” is today's date in Japan.</li>
+          <li id="board-fx">Amounts are in Japanese yen (JPY).</li>
+          <li>Dates are counted in Japan time (JST); “today” is today's date in Japan.</li>
           <li>Sales are the amounts earned before service fees (tax included). Service fees are counted as expenses.</li>
           <li>Records are compiled by hand, so updates can take a while. Figures are as of “Last updated”.</li>
         </ul>

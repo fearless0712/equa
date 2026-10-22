@@ -9,6 +9,12 @@
   /* 英語版（en/hq.html, <html lang="en">）：中身は日本語版と同じ。画面の言葉だけ英語にする */
   var EN = /^en/i.test(document.documentElement.lang || '');
   var fmt = function (n) { return Number(n).toLocaleString(EN ? 'en-US' : 'ja-JP'); };
+  /* 英語版の売上はドルの目安（hq_en.json の sales.fx＝ECBの参考レート）。記録は円 */
+  var FX = null;
+  var money = function (n) {
+    if (EN && FX) return '$' + (Number(n) / FX.jpy_per_usd).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    return '\u00a5' + fmt(n);
+  };
   /* 種類の名前（データのキー）。英語版のデータは英語のキーで入っている */
   var K = EN
     ? { blog: 'Blog', tool: 'Free tools', note: 'note', qiita: 'Qiita', hatena: 'Hatena', site: 'EQUA site', product: 'Products' }
@@ -102,6 +108,7 @@
 
   function draw(D) {
     var P = D.published || {}, Q = D.queue || {}, S = D.sales || {}, G = D.products || {};
+    FX = S.fx && S.fx.jpy_per_usd > 0 ? S.fx : null;
     var kt = P.kinds_today || {}, ka = P.kinds_all || {};
     var qc = Q.by_channel || {};
     var md = function (iso) { var a = iso.split('-'); return (+a[1]) + '/' + (+a[2]); };
@@ -160,13 +167,13 @@
     }
     var cats = (S.categories || []).filter(function (c) { return c.v > 0; }).length;
     var sep = EN ? '/' : '・';
-    tile(L.kSales, S.total != null ? '¥' + fmt(S.total) : DASH, '', L.kSalesSub(cats), true);
+    tile(L.kSales, S.total != null ? money(S.total) : DASH, '', L.kSalesSub(cats), true);
     tile(L.kToday, String(P.today || 0), L.pcs, L.kArt(artToday, kt[K.tool] || 0));
     tile(L.kAll, String(P.total || 0), L.pcs, L.kArt(artAll, ka[K.tool] || 0));
     tile(L.kQueue, String(Q.total || 0), L.pcs, 'Threads ' + (qc.Threads || 0) + sep + 'X ' + (qc.X || 0) + sep + 'IG ' + (qc.Instagram || 0));
     tile(L.kTools, String(G.total || 0), L.pcs, (G.by_industry || []).map(function (g) { return g.g + ' ' + g.n; }).join(sep));
     tile(L.kCh, String((D.channels || []).length), L.kChUnit, L.kChSub);
-    $('kpiNote').textContent = S.as_of ? L.salesAsOf(md(S.as_of)) : '';
+    $('kpiNote').textContent = (S.as_of ? L.salesAsOf(md(S.as_of)) : '') + (EN && FX ? ' · US$ at ECB rate \u00a5' + FX.jpy_per_usd + '/$ (' + FX.date + ')' : '');
 
     /* ---- 売上の区分 ---- */
     var cb = $('cbars');
@@ -177,7 +184,7 @@
       var bar = h('span', 'cbar', null, r);
       var fill = h('i', null, null, bar);
       fill.style.width = (c.v / cm * 100).toFixed(1) + '%';
-      h('span', 'n', '¥' + fmt(c.v), r);
+      h('span', 'n', money(c.v), r);
     });
 
     /* ---- 予約（日付別） ---- */

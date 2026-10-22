@@ -6,7 +6,12 @@
   var DATA = board.getAttribute("data-src") || "data/public.json";
   /* 英語版（en/index.html, <html lang="en">）では画面の言葉と区分名だけ英語にする（数字は同じ） */
   var EN = /^en/i.test(document.documentElement.lang || "");
-  var yen = function (n) { return (n < 0 ? "−¥" : "¥") + Math.abs(n).toLocaleString(EN ? "en-US" : "ja-JP"); };
+  /* 英語版はドルの目安で出す（public.json の fx＝ECBの参考レート。記録そのものは円） */
+  var FX = null;
+  var yen = function (n) {
+    if (EN && FX) return (n < 0 ? "−$" : "$") + (Math.abs(n) / FX.jpy_per_usd).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    return (n < 0 ? "−¥" : "¥") + Math.abs(n).toLocaleString(EN ? "en-US" : "ja-JP");
+  };
   var CAT_EN = {
     "市場調査・分析": "Research & analysis", "アプリ・ツール販売": "App & tool sales", "アフィリエイト収益": "Affiliate income",
     "その他の報酬": "Other income", "手数料": "Fees", "広告費": "Advertising", "出店費用": "Store fees"
@@ -54,6 +59,11 @@
   }
 
   function render(data) {
+    FX = data.fx && data.fx.jpy_per_usd > 0 ? data.fx : null;
+    var fxNote = document.getElementById("board-fx");
+    if (EN && fxNote) fxNote.textContent = FX
+      ? "Amounts are shown in US dollars, converted from Japanese yen at the ECB reference rate (¥" + FX.jpy_per_usd.toLocaleString("en-US") + " = US$1, " + FX.date + "). The records themselves are kept in yen, so dollar figures move a little with the exchange rate."
+      : "Amounts are in Japanese yen (JPY).";
     var today = jstToday();
     var s = summarize(data, today);
     var md = Number(today.slice(5, 7)) + "/" + Number(today.slice(8, 10));
