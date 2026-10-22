@@ -1,0 +1,20 @@
+/* トップの EQUA司令塔（縮小表示）。iframe は 16:9、クリックは上の a が受ける */
+.hq-embed {
+  position: relative; display: block; width: 100%; aspect-ratio: 16 / 9;
+  border-radius: 6px; overflow: hidden; background: #060a12;
+  border: 1px solid rgba(230, 199, 122, .55);
+  box-shadow: 0 0 0 4px var(--bg), 0 0 0 5px rgba(201, 162, 74, .28), 0 18px 50px rgba(0, 0, 0, .55), 0 0 40px rgba(201, 162, 74, .08);
+  text-decoration: none;
+}
+.hq-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display: block; pointer-events: none; }
+.hq-open {
+  position: absolute; right: 10px; bottom: 10px; z-index: 1;
+  font-size: 12px; font-weight: 700; letter-spacing: .04em; color: #07080c;
+  background: var(--gold-grad); padding: 5px 11px; border-radius: 999px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .45);
+}
+.hq-embed:hover, .hq-embed:focus-visible { box-shadow: var(--glow), 0 18px 50px rgba(0, 0, 0, .55); outline: none; }
+.hq-note { font-size: 12px; color: var(--ink-3); margin: 10px 0 0; line-height: 1.6; }
+@media (max-width: 520px) {
+  .hq-open { right: 6px; bottom: 6px; font-size: 11px; padding: 4px 9px; }
+}

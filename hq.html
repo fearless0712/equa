@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>EQUA司令塔</title>
+<meta name="description" content="EQUA司令塔：AIと一緒に公開している記事・ツール・発信の動きを、公開済みの記録から自動で表示する画面です。">
+<meta name="theme-color" content="#060a12">
+<link rel="icon" type="image/png" href="favicon.png?v=202610210023">
+<link rel="stylesheet" href="assets/css/hq.css?v=202610221700">
+<script src="assets/js/hq.js?v=202610221700" defer></script>
+</head>
+<body>
+<div class="rotate-hint" id="rotateHint">横向きにすると、司令塔の全体を表示します</div>
+<div class="vp" id="vp">
+<div class="stage" id="stage">
+<div class="app">
+<header class="hd">
+  <div class="dots" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="hd-brand">
+    <div class="brand"><b>EQUA</b> · Command Center</div>
+    <div class="org">運営 <em>Eternal Philosophy</em> ＞ <em>EQUA</em> ＞ <em>MisaNeco Works</em></div>
+  </div>
+  <h1 class="title">EQUA<span>司令塔</span></h1>
+  <div class="sp"></div>
+  <a class="back" href="index.html">EQUAトップへ</a>
+  <div class="live"><i></i>LIVE</div>
+  <div class="clock"><div class="t" id="clk">--:--:--</div><div class="d" id="dte">----</div></div>
+</header>
+<main class="grid">
+  <section class="panel flow">
+    <div class="ph"><b>今日の公開</b><span class="r" id="flowN"></span></div>
+    <div class="pb"><ol class="steps" id="steps"></ol><div class="flowfoot" id="flowfoot"></div></div>
+  </section>
+  <section class="panel graph">
+    <div class="ph"><b>AI組織図</b><span>· 承認 → 司令 → 担当 → 発信</span>
+      <span class="r legend"><span><i class="c-am"></i>承認</span><span><i class="c-cy"></i>担当</span><span><i class="c-vi"></i>SNS</span><span><i class="c-gr"></i>記事・ツール</span><span><i class="c-pk"></i>サイト・商品</span></span></div>
+    <div class="pb gpb"><svg id="g" viewBox="0 0 960 520" preserveAspectRatio="xMidYMid meet" role="img" aria-label="AI組織図：MisaNecoが承認し、Claudeが司令となって担当に振り分け、ブログ・無料ツール・note・Qiita・はてな・X・Threads・Instagram・EQUAサイトへ発信する流れ"></svg></div>
+  </section>
+  <aside class="side">
+    <section class="panel kpip">
+      <div class="ph"><b>KPI</b><span class="r" id="kpiNote"></span></div>
+      <div class="pb"><div class="kpis" id="kpis"></div></div>
+    </section>
+    <section class="panel salesp">
+      <div class="ph"><b>売上の区分</b><span class="r">累計・区分と合計のみ</span></div>
+      <div class="pb"><div class="cbars" id="cbars"></div></div>
+    </section>
+    <section class="panel queuep">
+      <div class="ph"><b>予約済みの投稿</b><span class="r" id="qNote"></span></div>
+      <div class="pb"><div class="qbars" id="qbars"></div></div>
+    </section>
+  </aside>
+  <div class="bottom">
+    <section class="panel pubp">
+      <div class="ph"><b>今日公開したもの</b><span class="r" id="pubN"></span></div>
+      <div class="chips" id="chips"></div>
+      <div class="plist" id="plist"><div class="inner" id="pinner"></div></div>
+    </section>
+    <section class="panel logp">
+      <div class="ph"><b>公開ログ</b><span>· 公開済みの記録</span><span class="r" id="logN"></span></div>
+      <div class="log" id="log"></div>
+    </section>
+  </div>
+</main>
+<footer class="ft">
+  <span class="note">表示している数字は公開済みの記録から自動で作っています（売上は区分と合計のみ）</span>
+  <span class="bar" aria-hidden="true"><i></i></span>
+  <span class="op">運営 Eternal Philosophy ＞ EQUA ＞ MisaNeco Works</span>
+  <span id="fbuilt"></span>
+</footer>
+</div>
+</div>
+</div>
+</body>
+</html>

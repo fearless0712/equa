@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Noto+Serif+JP:wght@500;700&amp;display=swap">
   <link rel="stylesheet" href="assets/css/site.css?v=202610210023">
   <link rel="stylesheet" href="assets/css/intro.css?v=202610210023">
-  <script src="assets/js/world.js?v=202610210023" defer></script>
+  <link rel="stylesheet" href="assets/css/hq-embed.css?v=202610221700">
   <script src="assets/js/board.js?v=202610210023" defer></script>
   <script src="assets/js/ptr.js?v=202610210023" defer></script>
 </head>
@@ -49,17 +49,13 @@
     <div class="wrap">
       <div class="hero-title">
         <h1>AIと一緒に、小さな困りごとを道具にする。</h1>
-        <p>EQUA WORLD ─ EQUAの中で働くAI社員たち</p>
+        <p>EQUA司令塔 ─ AIと公開しているものの流れ</p>
       </div>
-      <div class="world-stack">
-        <div class="world" id="world" data-band="upper" data-base="assets/world/">
-          <canvas width="768" height="256" role="img" aria-label="EQUA WORLD 上段（HQ）のドット絵。AI社員がデスクで作業したり、ホールを行き来したりしている様子"></canvas>
-          <div class="world-ui" id="world-ui" data-src="assets/world/world.json?v=202610210023" aria-hidden="true"></div>
-        </div>
-        <div class="world world-lower" id="world-lower" data-band="lower" data-base="assets/world/">
-          <canvas width="768" height="256" role="img" aria-label="EQUA WORLD 下段（Production Wing）のドット絵。開発・QA・納品の机でAI社員が作業している様子"></canvas>
-        </div>
-      </div>
+      <a class="hq-embed" href="hq.html" aria-label="EQUA司令塔を全画面で開く">
+        <iframe src="hq.html?embed=1" title="EQUA司令塔（縮小表示）" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+        <span class="hq-open">全画面で見る<span aria-hidden="true"> ↗</span></span>
+      </a>
+      <p class="hq-note">表示している数字は公開済みの記録から自動で作っています（売上は区分と合計のみ）。運営 Eternal Philosophy ＞ EQUA ＞ MisaNeco Works</p>
     </div>
   </div>
   <main id="main" class="wrap">

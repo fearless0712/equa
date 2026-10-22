@@ -1,0 +1,662 @@
+{
+ "about": "EQUA司令塔の公開データ。公開済みの記録から自動で作成（売上は区分と合計のみ）。",
+ "today": "2026-10-22",
+ "built": "2026-10-22 17:10",
+ "operator": [
+  "Eternal Philosophy",
+  "EQUA",
+  "MisaNeco Works"
+ ],
+ "channels": [
+  "ブログ",
+  "無料ツール",
+  "note",
+  "Qiita",
+  "はてな",
+  "X",
+  "Threads",
+  "Instagram",
+  "EQUAサイト"
+ ],
+ "published": {
+  "today": 22,
+  "total": 113,
+  "kinds_today": {
+   "ブログ": 10,
+   "無料ツール": 3,
+   "note": 5,
+   "Qiita": 3,
+   "はてな": 1,
+   "X": 0,
+   "Threads": 0,
+   "Instagram": 0,
+   "EQUAサイト": 0
+  },
+  "kinds_all": {
+   "ブログ": 70,
+   "無料ツール": 23,
+   "note": 12,
+   "Qiita": 4,
+   "はてな": 1,
+   "X": 0,
+   "Threads": 1,
+   "Instagram": 1,
+   "EQUAサイト": 1
+  },
+  "week": [
+   {
+    "d": "2026-10-16",
+    "n": 0
+   },
+   {
+    "d": "2026-10-17",
+    "n": 2
+   },
+   {
+    "d": "2026-10-18",
+    "n": 4
+   },
+   {
+    "d": "2026-10-19",
+    "n": 27
+   },
+   {
+    "d": "2026-10-20",
+    "n": 27
+   },
+   {
+    "d": "2026-10-21",
+    "n": 30
+   },
+   {
+    "d": "2026-10-22",
+    "n": 22
+   }
+  ],
+  "today_items": [
+   {
+    "kind": "Qiita",
+    "en": false,
+    "title": "PHP脆弱性 確認手順"
+   },
+   {
+    "kind": "note",
+    "en": false,
+    "title": "AIに「1か月で1万ドル」を任せた実録 Day8"
+   },
+   {
+    "kind": "はてな",
+    "en": false,
+    "title": "PHPの重大な脆弱性、今日確かめることは3つ（2026年10月）"
+   },
+   {
+    "kind": "無料ツール",
+    "en": true,
+    "title": "Forex position size calculator"
+   },
+   {
+    "kind": "ブログ",
+    "en": true,
+    "title": "How to calculate forex position size from you…"
+   },
+   {
+    "kind": "note",
+    "en": false,
+    "title": "請求書番号、どう付けていますか？"
+   },
+   {
+    "kind": "note",
+    "en": false,
+    "title": "Excelの入力ミスを減らすいちばん簡単な方法"
+   },
+   {
+    "kind": "note",
+    "en": false,
+    "title": "偽メールのリンクを押した・入力してしまったときにやること"
+   },
+   {
+    "kind": "note",
+    "en": false,
+    "title": "AIに仕事を「任せっぱなし」にしないための指示書の作り方"
+   },
+   {
+    "kind": "ブログ",
+    "en": false,
+    "title": "FXの取引数量は「損切りの幅」から決める"
+   },
+   {
+    "kind": "ブログ",
+    "en": true,
+    "title": "Stop typos in your spreadsheet: drop-down lis…"
+   },
+   {
+    "kind": "ブログ",
+    "en": false,
+    "title": "外壁塗装の塗装面積と塗料の缶数の出し方"
+   },
+   {
+    "kind": "Qiita",
+    "en": false,
+    "title": "pycelでExcelの数式をテスト"
+   },
+   {
+    "kind": "無料ツール",
+    "en": false,
+    "title": "工期（稼働日）計算"
+   },
+   {
+    "kind": "ブログ",
+    "en": false,
+    "title": "車検は満了日の2か月前から"
+   },
+   {
+    "kind": "ブログ",
+    "en": false,
+    "title": "建設業許可の更新はいつまで"
+   },
+   {
+    "kind": "Qiita",
+    "en": false,
+    "title": "Threads APIで動画投稿"
+   },
+   {
+    "kind": "ブログ",
+    "en": false,
+    "title": "Excelで工期（稼働日）を数える"
+   },
+   {
+    "kind": "ブログ",
+    "en": false,
+    "title": "中古車の原価と粗利"
+   },
+   {
+    "kind": "無料ツール",
+    "en": false,
+    "title": "車検の日付計算"
+   },
+   {
+    "kind": "ブログ",
+    "en": false,
+    "title": "工事写真台帳の作り方"
+   },
+   {
+    "kind": "ブログ",
+    "en": true,
+    "title": "WORKDAY.INTL"
+   }
+  ]
+ },
+ "log": [
+  {
+   "d": "10/20",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『利益率と上乗せ率の違い（値付けの式）』"
+  },
+  {
+   "d": "10/20",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『コンフォートゾーンとは？意味・言葉の由来と、無理のない広げ方』"
+  },
+  {
+   "d": "10/20",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『オブジェクト指向をわかりやすく』"
+  },
+  {
+   "d": "10/20",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『「コンフォートゾーンを出よう」は半分だけ正しい』"
+  },
+  {
+   "d": "10/20",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『「オブジェクト指向」は仕事の分け方にも使える』"
+  },
+  {
+   "d": "10/20",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『iPhoneのストレージがいっぱいの時に消してよいもの・ダメなもの』"
+  },
+  {
+   "d": "10/20",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『個人事業主の売上と経費をExcelで管理する最低限の列』"
+  },
+  {
+   "d": "10/20",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『光回線の解約・乗り換えで違約金や工事費の残債がかかるか確認する方法』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "無料ツール",
+   "s": "無料ツール公開『家事按分 計算ツール』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "英語ブログ公開『How to work out the business-use share of hom…』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "無料ツール",
+   "s": "英語ツール公開『Home Office Business-Use Calculator (US & UK)』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "無料ツール",
+   "s": "無料ツール公開『日割り計算ツール（家賃・給料・月額料金）』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『家賃の日割り計算のしかた』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『AIに「1か月で1万ドル」を任せた実録 Day7』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『給料の日割り計算のしかた』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "無料ツール",
+   "s": "英語ツール公開『Prorated Rent Calculator』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "英語ブログ公開『How to calculate prorated rent (3 methods, wi…』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『家事按分の計算のしかた』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "英語ブログ公開『Password rules for a small business: what NIS…』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『自宅で仕事をしている人の「家賃や電気代、どこまで経費？」』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『「ストレージがいっぱいです」と出たiPhone、あわてて写真を消す前に』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『光回線をやめたい。でも違約金はいくら？』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『個人事業主の帳簿・領収書は何年保存？』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『小さな会社のパスワードのルール』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "英語ブログ公開『How to find reused and weak passwords (and wh…』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『人が辞めた日にやるアカウント整理』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "英語ブログ公開『When someone leaves: an account offboarding c…』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "Threads",
+   "s": "Threads投稿『パスワードのルール（NIST 2025）紹介』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "英語ブログ公開『Clicked a phishing link at work? What to do n…』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『偽メールのリンクを押した・入力してしまったときにやること』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "Instagram",
+   "s": "Instagram投稿『Excel』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita公開『パスワードの使い回しと「末尾だけ変えた」パスワードを、ブラウザのJavaScriptだけで…』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『請求書番号の付け方』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『Excelの入力ミスを減らすいちばん簡単な方法』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "英語ブログ公開『How to number your invoices (a simple system,…』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "無料ツール",
+   "s": "無料ツール公開『FX 損切り・ロット計算ツール』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『PHPの脆弱性 確認と更新』"
+  },
+  {
+   "d": "10/21",
+   "t": null,
+   "kind": "ブログ",
+   "s": "英語ブログ公開『PHP critical RCE』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita公開『PHP脆弱性 確認手順』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『AIに「1か月で1万ドル」を任せた実録 Day8』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "はてな",
+   "s": "はてな公開『PHPの重大な脆弱性、今日確かめることは3つ（2026年10月）』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "無料ツール",
+   "s": "英語ツール公開『Forex position size calculator』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "ブログ",
+   "s": "英語ブログ公開『How to calculate forex position size from you…』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『請求書番号、どう付けていますか？』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『Excelの入力ミスを減らすいちばん簡単な方法』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『偽メールのリンクを押した・入力してしまったときにやること』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『AIに仕事を「任せっぱなし」にしないための指示書の作り方』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『FXの取引数量は「損切りの幅」から決める』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "ブログ",
+   "s": "英語ブログ公開『Stop typos in your spreadsheet: drop-down lis…』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『外壁塗装の塗装面積と塗料の缶数の出し方』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita公開『pycelでExcelの数式をテスト』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "無料ツール",
+   "s": "無料ツール公開『工期（稼働日）計算』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『車検は満了日の2か月前から』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『建設業許可の更新はいつまで』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita公開『Threads APIで動画投稿』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『Excelで工期（稼働日）を数える』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『中古車の原価と粗利』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "無料ツール",
+   "s": "無料ツール公開『車検の日付計算』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "ブログ",
+   "s": "ブログ公開『工事写真台帳の作り方』"
+  },
+  {
+   "d": "10/22",
+   "t": null,
+   "kind": "ブログ",
+   "s": "英語ブログ公開『WORKDAY.INTL』"
+  }
+ ],
+ "sales": {
+  "total": 33057,
+  "categories": [
+   {
+    "name": "市場調査・分析",
+    "v": 33000
+   },
+   {
+    "name": "アプリ・ツール販売",
+    "v": 0
+   },
+   {
+    "name": "アフィリエイト収益",
+    "v": 0
+   },
+   {
+    "name": "その他の報酬",
+    "v": 57
+   }
+  ],
+  "as_of": "2026-10-22"
+ },
+ "queue": {
+  "total": 48,
+  "by_channel": {
+   "Threads": 20,
+   "X": 27,
+   "Instagram": 1
+  },
+  "by_day": [
+   {
+    "d": "2026-10-23",
+    "Threads": 5,
+    "X": 0,
+    "Instagram": 1
+   },
+   {
+    "d": "2026-10-24",
+    "Threads": 5,
+    "X": 0,
+    "Instagram": 0
+   },
+   {
+    "d": "2026-10-25",
+    "Threads": 5,
+    "X": 0,
+    "Instagram": 0
+   },
+   {
+    "d": "2026-10-26",
+    "Threads": 5,
+    "X": 0,
+    "Instagram": 0
+   },
+   {
+    "d": "2026-10-28",
+    "Threads": 0,
+    "X": 3,
+    "Instagram": 0
+   },
+   {
+    "d": "2026-10-29",
+    "Threads": 0,
+    "X": 4,
+    "Instagram": 0
+   },
+   {
+    "d": "2026-10-30",
+    "Threads": 0,
+    "X": 4,
+    "Instagram": 0
+   },
+   {
+    "d": "2026-10-31",
+    "Threads": 0,
+    "X": 4,
+    "Instagram": 0
+   },
+   {
+    "d": "2026-11-01",
+    "Threads": 0,
+    "X": 4,
+    "Instagram": 0
+   },
+   {
+    "d": "2026-11-02",
+    "Threads": 0,
+    "X": 4,
+    "Instagram": 0
+   },
+   {
+    "d": "2026-11-03",
+    "Threads": 0,
+    "X": 4,
+    "Instagram": 0
+   }
+  ]
+ },
+ "products": {
+  "total": 15,
+  "by_industry": [
+   {
+    "g": "建設",
+    "n": 9
+   },
+   {
+    "g": "車屋・バイク屋",
+    "n": 6
+   }
+  ]
+ }
+}
