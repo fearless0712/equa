@@ -4,7 +4,15 @@
   var board = document.getElementById("board");
   if (!board) return;
   var DATA = board.getAttribute("data-src") || "data/public.json";
-  var yen = function (n) { return (n < 0 ? "−¥" : "¥") + Math.abs(n).toLocaleString("ja-JP"); };
+  /* 英語版（en/index.html, <html lang="en">）では画面の言葉と区分名だけ英語にする（数字は同じ） */
+  var EN = /^en/i.test(document.documentElement.lang || "");
+  var yen = function (n) { return (n < 0 ? "−¥" : "¥") + Math.abs(n).toLocaleString(EN ? "en-US" : "ja-JP"); };
+  var CAT_EN = {
+    "市場調査・分析": "Research & analysis", "アプリ・ツール販売": "App & tool sales", "アフィリエイト収益": "Affiliate income",
+    "その他の報酬": "Other income", "手数料": "Fees", "広告費": "Advertising", "出店費用": "Store fees"
+  };
+  var cn = function (c) { return EN ? (CAT_EN[c] || "Other") : c; };
+  var MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
   function jstParts(d) {
     var f = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Tokyo", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" });
@@ -15,6 +23,7 @@
   function jstToday() { var p = jstParts(new Date()); return p.year + "-" + p.month + "-" + p.day; }
   function fmtUpdated(iso) {
     var p = jstParts(new Date(iso));
+    if (EN) return MON[Number(p.month) - 1] + " " + Number(p.day) + ", " + p.year + " " + p.hour + ":" + p.minute + " (Japan time)";
     return p.year + "年" + Number(p.month) + "月" + Number(p.day) + "日 " + p.hour + ":" + p.minute + "（日本時間）";
   }
 
@@ -48,16 +57,22 @@
     var today = jstToday();
     var s = summarize(data, today);
     var md = Number(today.slice(5, 7)) + "/" + Number(today.slice(8, 10));
-    document.getElementById("board-updated").textContent = "最終更新：" + fmtUpdated(data.updated);
+    var mname = EN ? MON[Number(today.slice(5, 7)) - 1] : Number(today.slice(5, 7)) + "月";
+    document.getElementById("board-updated").textContent = (EN ? "Last updated: " : "最終更新：") + fmtUpdated(data.updated);
 
     var kpis = document.getElementById("kpis");
     kpis.textContent = "";
-    [
+    (EN ? [
+      ["Sales today", s.today.salesTotal, md + " (Japan time)"],
+      ["Sales this month", s.month.salesTotal, mname],
+      ["Total sales", s.total.salesTotal, "Since records began"],
+      ["Total profit", s.total.profit, "Sales − expenses", "profit"]
+    ] : [
       ["今日の売上", s.today.salesTotal, md + "（日本時間）"],
       ["今月の売上", s.month.salesTotal, Number(today.slice(5, 7)) + "月"],
       ["累計の売上", s.total.salesTotal, "記録の開始から"],
       ["累計の利益", s.total.profit, "売上 − 経費", "profit"]
-    ].forEach(function (k) {
+    ]).forEach(function (k) {
       var box = el("div", { "class": "kpi" + (k[3] ? " " + k[3] : "") + (k[3] && k[1] < 0 ? " neg" : "") });
       box.appendChild(el("p", { "class": "kpi-label" }, k[0]));
       box.appendChild(el("p", { "class": "kpi-value" }, yen(k[1])));
@@ -79,15 +94,15 @@
       tr.appendChild(el("th", { colspan: "4", scope: "colgroup" }, label));
       tb.appendChild(tr);
     }
-    group("売上（区分ごと）");
-    data.income_categories.forEach(function (c) { row(c, P.map(function (p) { return s[p].sales[c] || 0; }), null, "sub"); });
-    row("売上 合計", P.map(function (p) { return s[p].salesTotal; }), "total");
-    group("経費");
-    data.expense_categories.forEach(function (c) { row(c, P.map(function (p) { return s[p].expenses[c] || 0; }), null, "sub"); });
-    row("経費 合計", P.map(function (p) { return s[p].expensesTotal; }), "total");
-    row("利益（売上−経費）", P.map(function (p) { return s[p].profit; }), "profit");
-    document.getElementById("th-today").textContent = "今日 " + md;
-    document.getElementById("th-month").textContent = Number(today.slice(5, 7)) + "月";
+    group(EN ? "Sales (by category)" : "売上（区分ごと）");
+    data.income_categories.forEach(function (c) { row(cn(c), P.map(function (p) { return s[p].sales[c] || 0; }), null, "sub"); });
+    row(EN ? "Sales total" : "売上 合計", P.map(function (p) { return s[p].salesTotal; }), "total");
+    group(EN ? "Expenses" : "経費");
+    data.expense_categories.forEach(function (c) { row(cn(c), P.map(function (p) { return s[p].expenses[c] || 0; }), null, "sub"); });
+    row(EN ? "Expenses total" : "経費 合計", P.map(function (p) { return s[p].expensesTotal; }), "total");
+    row(EN ? "Profit (sales − expenses)" : "利益（売上−経費）", P.map(function (p) { return s[p].profit; }), "profit");
+    document.getElementById("th-today").textContent = (EN ? "Today " : "今日 ") + md;
+    document.getElementById("th-month").textContent = mname;
 
     worldPanel(data, s);
   }

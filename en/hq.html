@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>EQUA HQ</title>
+<meta name="description" content="EQUA HQ: a live view of the articles, tools and posts we publish with AI, built automatically from published records.">
+<link rel="canonical" href="https://equaglobal.com/en/hq.html">
+<link rel="alternate" hreflang="ja" href="https://equaglobal.com/hq.html">
+<link rel="alternate" hreflang="en" href="https://equaglobal.com/en/hq.html">
+<link rel="alternate" hreflang="x-default" href="https://equaglobal.com/hq.html">
+<meta name="theme-color" content="#060a12">
+<link rel="icon" type="image/png" href="../favicon.png?v=202610210023">
+<link rel="stylesheet" href="../assets/css/hq.css?v=202610221700">
+<script src="../assets/js/hq.js?v=202610221900" defer></script>
+</head>
+<body data-src="../data/hq_en.json">
+<div class="rotate-hint" id="rotateHint">Turn your phone sideways to see the whole HQ</div>
+<div class="vp" id="vp">
+<div class="stage" id="stage">
+<div class="app">
+<header class="hd">
+  <div class="dots" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="hd-brand">
+    <div class="brand"><b>EQUA</b> · Command Center</div>
+    <div class="org">Run by <em>Eternal Philosophy</em> &gt; <em>EQUA</em> &gt; <em>MisaNeco Works</em></div>
+  </div>
+  <h1 class="title">EQUA<span>HQ</span></h1>
+  <div class="sp"></div>
+  <a class="back" href="index.html">Back to EQUA</a>
+  <div class="live"><i></i>LIVE</div>
+  <div class="clock"><div class="t" id="clk">--:--:--</div><div class="d" id="dte">----</div></div>
+</header>
+<main class="grid">
+  <section class="panel flow">
+    <div class="ph"><b>Published today</b><span class="r" id="flowN"></span></div>
+    <div class="pb"><ol class="steps" id="steps"></ol><div class="flowfoot" id="flowfoot"></div></div>
+  </section>
+  <section class="panel graph">
+    <div class="ph"><b>AI org chart</b><span>· approve → command → teams → channels</span>
+      <span class="r legend"><span><i class="c-am"></i>Approval</span><span><i class="c-cy"></i>Teams</span><span><i class="c-vi"></i>SNS</span><span><i class="c-gr"></i>Articles &amp; tools</span><span><i class="c-pk"></i>Site &amp; products</span></span></div>
+    <div class="pb gpb"><svg id="g" viewBox="0 0 960 520" preserveAspectRatio="xMidYMid meet" role="img" aria-label="AI org chart: MisaNeco approves, Claude takes command and assigns work to teams, which publish to the blog, free tools, note, Qiita, Hatena, X, Threads, Instagram and the EQUA site"></svg></div>
+  </section>
+  <aside class="side">
+    <section class="panel kpip">
+      <div class="ph"><b>KPI</b><span class="r" id="kpiNote"></span></div>
+      <div class="pb"><div class="kpis" id="kpis"></div></div>
+    </section>
+    <section class="panel salesp">
+      <div class="ph"><b>Sales by category</b><span class="r">All time · totals only</span></div>
+      <div class="pb"><div class="cbars" id="cbars"></div></div>
+    </section>
+    <section class="panel queuep">
+      <div class="ph"><b>Scheduled posts</b><span class="r" id="qNote"></span></div>
+      <div class="pb"><div class="qbars" id="qbars"></div></div>
+    </section>
+  </aside>
+  <div class="bottom">
+    <section class="panel pubp">
+      <div class="ph"><b>Published today</b><span class="r" id="pubN"></span></div>
+      <div class="chips" id="chips"></div>
+      <div class="plist" id="plist"><div class="inner" id="pinner"></div></div>
+    </section>
+    <section class="panel logp">
+      <div class="ph"><b>Publishing log</b><span>· from published records</span><span class="r" id="logN"></span></div>
+      <div class="log" id="log"></div>
+    </section>
+  </div>
+</main>
+<footer class="ft">
+  <span class="note">All figures are built automatically from published records (sales: categories and totals only)</span>
+  <span class="bar" aria-hidden="true"><i></i></span>
+  <span class="op">Run by Eternal Philosophy &gt; EQUA &gt; MisaNeco Works</span>
+  <span id="fbuilt"></span>
+</footer>
+</div>
+</div>
+</div>
+</body>
+</html>

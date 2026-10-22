@@ -264,3 +264,11 @@ a.card-link:hover .go { background: rgba(201, 162, 74, .14); color: var(--gold-3
 .line-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 8px 20px; border-radius: 999px; background: #06c755; color: #fff; font-weight: 700; text-decoration: none; align-self: flex-start; box-shadow: 0 0 0 1px rgba(230, 199, 122, .35); }
 .site-footer a.line-btn { color: #fff; }
 .line-btn:hover, .line-btn:focus-visible { filter: brightness(1.08); color: #fff; }
+
+/* ---------- 言語切替（トップページのヘッダーだけ） ---------- */
+.site-header .lang ~ .nav { margin-left: auto; }
+.lang { order: 3; display: inline-flex; align-items: center; border: 1px solid var(--line-2); border-radius: 999px; padding: 2px; font-size: 13px; font-weight: 600; letter-spacing: .04em; }
+.lang a, .lang span { display: inline-flex; align-items: center; min-height: 36px; padding: 0 12px; border-radius: 999px; text-decoration: none; color: var(--ink-2); }
+.lang a:hover { color: var(--gold-3); background: rgba(201, 162, 74, .08); }
+.lang [aria-current="true"] { color: #14110a; background: var(--gold-grad); }
+@media (max-width: 520px) { .lang { order: 0; } .lang a, .lang span { min-height: 34px; padding: 0 10px; } }

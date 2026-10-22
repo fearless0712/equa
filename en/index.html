@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>EQUA</title>
+  <meta name="description" content="EQUA turns small everyday problems into tools, made with AI. A live sales board and HQ, plus free tools, guides and products in English.">
+  <link rel="canonical" href="https://equaglobal.com/en/">
+  <link rel="alternate" hreflang="ja" href="https://equaglobal.com/">
+  <link rel="alternate" hreflang="en" href="https://equaglobal.com/en/">
+  <link rel="alternate" hreflang="x-default" href="https://equaglobal.com/">
+  <link rel="icon" type="image/png" href="../favicon.png?v=202610210023">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png?v=202610210023">
+  <meta name="apple-mobile-web-app-title" content="EQUA">
+  <meta name="theme-color" content="#07080c">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;display=swap">
+  <link rel="stylesheet" href="../assets/css/site.css?v=202610221900">
+  <link rel="stylesheet" href="../assets/css/intro.css?v=202610210023">
+  <link rel="stylesheet" href="../assets/css/hq-embed.css?v=202610221700">
+  <script src="../assets/js/board.js?v=202610221900" defer></script>
+</head>
+<body>
+  <div class="intro" id="intro" role="presentation">
+    <div class="intro__glow"></div>
+    <div class="intro__stage"><img class="intro__logo" src="../assets/img/ep-logo.jpg" alt="Eternal Philosophy" width="960" height="960"><div class="intro__sweep"></div></div>
+    <div class="intro__brand">EQUA</div>
+    <button class="intro__skip" type="button">SKIP</button>
+  </div>
+  <script src="../assets/js/intro.js?v=202610210023"></script>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="EQUA home">
+        <img class="brand-mark" src="../assets/img/ep-mark.png?v=202610210023" alt="" width="44" height="44">
+        <span class="brand-text"><span class="brand-name">EQUA</span><span class="brand-sub">Eternal Philosophy</span></span>
+      </a>
+      <div class="lang" role="group" aria-label="Language / 言語"><a href="../" hreflang="ja" lang="ja">日本語</a><span aria-current="true">English</span></div>
+      <nav class="nav" aria-label="Site">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="tools.html">Tools</a>
+        <a href="blog.html">Blog</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+  <div class="hero">
+    <div class="wrap">
+      <div class="hero-title">
+        <h1>Turning small everyday problems into tools, with AI.</h1>
+        <p>EQUA HQ — a live view of what we publish with AI</p>
+      </div>
+      <a class="hq-embed" href="hq.html" aria-label="Open EQUA HQ full screen">
+        <iframe src="hq.html?embed=1" title="EQUA HQ (preview)" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+        <span class="hq-open">Full screen<span aria-hidden="true"> ↗</span></span>
+      </a>
+      <p class="hq-note">All figures are built automatically from published records (sales: categories and totals only). Run by Eternal Philosophy &gt; EQUA &gt; MisaNeco Works.</p>
+    </div>
+  </div>
+  <main id="main" class="wrap">
+    <section aria-labelledby="find-title">
+      <h2 id="find-title">What are you looking for?</h2>
+      <div class="cta">
+        <div>
+          <span class="tag rec">Recommended · Free</span>
+          <h3>Small Business Automation Check &amp; Action Plan</h3>
+          <p>Pick your country, industry and tasks to see which jobs can be automated, how, and in what order. For the US, UK, Canada and Australia.</p>
+        </div>
+        <a class="btn gold" href="https://tools.equaglobal.com/dx-en/" target="_blank" rel="noopener">Start the free check<span class="ext" aria-hidden="true">↗</span><span class="sr"> (opens in a new tab)</span></a>
+      </div>
+      <div class="grid pick-grid">
+        <a class="card card-link pick" href="tools.html">
+          <h3>Free tools</h3>
+          <p>6 browser tools in English: record retention, home office split, prorated rent, job profit and more.</p>
+          <span class="go" aria-hidden="true">See tools →</span>
+        </a>
+        <a class="card card-link pick" href="blog.html">
+          <h3>Guides</h3>
+          <p>30 plain-English guides on spreadsheets, automation, security and record keeping.</p>
+          <span class="go" aria-hidden="true">Read →</span>
+        </a>
+        <a class="card card-link pick" href="products.html">
+          <h3>Products</h3>
+          <p>Offline data and security tools and spreadsheet templates, one-time purchase on Gumroad.</p>
+          <span class="go" aria-hidden="true">See products →</span>
+        </a>
+        <a class="card card-link pick" href="about.html">
+          <h3>About EQUA</h3>
+          <p>What we do, how we use AI, and who runs it.</p>
+          <span class="go" aria-hidden="true">Learn more →</span>
+        </a>
+      </div>
+    </section>
+    <section aria-labelledby="board-title">
+      <div class="board" id="board" data-src="../data/public.json">
+        <div class="board-head">
+          <h2 id="board-title">Sales board</h2>
+          <p class="updated" id="board-updated">Last updated: loading…</p>
+        </div>
+        <p class="board-error" id="board-error" hidden>Could not load the data. Please reload the page later.</p>
+        <div class="kpis" id="kpis" aria-live="polite"></div>
+        <div class="table-wrap">
+          <table class="money">
+            <caption class="sr">Sales, expenses and profit by category (Japanese yen)</caption>
+            <thead><tr><th scope="col">Category</th><th scope="col" id="th-today">Today</th><th scope="col" id="th-month">This month</th><th scope="col">All time</th></tr></thead>
+            <tbody id="board-rows"></tbody>
+          </table>
+        </div>
+        <ul class="notes">
+          <li>Amounts are in Japanese yen (JPY). Dates are counted in Japan time (JST); “today” is today's date in Japan.</li>
+          <li>Sales are the amounts earned before service fees (tax included). Service fees are counted as expenses.</li>
+          <li>Records are compiled by hand, so updates can take a while. Figures are as of “Last updated”.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot-brand">
+        <strong>EQUA</strong>
+        <span>Run by Eternal Philosophy</span>
+        <span>Brand: MisaNeco Works</span>
+        <span>© 2026 Eternal Philosophy</span>
+      </div>
+      <nav class="foot-nav" aria-label="Footer">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="tools.html">Tools</a>
+        <a href="blog.html">Blog</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="../privacy.html" hreflang="ja">Privacy (Japanese)</a>
+        <a href="../terms.html" hreflang="ja">Terms (Japanese)</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

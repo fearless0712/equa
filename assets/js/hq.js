@@ -6,7 +6,41 @@
   var DASH = '—';
   var NS = 'http://www.w3.org/2000/svg';
   var $ = function (id) { return document.getElementById(id); };
-  var fmt = function (n) { return Number(n).toLocaleString('ja-JP'); };
+  /* 英語版（en/hq.html, <html lang="en">）：中身は日本語版と同じ。画面の言葉だけ英語にする */
+  var EN = /^en/i.test(document.documentElement.lang || '');
+  var fmt = function (n) { return Number(n).toLocaleString(EN ? 'en-US' : 'ja-JP'); };
+  /* 種類の名前（データのキー）。英語版のデータは英語のキーで入っている */
+  var K = EN
+    ? { blog: 'Blog', tool: 'Free tools', note: 'note', qiita: 'Qiita', hatena: 'Hatena', site: 'EQUA site', product: 'Products' }
+    : { blog: 'ブログ', tool: '無料ツール', note: 'note', qiita: 'Qiita', hatena: 'はてな', site: 'EQUAサイト', product: '商品' };
+  /* 画面の言葉 */
+  var L = EN ? {
+    loadErr: 'Could not load the data', pcs: '', today: 'Today', todayN: 'Today ', total: 'Total', week: 'Published in the last 7 days',
+    none: 'not yet', sched: 'Scheduled ', schedS: 'scheduled',
+    stepSub: ['Japanese & English', 'Runs in the browser', 'Articles', 'Tech articles', 'Summaries', 'X · Threads · Instagram', 'Sales board'],
+    sns: 'SNS',
+    kSales: 'Total sales', kSalesSub: function (c) { return c + ' categories · totals'; },
+    kToday: 'Published today', kAll: 'Published in total', kArt: function (a, t) { return 'Art ' + a + ' · Tools ' + t; },
+    kQueue: 'Scheduled posts', kTools: 'Business tools', kCh: 'Channels', kChUnit: '', kChSub: 'Site · articles · SNS',
+    salesAsOf: function (d) { return 'Sales as of ' + d; },
+    noToday: 'Nothing published yet today', recent: function (n) { return 'Latest ' + n; },
+    c_claude: 'Command', c_misa: 'Approves', c_kiji: 'Articles', c_sns: 'SNS', c_tool: 'Tools', c_gazo: 'Images', c_gazoSub: 'Carousels · GIFs',
+    c_ken: 'Construction tools', c_kuru: 'Auto shop tools', c_board: 'Sales board', c_prodSub: function (n) { return 'Business tools ' + n; },
+    n: function (v) { return String(v); }
+  } : {
+    loadErr: 'データを読み込めませんでした', pcs: '本', today: '今日', todayN: '今日 ', total: '累計', week: '直近7日の公開数',
+    none: '未', sched: '予約 ', schedS: '予約',
+    stepSub: ['日本語・英語', 'ブラウザで使える', '読みもの', '技術記事', '要約記事', 'X・Threads・Instagram', '売上ボード'],
+    sns: 'SNS',
+    kSales: '売上の累計', kSalesSub: function (c) { return '区分 ' + c + ' · 合計のみ'; },
+    kToday: '今日の公開', kAll: '公開の累計', kArt: function (a, t) { return '記事 ' + a + '・ツール ' + t; },
+    kQueue: '予約済みの投稿', kTools: '作った業務ツール', kCh: '発信の場所', kChUnit: 'か所', kChSub: 'サイト・記事・SNS',
+    salesAsOf: function (d) { return '売上 ' + d + ' 時点'; },
+    noToday: '今日の公開はまだありません', recent: function (n) { return '直近 ' + n + '件'; },
+    c_claude: '司令', c_misa: '承認', c_kiji: '記事係', c_sns: 'SNS係', c_tool: 'ツール係', c_gazo: '画像係', c_gazoSub: 'カルーセル・GIF',
+    c_ken: '建設ツール係', c_kuru: '車屋ツール係', c_board: '売上ボード', c_prodSub: function (n) { return '業務ツール ' + n + '本'; },
+    n: function (v) { return v + '本'; }
+  };
   function h(tag, cls, text, parent) {
     var e = document.createElement(tag);
     if (cls) e.className = cls;
@@ -20,7 +54,8 @@
     if (parent) parent.appendChild(e);
     return e;
   }
-  var COL = { 'ブログ': 'gr', '無料ツール': 'cy', 'note': 'gr', 'Qiita': 'gr', 'はてな': 'gr', 'X': 'vi', 'Threads': 'vi', 'Instagram': 'pk', 'EQUAサイト': 'pk', '商品': 'am' };
+  var COL = { 'X': 'vi', 'Threads': 'vi', 'Instagram': 'pk' };
+  COL[K.blog] = 'gr'; COL[K.tool] = 'cy'; COL[K.note] = 'gr'; COL[K.qiita] = 'gr'; COL[K.hatena] = 'gr'; COL[K.site] = 'pk'; COL[K.product] = 'am';
   var cv = function (k) { return 'var(--' + (COL[k] || 'tx2') + ')'; };
 
   /* ---- 画面に合わせて 1600×900 を縮める ---- */
@@ -49,7 +84,7 @@
   }
 
   /* ---- 時計（日本時間） ---- */
-  var WD = ['日', '月', '火', '水', '木', '金', '土'];
+  var WD = EN ? ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] : ['日', '月', '火', '水', '木', '金', '土'];
   function tick() {
     var j = new Date(Date.now() + (new Date().getTimezoneOffset() + 540) * 60000);
     var p = function (n) { return String(n).padStart(2, '0'); };
@@ -58,11 +93,11 @@
   }
   tick(); setInterval(tick, 1000);
 
-  fetch('data/hq.json', { cache: 'no-cache' }).then(function (r) {
+  fetch(document.body.getAttribute('data-src') || 'data/hq.json', { cache: 'no-cache' }).then(function (r) {
     if (!r.ok) throw new Error(r.status);
     return r.json();
   }).then(draw).catch(function () {
-    $('log').textContent = 'データを読み込めませんでした';
+    $('log').textContent = L.loadErr;
   });
 
   function draw(D) {
@@ -72,18 +107,18 @@
     var md = function (iso) { var a = iso.split('-'); return (+a[1]) + '/' + (+a[2]); };
     var log = D.log || [];
     var items = P.today_items || [];
-    var artToday = (kt['ブログ'] || 0) + (kt['note'] || 0) + (kt['Qiita'] || 0) + (kt['はてな'] || 0);
-    var artAll = (ka['ブログ'] || 0) + (ka['note'] || 0) + (ka['Qiita'] || 0) + (ka['はてな'] || 0);
+    var artToday = (kt[K.blog] || 0) + (kt[K.note] || 0) + (kt[K.qiita] || 0) + (kt[K.hatena] || 0);
+    var artAll = (ka[K.blog] || 0) + (ka[K.note] || 0) + (ka[K.qiita] || 0) + (ka[K.hatena] || 0);
 
     /* ---- 左：今日の公開 ---- */
     var steps = [
-      ['ブログ', '日本語・英語', kt['ブログ'] || 0, '本'],
-      ['無料ツール', 'ブラウザで使える', kt['無料ツール'] || 0, '本'],
-      ['note', '読みもの', kt['note'] || 0, '本'],
-      ['Qiita', '技術記事', kt['Qiita'] || 0, '本'],
-      ['はてな', '要約記事', kt['はてな'] || 0, '本'],
-      ['SNS', 'X・Threads・Instagram', Q.total || 0, '予約'],
-      ['EQUAサイト', '売上ボード', S.as_of ? 1 : 0, '更新']
+      [K.blog, L.stepSub[0], kt[K.blog] || 0, '本'],
+      [K.tool, L.stepSub[1], kt[K.tool] || 0, '本'],
+      [K.note, L.stepSub[2], kt[K.note] || 0, '本'],
+      [K.qiita, L.stepSub[3], kt[K.qiita] || 0, '本'],
+      [K.hatena, L.stepSub[4], kt[K.hatena] || 0, '本'],
+      [L.sns, L.stepSub[5], Q.total || 0, '予約'],
+      [K.site, L.stepSub[6], S.as_of ? 1 : 0, '更新']
     ];
     var last = items.length ? items[items.length - 1].kind : null;
     var ol = $('steps');
@@ -92,16 +127,16 @@
       h('span', 'no', st[2] > 0 ? '✓' : String(i + 1), li);
       var d = h('div', null, null, li);
       h('div', 'nm', st[0], d); h('div', 'sub', st[1], d);
-      var c = st[3] === '本' ? (st[2] ? st[2] + '本' : '未') : st[3] === '予約' ? '予約 ' + st[2] : (S.as_of ? md(S.as_of) : DASH);
+      var c = st[3] === '本' ? (st[2] ? L.n(st[2]) : L.none) : st[3] === '予約' ? L.sched + st[2] : (S.as_of ? md(S.as_of) : DASH);
       h('span', 'cnt', c, li);
     });
-    $('flowN').textContent = (P.today || 0) + '本 · ' + md(D.today);
+    $('flowN').textContent = L.n(P.today || 0) + ' · ' + md(D.today);
     var ff = $('flowfoot');
-    ff.appendChild(document.createTextNode('今日 '));
-    h('b', null, (P.today || 0) + '本', ff);
-    ff.appendChild(document.createTextNode(' ／ 累計 '));
-    h('b', null, (P.total || 0) + '本', ff);
-    h('div', null, '直近7日の公開数', ff);
+    ff.appendChild(document.createTextNode(L.todayN));
+    h('b', null, L.n(P.today || 0), ff);
+    ff.appendChild(document.createTextNode(EN ? ' / ' + L.total + ' ' : ' ／ 累計 '));
+    h('b', null, L.n(P.total || 0), ff);
+    h('div', null, L.week, ff);
     var wk = P.week || [];
     var wm = Math.max.apply(null, [1].concat(wk.map(function (w) { return w.n; })));
     var sv = s('svg', { viewBox: '0 0 216 74' }, ff);
@@ -124,13 +159,14 @@
       h('div', 's', sub, t);
     }
     var cats = (S.categories || []).filter(function (c) { return c.v > 0; }).length;
-    tile('売上の累計', S.total != null ? '¥' + fmt(S.total) : DASH, '', '区分 ' + cats + ' · 合計のみ', true);
-    tile('今日の公開', String(P.today || 0), '本', '記事 ' + artToday + '・ツール ' + (kt['無料ツール'] || 0));
-    tile('公開の累計', String(P.total || 0), '本', '記事 ' + artAll + '・ツール ' + (ka['無料ツール'] || 0));
-    tile('予約済みの投稿', String(Q.total || 0), '本', 'Threads ' + (qc.Threads || 0) + '・X ' + (qc.X || 0) + '・IG ' + (qc.Instagram || 0));
-    tile('作った業務ツール', String(G.total || 0), '本', (G.by_industry || []).map(function (g) { return g.g + ' ' + g.n; }).join('・'));
-    tile('発信の場所', String((D.channels || []).length), 'か所', 'サイト・記事・SNS');
-    $('kpiNote').textContent = S.as_of ? '売上 ' + md(S.as_of) + ' 時点' : '';
+    var sep = EN ? '/' : '・';
+    tile(L.kSales, S.total != null ? '¥' + fmt(S.total) : DASH, '', L.kSalesSub(cats), true);
+    tile(L.kToday, String(P.today || 0), L.pcs, L.kArt(artToday, kt[K.tool] || 0));
+    tile(L.kAll, String(P.total || 0), L.pcs, L.kArt(artAll, ka[K.tool] || 0));
+    tile(L.kQueue, String(Q.total || 0), L.pcs, 'Threads ' + (qc.Threads || 0) + sep + 'X ' + (qc.X || 0) + sep + 'IG ' + (qc.Instagram || 0));
+    tile(L.kTools, String(G.total || 0), L.pcs, (G.by_industry || []).map(function (g) { return g.g + ' ' + g.n; }).join(sep));
+    tile(L.kCh, String((D.channels || []).length), L.kChUnit, L.kChSub);
+    $('kpiNote').textContent = S.as_of ? L.salesAsOf(md(S.as_of)) : '';
 
     /* ---- 売上の区分 ---- */
     var cb = $('cbars');
@@ -163,7 +199,7 @@
     [['■', 't-vi'], ['Threads ', null], ['■', 't-cy'], ['X ', null], ['■', 't-pk'], ['IG', null]].forEach(function (p) { h('span', p[1] || 'qkey', p[0], qn); });
 
     /* ---- 今日公開したもの ---- */
-    $('pubN').textContent = md(D.today) + ' · ' + items.length + '本';
+    $('pubN').textContent = md(D.today) + ' · ' + L.n(items.length);
     var chips = $('chips');
     Object.keys(kt).filter(function (k) { return kt[k] > 0; }).sort(function (a, b) { return kt[b] - kt[a]; }).forEach(function (k) {
       var c = h('span', 'chip', k, chips); c.style.borderColor = cv(k);
@@ -187,11 +223,11 @@
           inner.style.animationDuration = (items.length * 2.2) + 's';
         }
       });
-    } else h('div', 'dash', '今日の公開はまだありません', inner);
+    } else h('div', 'dash', L.noToday, inner);
 
     /* ---- 公開ログ（流れる） ---- */
     var box = $('log');
-    $('logN').textContent = '直近 ' + log.length + '件';
+    $('logN').textContent = L.recent(log.length);
     if (log.length) {
       var idx = Math.max(0, log.length - 18);
       var add = function (anim) {
@@ -220,30 +256,30 @@
     var svg = $('g');
     var CX = 480, CY = 262;
     var ind = function (name) { var f = (G.by_industry || []).filter(function (g) { return g.g.indexOf(name) === 0; })[0]; return f ? f.n : 0; };
-    var arts = (kt['ブログ'] || 0) + (kt['note'] || 0) + (kt['Qiita'] || 0) + (kt['はてな'] || 0);
+    var arts = (kt[K.blog] || 0) + (kt[K.note] || 0) + (kt[K.qiita] || 0) + (kt[K.hatena] || 0);
     var qT = (qc.Threads || 0) + (qc.X || 0) + (qc.Instagram || 0);
     var nodes = {
-      claude: { x: CX, y: CY, r: 26, label: 'Claude', sub: '司令', col: 'var(--cy)', big: true },
-      misa: { x: CX, y: 44, r: 15, label: 'MisaNeco', sub: '承認', col: 'var(--am)' },
-      kiji: { x: 318, y: 186, r: 11, label: '記事係', sub: '今日 ' + arts + '本', col: 'var(--gr)' },
-      sns: { x: 642, y: 186, r: 11, label: 'SNS係', sub: '予約 ' + qT + '本', col: 'var(--vi)' },
-      tool: { x: 300, y: 306, r: 11, label: 'ツール係', sub: '今日 ' + (kt['無料ツール'] || 0) + '本', col: 'var(--cy)' },
-      gazo: { x: 660, y: 306, r: 11, label: '画像係', sub: 'カルーセル・GIF', col: 'var(--pk)' },
-      ken: { x: 408, y: 380, r: 11, label: '建設ツール係', sub: ind('建設') + '本', col: 'var(--am)' },
-      kuru: { x: 552, y: 380, r: 11, label: '車屋ツール係', sub: ind('車屋') + '本', col: 'var(--am)' }
+      claude: { x: CX, y: CY, r: 26, label: 'Claude', sub: L.c_claude, col: 'var(--cy)', big: true },
+      misa: { x: CX, y: 44, r: 15, label: 'MisaNeco', sub: L.c_misa, col: 'var(--am)' },
+      kiji: { x: 318, y: 186, r: 11, label: L.c_kiji, sub: L.todayN + L.n(arts), col: 'var(--gr)' },
+      sns: { x: 642, y: 186, r: 11, label: L.c_sns, sub: L.sched + L.n(qT), col: 'var(--vi)' },
+      tool: { x: 300, y: 306, r: 11, label: L.c_tool, sub: L.todayN + L.n(kt[K.tool] || 0), col: 'var(--cy)' },
+      gazo: { x: 660, y: 306, r: 11, label: L.c_gazo, sub: L.c_gazoSub, col: 'var(--pk)' },
+      ken: { x: 408, y: 380, r: 11, label: L.c_ken, sub: L.n(ind(EN ? 'Construction' : '建設')), col: 'var(--am)' },
+      kuru: { x: 552, y: 380, r: 11, label: L.c_kuru, sub: L.n(ind(EN ? 'Auto' : '車屋')), col: 'var(--am)' }
     };
-    var today = function (k) { return '今日 ' + (kt[k] || 0); };
+    var today = function (k) { return L.todayN + (kt[k] || 0); };
     var CH = [
-      ['ch_x', 'X', '予約 ' + (qc.X || 0), 'var(--vi)', ['sns', 'gazo'], 0],
-      ['ch_th', 'Threads', '予約 ' + (qc.Threads || 0), 'var(--vi)', ['sns'], 0],
-      ['ch_ig', 'Instagram', '予約 ' + (qc.Instagram || 0), 'var(--pk)', ['sns', 'gazo'], 0],
-      ['ch_pr', '商品', '業務ツール ' + (G.total || 0) + '本', 'var(--am)', ['ken', 'kuru'], 0],
-      ['ch_eq', 'EQUAサイト', '売上ボード', 'var(--pk)', ['claude', 'tool'], 0],
-      ['ch_tl', '無料ツール', today('無料ツール'), 'var(--cy)', ['tool'], kt['無料ツール'] || 0],
-      ['ch_bl', 'ブログ', today('ブログ'), 'var(--gr)', ['kiji'], kt['ブログ'] || 0],
-      ['ch_ha', 'はてな', today('はてな'), 'var(--gr)', ['kiji'], kt['はてな'] || 0],
-      ['ch_qi', 'Qiita', today('Qiita'), 'var(--gr)', ['kiji'], kt['Qiita'] || 0],
-      ['ch_no', 'note', today('note'), 'var(--gr)', ['kiji'], kt['note'] || 0]
+      ['ch_x', 'X', L.sched + (qc.X || 0), 'var(--vi)', ['sns', 'gazo'], 0],
+      ['ch_th', 'Threads', L.sched + (qc.Threads || 0), 'var(--vi)', ['sns'], 0],
+      ['ch_ig', 'Instagram', L.sched + (qc.Instagram || 0), 'var(--pk)', ['sns', 'gazo'], 0],
+      ['ch_pr', K.product, L.c_prodSub(G.total || 0), 'var(--am)', ['ken', 'kuru'], 0],
+      ['ch_eq', K.site, L.c_board, 'var(--pk)', ['claude', 'tool'], 0],
+      ['ch_tl', K.tool, today(K.tool), 'var(--cy)', ['tool'], kt[K.tool] || 0],
+      ['ch_bl', K.blog, today(K.blog), 'var(--gr)', ['kiji'], kt[K.blog] || 0],
+      ['ch_ha', K.hatena, today(K.hatena), 'var(--gr)', ['kiji'], kt[K.hatena] || 0],
+      ['ch_qi', K.qiita, today(K.qiita), 'var(--gr)', ['kiji'], kt[K.qiita] || 0],
+      ['ch_no', K.note, today(K.note), 'var(--gr)', ['kiji'], kt[K.note] || 0]
     ];
     var a0 = -52, a1 = 232, RX = 392, RY = 214;
     CH.forEach(function (c, i) {
@@ -327,7 +363,7 @@
       var t = s('text', { x: lx, y: ly, 'text-anchor': anchor, 'class': 'nlabel' }, gN);
       t.textContent = n.label;
       if (n.big) t.setAttribute('font-size', '15');
-      var t2 = s('text', { x: lx, y: ly + 13, 'text-anchor': anchor, 'class': 'nsub' + (/今日 [1-9]|予約 [1-9]/.test(n.sub) ? ' hot' : '') }, gN);
+      var t2 = s('text', { x: lx, y: ly + 13, 'text-anchor': anchor, 'class': 'nsub' + (/(今日|予約|Today|Scheduled) [1-9]/.test(n.sub) ? ' hot' : '') }, gN);
       t2.textContent = n.sub;
     });
   }
