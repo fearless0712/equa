@@ -2,8 +2,8 @@
  "_about": "EQUA 売上ボードの公開データ。日付（JST）・区分・金額（円）のみ。",
  "timezone": "Asia/Tokyo",
  "currency": "JPY",
- "updated": "2026-10-22T01:56+09:00",
- "generated": "2026-10-22T20:12+09:00",
+ "updated": "2026-10-22T23:31+09:00",
+ "generated": "2026-10-22T23:31+09:00",
  "income_categories": [
   "市場調査・分析",
   "アプリ・ツール販売",
@@ -161,8 +161,8 @@
   }
  },
  "fx": {
-  "jpy_per_usd": 157.88,
-  "date": "2026-10-21",
+  "jpy_per_usd": 157.05,
+  "date": "2026-10-22",
   "provider": "ECB reference rate (frankfurter.dev)"
  }
 }

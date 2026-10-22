@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records (sales: categories and totals only).",
  "today": "2026-10-22",
- "built": "2026-10-22 20:12",
+ "built": "2026-10-22 23:31",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -570,8 +570,8 @@
   ],
   "as_of": "2026-10-22",
   "fx": {
-   "jpy_per_usd": 157.88,
-   "date": "2026-10-21",
+   "jpy_per_usd": 157.05,
+   "date": "2026-10-22",
    "provider": "ECB reference rate (frankfurter.dev)"
   }
  },
