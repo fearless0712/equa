@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records (sales: categories and totals only).",
- "today": "2026-10-22",
- "built": "2026-10-22 23:31",
+ "today": "2026-10-24",
+ "built": "2026-10-24 00:03",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -19,14 +19,14 @@
   "EQUA site"
  ],
  "published": {
-  "today": 22,
+  "today": 0,
   "total": 113,
   "kinds_today": {
-   "Blog": 10,
-   "Free tools": 3,
-   "note": 5,
-   "Qiita": 3,
-   "Hatena": 1,
+   "Blog": 0,
+   "Free tools": 0,
+   "note": 0,
+   "Qiita": 0,
+   "Hatena": 0,
    "X": 0,
    "Threads": 0,
    "Instagram": 0,
@@ -44,14 +44,6 @@
    "EQUA site": 1
   },
   "week": [
-   {
-    "d": "2026-10-16",
-    "n": 0
-   },
-   {
-    "d": "2026-10-17",
-    "n": 2
-   },
    {
     "d": "2026-10-18",
     "n": 4
@@ -71,120 +63,17 @@
    {
     "d": "2026-10-22",
     "n": 22
+   },
+   {
+    "d": "2026-10-23",
+    "n": 0
+   },
+   {
+    "d": "2026-10-24",
+    "n": 0
    }
   ],
-  "today_items": [
-   {
-    "kind": "Qiita",
-    "en": false,
-    "title": "PHP脆弱性 確認手順"
-   },
-   {
-    "kind": "note",
-    "en": false,
-    "title": "AIに「1か月で1万ドル」を任せた実録 Day8"
-   },
-   {
-    "kind": "Hatena",
-    "en": false,
-    "title": "PHPの重大な脆弱性、今日確かめることは3つ（2026年10月）"
-   },
-   {
-    "kind": "Free tools",
-    "en": true,
-    "title": "Forex position size calculator"
-   },
-   {
-    "kind": "Blog",
-    "en": true,
-    "title": "How to calculate forex position size from you…"
-   },
-   {
-    "kind": "note",
-    "en": false,
-    "title": "請求書番号、どう付けていますか？"
-   },
-   {
-    "kind": "note",
-    "en": false,
-    "title": "Excelの入力ミスを減らすいちばん簡単な方法"
-   },
-   {
-    "kind": "note",
-    "en": false,
-    "title": "偽メールのリンクを押した・入力してしまったときにやること"
-   },
-   {
-    "kind": "note",
-    "en": false,
-    "title": "AIに仕事を「任せっぱなし」にしないための指示書の作り方"
-   },
-   {
-    "kind": "Blog",
-    "en": false,
-    "title": "FXの取引数量は「損切りの幅」から決める"
-   },
-   {
-    "kind": "Blog",
-    "en": true,
-    "title": "Stop typos in your spreadsheet: drop-down lis…"
-   },
-   {
-    "kind": "Blog",
-    "en": false,
-    "title": "外壁塗装の塗装面積と塗料の缶数の出し方"
-   },
-   {
-    "kind": "Qiita",
-    "en": false,
-    "title": "pycelでExcelの数式をテスト"
-   },
-   {
-    "kind": "Free tools",
-    "en": false,
-    "title": "工期（稼働日）計算"
-   },
-   {
-    "kind": "Blog",
-    "en": false,
-    "title": "車検は満了日の2か月前から"
-   },
-   {
-    "kind": "Blog",
-    "en": false,
-    "title": "建設業許可の更新はいつまで"
-   },
-   {
-    "kind": "Qiita",
-    "en": false,
-    "title": "Threads APIで動画投稿"
-   },
-   {
-    "kind": "Blog",
-    "en": false,
-    "title": "Excelで工期（稼働日）を数える"
-   },
-   {
-    "kind": "Blog",
-    "en": false,
-    "title": "中古車の原価と粗利"
-   },
-   {
-    "kind": "Free tools",
-    "en": false,
-    "title": "車検の日付計算"
-   },
-   {
-    "kind": "Blog",
-    "en": false,
-    "title": "工事写真台帳の作り方"
-   },
-   {
-    "kind": "Blog",
-    "en": true,
-    "title": "WORKDAY.INTL"
-   }
-  ]
+  "today_items": []
  },
  "log": [
   {
@@ -568,27 +457,21 @@
     "v": 57
    }
   ],
-  "as_of": "2026-10-22",
+  "as_of": "2026-10-23",
   "fx": {
-   "jpy_per_usd": 157.05,
-   "date": "2026-10-22",
+   "jpy_per_usd": 156.8,
+   "date": "2026-10-23",
    "provider": "ECB reference rate (frankfurter.dev)"
   }
  },
  "queue": {
-  "total": 58,
+  "total": 48,
   "by_channel": {
-   "Threads": 29,
+   "Threads": 20,
    "X": 27,
-   "Instagram": 2
+   "Instagram": 1
   },
   "by_day": [
-   {
-    "d": "2026-10-23",
-    "Threads": 9,
-    "X": 0,
-    "Instagram": 1
-   },
    {
     "d": "2026-10-24",
     "Threads": 10,
