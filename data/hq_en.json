@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records (sales: categories and totals only).",
- "today": "2026-10-24",
- "built": "2026-10-24 23:32",
+ "today": "2026-10-25",
+ "built": "2026-10-25 23:33",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -19,13 +19,13 @@
   "EQUA site"
  ],
  "published": {
-  "today": 0,
-  "total": 113,
+  "today": 5,
+  "total": 118,
   "kinds_today": {
-   "Blog": 0,
-   "Free tools": 0,
-   "note": 0,
-   "Qiita": 0,
+   "Blog": 1,
+   "Free tools": 1,
+   "note": 2,
+   "Qiita": 1,
    "Hatena": 0,
    "X": 0,
    "Threads": 0,
@@ -33,10 +33,10 @@
    "EQUA site": 0
   },
   "kinds_all": {
-   "Blog": 70,
-   "Free tools": 23,
-   "note": 12,
-   "Qiita": 4,
+   "Blog": 71,
+   "Free tools": 24,
+   "note": 14,
+   "Qiita": 5,
    "Hatena": 1,
    "X": 0,
    "Threads": 1,
@@ -44,10 +44,6 @@
    "EQUA site": 1
   },
   "week": [
-   {
-    "d": "2026-10-18",
-    "n": 4
-   },
    {
     "d": "2026-10-19",
     "n": 27
@@ -71,41 +67,41 @@
    {
     "d": "2026-10-24",
     "n": 0
+   },
+   {
+    "d": "2026-10-25",
+    "n": 5
    }
   ],
-  "today_items": []
+  "today_items": [
+   {
+    "kind": "note",
+    "en": false,
+    "title": "67 2段階認証の6桁"
+   },
+   {
+    "kind": "Blog",
+    "en": false,
+    "title": "Excelで外れ値"
+   },
+   {
+    "kind": "note",
+    "en": false,
+    "title": "68 ピボットテーブル"
+   },
+   {
+    "kind": "Free tools",
+    "en": false,
+    "title": "IGまとめページ"
+   },
+   {
+    "kind": "Qiita",
+    "en": false,
+    "title": "9 localStorage＋JSONバックアップ"
+   }
+  ]
  },
  "log": [
-  {
-   "d": "10/20",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “利益率と上乗せ率の違い（値付けの式）”"
-  },
-  {
-   "d": "10/20",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “コンフォートゾーンとは？意味・言葉の由来と、無理のない広げ方”"
-  },
-  {
-   "d": "10/20",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “オブジェクト指向をわかりやすく”"
-  },
-  {
-   "d": "10/20",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “「コンフォートゾーンを出よう」は半分だけ正しい”"
-  },
-  {
-   "d": "10/20",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “「オブジェクト指向」は仕事の分け方にも使える”"
-  },
   {
    "d": "10/20",
    "t": null,
@@ -435,6 +431,36 @@
    "t": null,
    "kind": "Blog",
    "s": "English blog post published: “WORKDAY.INTL”"
+  },
+  {
+   "d": "10/25",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “67 2段階認証の6桁”"
+  },
+  {
+   "d": "10/25",
+   "t": null,
+   "kind": "Blog",
+   "s": "Blog post published: “Excelで外れ値”"
+  },
+  {
+   "d": "10/25",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “68 ピボットテーブル”"
+  },
+  {
+   "d": "10/25",
+   "t": null,
+   "kind": "Free tools",
+   "s": "Free tool published: “IGまとめページ”"
+  },
+  {
+   "d": "10/25",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita article published: “9 localStorage＋JSONバックアップ”"
   }
  ],
  "sales": {
@@ -457,7 +483,7 @@
     "v": 57
    }
   ],
-  "as_of": "2026-10-24",
+  "as_of": "2026-10-25",
   "fx": {
    "jpy_per_usd": 156.8,
    "date": "2026-10-23",
@@ -465,19 +491,13 @@
   }
  },
  "queue": {
-  "total": 48,
+  "total": 38,
   "by_channel": {
-   "Threads": 20,
+   "Threads": 11,
    "X": 27,
-   "Instagram": 1
+   "Instagram": 0
   },
   "by_day": [
-   {
-    "d": "2026-10-24",
-    "Threads": 10,
-    "X": 0,
-    "Instagram": 1
-   },
    {
     "d": "2026-10-25",
     "Threads": 5,
@@ -486,7 +506,7 @@
    },
    {
     "d": "2026-10-26",
-    "Threads": 5,
+    "Threads": 6,
     "X": 0,
     "Instagram": 0
    },
