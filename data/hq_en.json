@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records (sales: categories and totals only).",
- "today": "2026-10-25",
- "built": "2026-10-25 23:33",
+ "today": "2026-10-26",
+ "built": "2026-10-26 23:31",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -19,14 +19,14 @@
   "EQUA site"
  ],
  "published": {
-  "today": 5,
-  "total": 118,
+  "today": 6,
+  "total": 124,
   "kinds_today": {
-   "Blog": 1,
-   "Free tools": 1,
-   "note": 2,
+   "Blog": 0,
+   "Free tools": 0,
+   "note": 3,
    "Qiita": 1,
-   "Hatena": 0,
+   "Hatena": 2,
    "X": 0,
    "Threads": 0,
    "Instagram": 0,
@@ -35,19 +35,15 @@
   "kinds_all": {
    "Blog": 71,
    "Free tools": 24,
-   "note": 14,
-   "Qiita": 5,
-   "Hatena": 1,
+   "note": 17,
+   "Qiita": 6,
+   "Hatena": 3,
    "X": 0,
    "Threads": 1,
    "Instagram": 1,
    "EQUA site": 1
   },
   "week": [
-   {
-    "d": "2026-10-19",
-    "n": 27
-   },
    {
     "d": "2026-10-20",
     "n": 27
@@ -71,73 +67,46 @@
    {
     "d": "2026-10-25",
     "n": 5
+   },
+   {
+    "d": "2026-10-26",
+    "n": 6
    }
   ],
   "today_items": [
    {
     "kind": "note",
     "en": false,
-    "title": "67 2段階認証の6桁"
+    "title": "69 実録Day12（有料）"
    },
    {
-    "kind": "Blog",
+    "kind": "Hatena",
     "en": false,
-    "title": "Excelで外れ値"
+    "title": "はてな WORKDAYの1日ずれ"
    },
    {
-    "kind": "note",
+    "kind": "Hatena",
     "en": false,
-    "title": "68 ピボットテーブル"
-   },
-   {
-    "kind": "Free tools",
-    "en": false,
-    "title": "IGまとめページ"
+    "title": "はてな パスワード90日変更とNIST"
    },
    {
     "kind": "Qiita",
     "en": false,
-    "title": "9 localStorage＋JSONバックアップ"
+    "title": "10 canvas＋CDP＋ffmpegで縦動画"
+   },
+   {
+    "kind": "note",
+    "en": false,
+    "title": "「リンクを知っている全員」で共有する前に"
+   },
+   {
+    "kind": "note",
+    "en": false,
+    "title": "パソコンが遅いのは「机が狭い」から？"
    }
   ]
  },
  "log": [
-  {
-   "d": "10/20",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “iPhoneのストレージがいっぱいの時に消してよいもの・ダメなもの”"
-  },
-  {
-   "d": "10/20",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “個人事業主の売上と経費をExcelで管理する最低限の列”"
-  },
-  {
-   "d": "10/20",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “光回線の解約・乗り換えで違約金や工事費の残債がかかるか確認する方法”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Free tools",
-   "s": "Free tool published: “家事按分 計算ツール”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "English blog post published: “How to work out the business-use share of hom…”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Free tools",
-   "s": "English free tool published: “Home Office Business-Use Calculator (US & UK)”"
-  },
   {
    "d": "10/21",
    "t": null,
@@ -461,14 +430,50 @@
    "t": null,
    "kind": "Qiita",
    "s": "Qiita article published: “9 localStorage＋JSONバックアップ”"
+  },
+  {
+   "d": "10/26",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “69 実録Day12（有料）”"
+  },
+  {
+   "d": "10/26",
+   "t": null,
+   "kind": "Hatena",
+   "s": "Hatena post published: “はてな WORKDAYの1日ずれ”"
+  },
+  {
+   "d": "10/26",
+   "t": null,
+   "kind": "Hatena",
+   "s": "Hatena post published: “はてな パスワード90日変更とNIST”"
+  },
+  {
+   "d": "10/26",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita article published: “10 canvas＋CDP＋ffmpegで縦動画”"
+  },
+  {
+   "d": "10/26",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “「リンクを知っている全員」で共有する前に”"
+  },
+  {
+   "d": "10/26",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “パソコンが遅いのは「机が狭い」から？”"
   }
  ],
  "sales": {
-  "total": 33057,
+  "total": 42957,
   "categories": [
    {
     "name": "Research & analysis",
-    "v": 33000
+    "v": 42900
    },
    {
     "name": "App & tool sales",
@@ -483,7 +488,7 @@
     "v": 57
    }
   ],
-  "as_of": "2026-10-25",
+  "as_of": "2026-10-26",
   "fx": {
    "jpy_per_usd": 156.8,
    "date": "2026-10-23",
@@ -491,22 +496,22 @@
   }
  },
  "queue": {
-  "total": 38,
+  "total": 34,
   "by_channel": {
-   "Threads": 11,
+   "Threads": 7,
    "X": 27,
    "Instagram": 0
   },
   "by_day": [
    {
-    "d": "2026-10-25",
-    "Threads": 5,
+    "d": "2026-10-26",
+    "Threads": 6,
     "X": 0,
     "Instagram": 0
    },
    {
-    "d": "2026-10-26",
-    "Threads": 6,
+    "d": "2026-10-27",
+    "Threads": 1,
     "X": 0,
     "Instagram": 0
    },
