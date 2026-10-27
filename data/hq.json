@@ -1,7 +1,7 @@
 {
  "about": "EQUA司令塔の公開データ。公開済みの記録から自動で作成（売上は区分と合計のみ）。",
- "today": "2026-10-26",
- "built": "2026-10-26 23:31",
+ "today": "2026-10-27",
+ "built": "2026-10-27 23:32",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -19,35 +19,31 @@
   "EQUAサイト"
  ],
  "published": {
-  "today": 6,
-  "total": 124,
+  "today": 3,
+  "total": 127,
   "kinds_today": {
    "ブログ": 0,
    "無料ツール": 0,
-   "note": 3,
-   "Qiita": 1,
-   "はてな": 2,
+   "note": 2,
+   "Qiita": 0,
+   "はてな": 0,
    "X": 0,
-   "Threads": 0,
+   "Threads": 1,
    "Instagram": 0,
    "EQUAサイト": 0
   },
   "kinds_all": {
    "ブログ": 71,
    "無料ツール": 24,
-   "note": 17,
+   "note": 19,
    "Qiita": 6,
    "はてな": 3,
    "X": 0,
-   "Threads": 1,
+   "Threads": 2,
    "Instagram": 1,
    "EQUAサイト": 1
   },
   "week": [
-   {
-    "d": "2026-10-20",
-    "n": 27
-   },
    {
     "d": "2026-10-21",
     "n": 30
@@ -71,60 +67,31 @@
    {
     "d": "2026-10-26",
     "n": 6
+   },
+   {
+    "d": "2026-10-27",
+    "n": 3
    }
   ],
   "today_items": [
    {
     "kind": "note",
     "en": false,
-    "title": "69 実録Day12（有料）"
-   },
-   {
-    "kind": "はてな",
-    "en": false,
-    "title": "はてな WORKDAYの1日ずれ"
-   },
-   {
-    "kind": "はてな",
-    "en": false,
-    "title": "はてな パスワード90日変更とNIST"
-   },
-   {
-    "kind": "Qiita",
-    "en": false,
-    "title": "10 canvas＋CDP＋ffmpegで縦動画"
+    "title": "パスワード、8文字と12文字で何が違う？"
    },
    {
     "kind": "note",
     "en": false,
-    "title": "「リンクを知っている全員」で共有する前に"
+    "title": "「2か月前」「10営業日後」をExcelで正しく出す"
    },
    {
-    "kind": "note",
+    "kind": "Threads",
     "en": false,
-    "title": "パソコンが遅いのは「机が狭い」から？"
+    "title": "リンクを知っている全員"
    }
   ]
  },
  "log": [
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "無料ツール",
-   "s": "無料ツール公開『日割り計算ツール（家賃・給料・月額料金）』"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "ブログ",
-   "s": "ブログ公開『家賃の日割り計算のしかた』"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "note",
-   "s": "note公開『AIに「1か月で1万ドル」を任せた実録 Day7』"
-  },
   {
    "d": "10/21",
    "t": null,
@@ -466,10 +433,28 @@
    "t": null,
    "kind": "note",
    "s": "note公開『パソコンが遅いのは「机が狭い」から？』"
+  },
+  {
+   "d": "10/27",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『パスワード、8文字と12文字で何が違う？』"
+  },
+  {
+   "d": "10/27",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『「2か月前」「10営業日後」をExcelで正しく出す』"
+  },
+  {
+   "d": "10/27",
+   "t": null,
+   "kind": "Threads",
+   "s": "Threads投稿『リンクを知っている全員』"
   }
  ],
  "sales": {
-  "total": 42957,
+  "total": 42969,
   "categories": [
    {
     "name": "市場調査・分析",
@@ -485,25 +470,19 @@
    },
    {
     "name": "その他の報酬",
-    "v": 57
+    "v": 69
    }
   ],
-  "as_of": "2026-10-26"
+  "as_of": "2026-10-27"
  },
  "queue": {
-  "total": 34,
+  "total": 28,
   "by_channel": {
-   "Threads": 7,
+   "Threads": 1,
    "X": 27,
    "Instagram": 0
   },
   "by_day": [
-   {
-    "d": "2026-10-26",
-    "Threads": 6,
-    "X": 0,
-    "Instagram": 0
-   },
    {
     "d": "2026-10-27",
     "Threads": 1,

@@ -2,8 +2,8 @@
  "_about": "EQUA 売上ボードの公開データ。日付（JST）・区分・金額（円）のみ。",
  "timezone": "Asia/Tokyo",
  "currency": "JPY",
- "updated": "2026-10-26T00:00+09:00",
- "generated": "2026-10-26T23:31+09:00",
+ "updated": "2026-10-27T00:00+09:00",
+ "generated": "2026-10-27T23:32+09:00",
  "income_categories": [
   "市場調査・分析",
   "アプリ・ツール販売",
@@ -65,6 +65,11 @@
    "date": "2026-10-26",
    "category": "市場調査・分析",
    "amount": 9900
+  },
+  {
+   "date": "2026-10-27",
+   "category": "その他の報酬",
+   "amount": 12
   }
  ],
  "expenses": [
@@ -122,62 +127,67 @@
    "date": "2026-10-26",
    "category": "手数料",
    "amount": 1633
+  },
+  {
+   "date": "2026-10-27",
+   "category": "手数料",
+   "amount": 2
   }
  ],
  "summary": {
-  "as_of": "2026-10-26",
+  "as_of": "2026-10-27",
   "today": {
    "sales": {
-    "市場調査・分析": 9900,
+    "市場調査・分析": 0,
     "アプリ・ツール販売": 0,
     "アフィリエイト収益": 0,
-    "その他の報酬": 0
+    "その他の報酬": 12
    },
-   "sales_total": 9900,
+   "sales_total": 12,
    "expenses": {
-    "手数料": 1633,
+    "手数料": 2,
     "広告費": 0,
-    "出店費用": 188
+    "出店費用": 0
    },
-   "expenses_total": 1821,
-   "profit": 8079
+   "expenses_total": 2,
+   "profit": 10
   },
   "month": {
    "sales": {
     "市場調査・分析": 42900,
     "アプリ・ツール販売": 0,
     "アフィリエイト収益": 0,
-    "その他の報酬": 57
+    "その他の報酬": 69
    },
-   "sales_total": 42957,
+   "sales_total": 42969,
    "expenses": {
-    "手数料": 7085,
+    "手数料": 7087,
     "広告費": 3000,
     "出店費用": 3190
    },
-   "expenses_total": 13275,
-   "profit": 29682
+   "expenses_total": 13277,
+   "profit": 29692
   },
   "total": {
    "sales": {
     "市場調査・分析": 42900,
     "アプリ・ツール販売": 0,
     "アフィリエイト収益": 0,
-    "その他の報酬": 57
+    "その他の報酬": 69
    },
-   "sales_total": 42957,
+   "sales_total": 42969,
    "expenses": {
-    "手数料": 7085,
+    "手数料": 7087,
     "広告費": 3000,
     "出店費用": 3190
    },
-   "expenses_total": 13275,
-   "profit": 29682
+   "expenses_total": 13277,
+   "profit": 29692
   }
  },
  "fx": {
-  "jpy_per_usd": 156.8,
-  "date": "2026-10-23",
+  "jpy_per_usd": 157.45,
+  "date": "2026-10-26",
   "provider": "ECB reference rate (frankfurter.dev)"
  }
 }

@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records (sales: categories and totals only).",
- "today": "2026-10-26",
- "built": "2026-10-26 23:31",
+ "today": "2026-10-27",
+ "built": "2026-10-27 23:32",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -19,35 +19,31 @@
   "EQUA site"
  ],
  "published": {
-  "today": 6,
-  "total": 124,
+  "today": 3,
+  "total": 127,
   "kinds_today": {
    "Blog": 0,
    "Free tools": 0,
-   "note": 3,
-   "Qiita": 1,
-   "Hatena": 2,
+   "note": 2,
+   "Qiita": 0,
+   "Hatena": 0,
    "X": 0,
-   "Threads": 0,
+   "Threads": 1,
    "Instagram": 0,
    "EQUA site": 0
   },
   "kinds_all": {
    "Blog": 71,
    "Free tools": 24,
-   "note": 17,
+   "note": 19,
    "Qiita": 6,
    "Hatena": 3,
    "X": 0,
-   "Threads": 1,
+   "Threads": 2,
    "Instagram": 1,
    "EQUA site": 1
   },
   "week": [
-   {
-    "d": "2026-10-20",
-    "n": 27
-   },
    {
     "d": "2026-10-21",
     "n": 30
@@ -71,60 +67,31 @@
    {
     "d": "2026-10-26",
     "n": 6
+   },
+   {
+    "d": "2026-10-27",
+    "n": 3
    }
   ],
   "today_items": [
    {
     "kind": "note",
     "en": false,
-    "title": "69 実録Day12（有料）"
-   },
-   {
-    "kind": "Hatena",
-    "en": false,
-    "title": "はてな WORKDAYの1日ずれ"
-   },
-   {
-    "kind": "Hatena",
-    "en": false,
-    "title": "はてな パスワード90日変更とNIST"
-   },
-   {
-    "kind": "Qiita",
-    "en": false,
-    "title": "10 canvas＋CDP＋ffmpegで縦動画"
+    "title": "パスワード、8文字と12文字で何が違う？"
    },
    {
     "kind": "note",
     "en": false,
-    "title": "「リンクを知っている全員」で共有する前に"
+    "title": "「2か月前」「10営業日後」をExcelで正しく出す"
    },
    {
-    "kind": "note",
+    "kind": "Threads",
     "en": false,
-    "title": "パソコンが遅いのは「机が狭い」から？"
+    "title": "リンクを知っている全員"
    }
   ]
  },
  "log": [
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Free tools",
-   "s": "Free tool published: “日割り計算ツール（家賃・給料・月額料金）”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “家賃の日割り計算のしかた”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “AIに「1か月で1万ドル」を任せた実録 Day7”"
-  },
   {
    "d": "10/21",
    "t": null,
@@ -466,10 +433,28 @@
    "t": null,
    "kind": "note",
    "s": "note article published: “パソコンが遅いのは「机が狭い」から？”"
+  },
+  {
+   "d": "10/27",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “パスワード、8文字と12文字で何が違う？”"
+  },
+  {
+   "d": "10/27",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “「2か月前」「10営業日後」をExcelで正しく出す”"
+  },
+  {
+   "d": "10/27",
+   "t": null,
+   "kind": "Threads",
+   "s": "Posted on Threads: “リンクを知っている全員”"
   }
  ],
  "sales": {
-  "total": 42957,
+  "total": 42969,
   "categories": [
    {
     "name": "Research & analysis",
@@ -485,30 +470,24 @@
    },
    {
     "name": "Other income",
-    "v": 57
+    "v": 69
    }
   ],
-  "as_of": "2026-10-26",
+  "as_of": "2026-10-27",
   "fx": {
-   "jpy_per_usd": 156.8,
-   "date": "2026-10-23",
+   "jpy_per_usd": 157.45,
+   "date": "2026-10-26",
    "provider": "ECB reference rate (frankfurter.dev)"
   }
  },
  "queue": {
-  "total": 34,
+  "total": 28,
   "by_channel": {
-   "Threads": 7,
+   "Threads": 1,
    "X": 27,
    "Instagram": 0
   },
   "by_day": [
-   {
-    "d": "2026-10-26",
-    "Threads": 6,
-    "X": 0,
-    "Instagram": 0
-   },
    {
     "d": "2026-10-27",
     "Threads": 1,
