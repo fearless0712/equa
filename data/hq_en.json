@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records (sales: categories and totals only).",
- "today": "2026-10-27",
- "built": "2026-10-27 23:32",
+ "today": "2026-10-28",
+ "built": "2026-10-28 23:35",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -19,23 +19,23 @@
   "EQUA site"
  ],
  "published": {
-  "today": 3,
-  "total": 127,
+  "today": 1,
+  "total": 128,
   "kinds_today": {
    "Blog": 0,
    "Free tools": 0,
-   "note": 2,
+   "note": 1,
    "Qiita": 0,
    "Hatena": 0,
    "X": 0,
-   "Threads": 1,
+   "Threads": 0,
    "Instagram": 0,
    "EQUA site": 0
   },
   "kinds_all": {
    "Blog": 71,
    "Free tools": 24,
-   "note": 19,
+   "note": 20,
    "Qiita": 6,
    "Hatena": 3,
    "X": 0,
@@ -44,10 +44,6 @@
    "EQUA site": 1
   },
   "week": [
-   {
-    "d": "2026-10-21",
-    "n": 30
-   },
    {
     "d": "2026-10-22",
     "n": 22
@@ -71,33 +67,21 @@
    {
     "d": "2026-10-27",
     "n": 3
+   },
+   {
+    "d": "2026-10-28",
+    "n": 1
    }
   ],
   "today_items": [
    {
     "kind": "note",
     "en": false,
-    "title": "パスワード、8文字と12文字で何が違う？"
-   },
-   {
-    "kind": "note",
-    "en": false,
-    "title": "「2か月前」「10営業日後」をExcelで正しく出す"
-   },
-   {
-    "kind": "Threads",
-    "en": false,
-    "title": "リンクを知っている全員"
+    "title": "10/28 15:4x 「不審なログインがありました」と通知が来たら？"
    }
   ]
  },
  "log": [
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “給料の日割り計算のしかた”"
-  },
   {
    "d": "10/21",
    "t": null,
@@ -451,6 +435,12 @@
    "t": null,
    "kind": "Threads",
    "s": "Posted on Threads: “リンクを知っている全員”"
+  },
+  {
+   "d": "10/28",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “10/28 15:4x 「不審なログインがありました」と通知が来たら？”"
   }
  ],
  "sales": {
@@ -473,27 +463,21 @@
     "v": 69
    }
   ],
-  "as_of": "2026-10-27",
+  "as_of": "2026-10-28",
   "fx": {
-   "jpy_per_usd": 157.45,
-   "date": "2026-10-26",
+   "jpy_per_usd": 157.82,
+   "date": "2026-10-27",
    "provider": "ECB reference rate (frankfurter.dev)"
   }
  },
  "queue": {
-  "total": 28,
+  "total": 27,
   "by_channel": {
-   "Threads": 1,
+   "Threads": 0,
    "X": 27,
    "Instagram": 0
   },
   "by_day": [
-   {
-    "d": "2026-10-27",
-    "Threads": 1,
-    "X": 0,
-    "Instagram": 0
-   },
    {
     "d": "2026-10-28",
     "Threads": 0,
