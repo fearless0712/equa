@@ -134,7 +134,7 @@
         put(el("div", null, r[0]), U.control.x, U.control.rows[i] - 4);
         put(el("div", { "class": "wu-val" }, r[1]), U.control.valueRight, U.control.rows[i] - 4);
       });
-      var menu = ["売上ボード", "AI社員", "ツール", "商品"];
+      var menu = ["売上ボード", "社員", "ツール", "商品"];
       menu.forEach(function (m, i) { put(el("div", null, m), U.menu.x + 12, U.menu.rows[i] - 4); });
       var plates = { scout: ["Scout", "仕事さがし"], brain: ["EQUA Brain", "考える・覚える"], flow: ["Flow", "やりとり・納品"] };
       U.plates.forEach(function (p) {

@@ -258,7 +258,7 @@
     graph(D, kt, qc, G);
   }
 
-  /* ---- AI組織図 ---- */
+  /* ---- 組織図 ---- */
   function graph(D, kt, qc, G) {
     var svg = $('g');
     var CX = 480, CY = 262;
@@ -266,7 +266,7 @@
     var arts = (kt[K.blog] || 0) + (kt[K.note] || 0) + (kt[K.qiita] || 0) + (kt[K.hatena] || 0);
     var qT = (qc.Threads || 0) + (qc.X || 0) + (qc.Instagram || 0);
     var nodes = {
-      claude: { x: CX, y: CY, r: 26, label: 'Claude', sub: L.c_claude, col: 'var(--cy)', big: true },
+      claude: { x: CX, y: CY, r: 26, label: 'EQUA', sub: L.c_claude, col: 'var(--cy)', big: true },
       misa: { x: CX, y: 44, r: 15, label: 'MisaNeco', sub: L.c_misa, col: 'var(--am)' },
       kiji: { x: 318, y: 186, r: 11, label: L.c_kiji, sub: L.todayN + L.n(arts), col: 'var(--gr)' },
       sns: { x: 642, y: 186, r: 11, label: L.c_sns, sub: L.sched + L.n(qT), col: 'var(--vi)' },
