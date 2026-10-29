@@ -113,34 +113,6 @@ h3 { font-size: 17px; line-height: 1.5; margin: 0 0 6px; }
 .world-note { font-size: 12px; color: var(--ink-3); margin: 10px 0 0; }
 /* スマホでも全体を表示（切り出さない。10/19 将さん：EQUA HQ が見切れる） */
 
-/* ---------- board ---------- */
-.board { background: linear-gradient(180deg, var(--surface-2), var(--surface)); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px; position: relative; }
-.board::before { content: ""; position: absolute; left: 22px; right: 22px; top: -1px; height: 1px; background: linear-gradient(90deg, transparent, var(--gold-2), transparent); }
-.board-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
-.board-head h2 { margin: 0; }
-.updated { font-size: 13px; color: var(--ink-3); margin: 0; }
-.kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
-.kpi { background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; min-width: 0; }
-.kpi-label { font-size: 13px; color: var(--ink-2); margin: 0; }
-.kpi-value { font-family: var(--serif-en); font-size: clamp(26px, 3.4vw, 34px); font-weight: 700; margin: 2px 0 0; font-variant-numeric: tabular-nums lining-nums; letter-spacing: .01em; overflow-wrap: anywhere; line-height: 1.2; color: var(--gold-2); }
-.kpi-sub { font-size: 12px; color: var(--ink-3); margin: 0; }
-.kpi.profit .kpi-value { color: var(--good); }
-.kpi.profit.neg .kpi-value { color: var(--bad); }
-.table-wrap { margin-top: 16px; }
-table.money { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; table-layout: fixed; color: var(--ink); }
-table.money td:not(:first-child) { white-space: nowrap; }
-table.money th, table.money td { padding: 8px 6px; border-bottom: 1px solid rgba(201, 162, 74, .14); text-align: right; }
-table.money th:first-child, table.money td:first-child { text-align: left; width: 40%; }
-table.money thead th { font-size: 12px; color: var(--ink-3); font-weight: 600; border-bottom: 1px solid var(--line-2); }
-table.money tr.group th { text-align: left; font-size: 12px; color: var(--gold); letter-spacing: .08em; padding-top: 14px; border-bottom: none; }
-table.money td.sub, table.money th.sub { padding-left: 14px; color: var(--ink-2); }
-table.money tr.total td { font-weight: 700; }
-table.money tr.profit td { font-weight: 800; font-size: 15px; border-bottom: none; background: rgba(201, 162, 74, .08); color: var(--gold-3); }
-.neg-num { color: var(--bad); }
-.notes { font-size: 12.5px; color: var(--ink-3); margin: 14px 0 0; padding-left: 1.2em; }
-.notes li { margin: 2px 0; }
-.board-error { color: var(--bad); font-size: 14px; }
-
 /* ---------- cards ---------- */
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
 .card { background: linear-gradient(180deg, var(--surface-2), var(--surface)); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
@@ -178,18 +150,11 @@ table.money tr.profit td { font-weight: 800; font-size: 15px; border-bottom: non
 .foot-nav { display: flex; gap: 6px 14px; flex-wrap: wrap; align-items: flex-start; }
 
 /* ---------- responsive ---------- */
-@media (max-width: 860px) { .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 520px) {
   .brand-name { font-size: 28px; }
   .brand .brand-mark { width: 42px; height: 42px; }
   .nav { width: 100%; justify-content: space-between; }
   .nav a { padding: 6px 8px; font-size: 15px; justify-content: center; }
-  .board { padding: 14px; }
-  table.money { font-size: 12.5px; }
-  table.money th:first-child, table.money td:first-child { width: 38%; }
-  table.money th, table.money td { padding: 7px 2px; }
-  table.money td.sub { padding-left: 6px; }
-  table.money tr.profit td { font-size: 13px; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
 .sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }

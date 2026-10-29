@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>EQUA</title>
-  <meta name="description" content="EQUAは、仕事や暮らしの小さな困りごとを道具にするブランドです。売上ボードと、無料ツール・ブログ・商品への入り口。">
+  <meta name="description" content="EQUAは、仕事や暮らしの小さな困りごとを道具にするブランドです。EQUA司令塔と、無料ツール・ブログ・商品への入り口。">
   <link rel="canonical" href="https://equaglobal.com/">
   <link rel="alternate" hreflang="ja" href="https://equaglobal.com/">
   <link rel="alternate" hreflang="en" href="https://equaglobal.com/en/">
@@ -22,7 +22,6 @@
   <link rel="stylesheet" href="assets/css/site.css?v=202610221900">
   <link rel="stylesheet" href="assets/css/intro.css?v=202610210023">
   <link rel="stylesheet" href="assets/css/hq-embed.css?v=202610221700">
-  <script src="assets/js/board.js?v=202610222010" defer></script>
   <script src="assets/js/ptr.js?v=202610210023" defer></script>
 </head>
 <body>
@@ -60,7 +59,7 @@
         <iframe src="hq.html?embed=1" title="EQUA司令塔（縮小表示）" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
         <span class="hq-open">全画面で見る<span aria-hidden="true"> ↗</span></span>
       </a>
-      <p class="hq-note">表示している数字は公開済みの記録から自動で作っています（売上は区分と合計のみ）。運営 Eternal Philosophy ＞ EQUA ＞ MisaNeco Works</p>
+      <p class="hq-note">表示している数字は公開済みの記録から自動で作っています。運営 Eternal Philosophy ＞ EQUA ＞ MisaNeco Works</p>
     </div>
   </div>
   <main id="main" class="wrap">
@@ -111,28 +110,6 @@
           <p>どんな考えで、誰が運営しているのかをまとめています。</p>
           <span class="go" aria-hidden="true">見る →</span>
         </a>
-      </div>
-    </section>
-    <section aria-labelledby="board-title">
-      <div class="board" id="board" data-src="data/public.json">
-        <div class="board-head">
-          <h2 id="board-title">売上ボード</h2>
-          <p class="updated" id="board-updated">最終更新：読み込み中…</p>
-        </div>
-        <p class="board-error" id="board-error" hidden>データを読み込めませんでした。時間をおいて再読み込みしてください。</p>
-        <div class="kpis" id="kpis" aria-live="polite"></div>
-        <div class="table-wrap">
-          <table class="money">
-            <caption class="sr">区分ごとの売上・経費・利益（円）</caption>
-            <thead><tr><th scope="col">区分</th><th scope="col" id="th-today">今日</th><th scope="col" id="th-month">今月</th><th scope="col">累計</th></tr></thead>
-            <tbody id="board-rows"></tbody>
-          </table>
-        </div>
-        <ul class="notes">
-          <li>日付は日本時間で数えています。「今日」は、このページを見ている時点の日本時間の日付です。</li>
-          <li>売上は、手数料が引かれる前の報酬額（税込）です。サービスの手数料は「手数料」として経費に入れています。</li>
-          <li>記録は手作業でまとめているため、反映まで時間がかかることがあります。「最終更新」の時点までの記録です。</li>
-        </ul>
       </div>
     </section>
   </main>

@@ -8,13 +8,6 @@
   var $ = function (id) { return document.getElementById(id); };
   /* 英語版（en/hq.html, <html lang="en">）：中身は日本語版と同じ。画面の言葉だけ英語にする */
   var EN = /^en/i.test(document.documentElement.lang || '');
-  var fmt = function (n) { return Number(n).toLocaleString(EN ? 'en-US' : 'ja-JP'); };
-  /* 英語版の売上はドルの目安（hq_en.json の sales.fx＝ECBの参考レート）。記録は円 */
-  var FX = null;
-  var money = function (n) {
-    if (EN && FX) return '$' + (Number(n) / FX.jpy_per_usd).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-    return '\u00a5' + fmt(n);
-  };
   /* 種類の名前（データのキー）。英語版のデータは英語のキーで入っている */
   var K = EN
     ? { blog: 'Blog', tool: 'Free tools', note: 'note', qiita: 'Qiita', hatena: 'Hatena', site: 'EQUA site', product: 'Products' }
@@ -23,28 +16,28 @@
   var L = EN ? {
     loadErr: 'Could not load the data', pcs: '', today: 'Today', todayN: 'Today ', total: 'Total', week: 'Published in the last 7 days',
     none: 'not yet', sched: 'Scheduled ', schedS: 'scheduled',
-    stepSub: ['Japanese & English', 'Runs in the browser', 'Articles', 'Tech articles', 'Summaries', 'X · Threads · Instagram', 'Sales board'],
+    stepSub: ['Japanese & English', 'Runs in the browser', 'Articles', 'Tech articles', 'Summaries', 'X · Threads · Instagram', 'Updated daily'],
     sns: 'SNS',
-    kSales: 'Total sales', kSalesSub: function (c) { return c + ' categories · totals'; },
+    kWeek: 'Last 7 days', kWeekSub: 'Published · articles, tools, site',
     kToday: 'Published today', kAll: 'Published in total', kArt: function (a, t) { return 'Art ' + a + ' · Tools ' + t; },
     kQueue: 'Scheduled posts', kTools: 'Business tools', kCh: 'Channels', kChUnit: '', kChSub: 'Site · articles · SNS',
-    salesAsOf: function (d) { return 'Sales as of ' + d; },
+    asOf: function (d) { return 'As of ' + d; },
     noToday: 'Nothing published yet today', recent: function (n) { return 'Latest ' + n; },
     c_claude: 'Command', c_misa: 'Approves', c_kiji: 'Articles', c_sns: 'SNS', c_tool: 'Tools', c_gazo: 'Images', c_gazoSub: 'Carousels · GIFs',
-    c_ken: 'Construction tools', c_kuru: 'Auto shop tools', c_board: 'Sales board', c_prodSub: function (n) { return 'Business tools ' + n; },
+    c_ken: 'Construction tools', c_kuru: 'Auto shop tools', c_board: 'Updated daily', c_prodSub: function (n) { return 'Business tools ' + n; },
     n: function (v) { return String(v); }
   } : {
     loadErr: 'データを読み込めませんでした', pcs: '本', today: '今日', todayN: '今日 ', total: '累計', week: '直近7日の公開数',
     none: '未', sched: '予約 ', schedS: '予約',
-    stepSub: ['日本語・英語', 'ブラウザで使える', '読みもの', '技術記事', '要約記事', 'X・Threads・Instagram', '売上ボード'],
+    stepSub: ['日本語・英語', 'ブラウザで使える', '読みもの', '技術記事', '要約記事', 'X・Threads・Instagram', '毎日更新'],
     sns: 'SNS',
-    kSales: '売上の累計', kSalesSub: function (c) { return '区分 ' + c + ' · 合計のみ'; },
+    kWeek: '直近7日の公開', kWeekSub: '記事・ツール・サイト',
     kToday: '今日の公開', kAll: '公開の累計', kArt: function (a, t) { return '記事 ' + a + '・ツール ' + t; },
     kQueue: '予約済みの投稿', kTools: '作った業務ツール', kCh: '発信の場所', kChUnit: 'か所', kChSub: 'サイト・記事・SNS',
-    salesAsOf: function (d) { return '売上 ' + d + ' 時点'; },
+    asOf: function (d) { return d + ' 時点'; },
     noToday: '今日の公開はまだありません', recent: function (n) { return '直近 ' + n + '件'; },
     c_claude: '司令', c_misa: '承認', c_kiji: '記事係', c_sns: 'SNS係', c_tool: 'ツール係', c_gazo: '画像係', c_gazoSub: 'カルーセル・GIF',
-    c_ken: '建設ツール係', c_kuru: '車屋ツール係', c_board: '売上ボード', c_prodSub: function (n) { return '業務ツール ' + n + '本'; },
+    c_ken: '建設ツール係', c_kuru: '車屋ツール係', c_board: '毎日更新', c_prodSub: function (n) { return '業務ツール ' + n + '本'; },
     n: function (v) { return v + '本'; }
   };
   function h(tag, cls, text, parent) {
@@ -107,8 +100,7 @@
   });
 
   function draw(D) {
-    var P = D.published || {}, Q = D.queue || {}, S = D.sales || {}, G = D.products || {};
-    FX = S.fx && S.fx.jpy_per_usd > 0 ? S.fx : null;
+    var P = D.published || {}, Q = D.queue || {}, G = D.products || {};
     var kt = P.kinds_today || {}, ka = P.kinds_all || {};
     var qc = Q.by_channel || {};
     var md = function (iso) { var a = iso.split('-'); return (+a[1]) + '/' + (+a[2]); };
@@ -125,7 +117,7 @@
       [K.qiita, L.stepSub[3], kt[K.qiita] || 0, '本'],
       [K.hatena, L.stepSub[4], kt[K.hatena] || 0, '本'],
       [L.sns, L.stepSub[5], Q.total || 0, '予約'],
-      [K.site, L.stepSub[6], S.as_of ? 1 : 0, '更新']
+      [K.site, L.stepSub[6], D.today ? 1 : 0, '更新']
     ];
     var last = items.length ? items[items.length - 1].kind : null;
     var ol = $('steps');
@@ -134,7 +126,7 @@
       h('span', 'no', st[2] > 0 ? '✓' : String(i + 1), li);
       var d = h('div', null, null, li);
       h('div', 'nm', st[0], d); h('div', 'sub', st[1], d);
-      var c = st[3] === '本' ? (st[2] ? L.n(st[2]) : L.none) : st[3] === '予約' ? L.sched + st[2] : (S.as_of ? md(S.as_of) : DASH);
+      var c = st[3] === '本' ? (st[2] ? L.n(st[2]) : L.none) : st[3] === '予約' ? L.sched + st[2] : (D.today ? md(D.today) : DASH);
       h('span', 'cnt', c, li);
     });
     $('flowN').textContent = L.n(P.today || 0) + ' · ' + md(D.today);
@@ -165,27 +157,15 @@
       if (unit) h('small', null, unit, vv);
       h('div', 's', sub, t);
     }
-    var cats = (S.categories || []).filter(function (c) { return c.v > 0; }).length;
     var sep = EN ? '/' : '・';
-    tile(L.kSales, S.total != null ? money(S.total) : DASH, '', L.kSalesSub(cats), true);
+    var wkN = (P.week || []).reduce(function (a, w) { return a + (w.n || 0); }, 0);
+    tile(L.kWeek, String(wkN), L.pcs, L.kWeekSub, true);
     tile(L.kToday, String(P.today || 0), L.pcs, L.kArt(artToday, kt[K.tool] || 0));
     tile(L.kAll, String(P.total || 0), L.pcs, L.kArt(artAll, ka[K.tool] || 0));
     tile(L.kQueue, String(Q.total || 0), L.pcs, 'Threads ' + (qc.Threads || 0) + sep + 'X ' + (qc.X || 0) + sep + 'IG ' + (qc.Instagram || 0));
     tile(L.kTools, String(G.total || 0), L.pcs, (G.by_industry || []).map(function (g) { return g.g + ' ' + g.n; }).join(sep));
     tile(L.kCh, String((D.channels || []).length), L.kChUnit, L.kChSub);
-    $('kpiNote').textContent = (S.as_of ? L.salesAsOf(md(S.as_of)) : '') + (EN && FX ? ' · US$ at ECB rate \u00a5' + FX.jpy_per_usd + '/$ (' + FX.date + ')' : '');
-
-    /* ---- 売上の区分 ---- */
-    var cb = $('cbars');
-    var cm = Math.max.apply(null, [1].concat((S.categories || []).map(function (c) { return c.v; })));
-    (S.categories || []).forEach(function (c) {
-      var r = h('div', 'crow', null, cb);
-      h('span', null, c.name, r);
-      var bar = h('span', 'cbar', null, r);
-      var fill = h('i', null, null, bar);
-      fill.style.width = (c.v / cm * 100).toFixed(1) + '%';
-      h('span', 'n', money(c.v), r);
-    });
+    $('kpiNote').textContent = D.today ? L.asOf(md(D.today)) : '';
 
     /* ---- 予約（日付別） ---- */
     var qb = $('qbars');
