@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records (sales: categories and totals only).",
- "today": "2026-10-28",
- "built": "2026-10-28 23:35",
+ "today": "2026-10-29",
+ "built": "2026-10-29 23:35",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -19,12 +19,12 @@
   "EQUA site"
  ],
  "published": {
-  "today": 1,
+  "today": 0,
   "total": 128,
   "kinds_today": {
    "Blog": 0,
    "Free tools": 0,
-   "note": 1,
+   "note": 0,
    "Qiita": 0,
    "Hatena": 0,
    "X": 0,
@@ -44,10 +44,6 @@
    "EQUA site": 1
   },
   "week": [
-   {
-    "d": "2026-10-22",
-    "n": 22
-   },
    {
     "d": "2026-10-23",
     "n": 0
@@ -71,15 +67,13 @@
    {
     "d": "2026-10-28",
     "n": 1
+   },
+   {
+    "d": "2026-10-29",
+    "n": 0
    }
   ],
-  "today_items": [
-   {
-    "kind": "note",
-    "en": false,
-    "title": "10/28 15:4x 「不審なログインがありました」と通知が来たら？"
-   }
-  ]
+  "today_items": []
  },
  "log": [
   {
@@ -463,27 +457,21 @@
     "v": 69
    }
   ],
-  "as_of": "2026-10-28",
+  "as_of": "2026-10-29",
   "fx": {
-   "jpy_per_usd": 157.82,
-   "date": "2026-10-27",
+   "jpy_per_usd": 157.96,
+   "date": "2026-10-28",
    "provider": "ECB reference rate (frankfurter.dev)"
   }
  },
  "queue": {
-  "total": 27,
+  "total": 24,
   "by_channel": {
    "Threads": 0,
-   "X": 27,
+   "X": 24,
    "Instagram": 0
   },
   "by_day": [
-   {
-    "d": "2026-10-28",
-    "Threads": 0,
-    "X": 3,
-    "Instagram": 0
-   },
    {
     "d": "2026-10-29",
     "Threads": 0,
