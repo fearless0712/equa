@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records.",
- "today": "2026-11-01",
- "built": "2026-11-01 23:34",
+ "today": "2026-11-02",
+ "built": "2026-11-02 23:40",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -45,10 +45,6 @@
   },
   "week": [
    {
-    "d": "2026-10-26",
-    "n": 6
-   },
-   {
     "d": "2026-10-27",
     "n": 3
    },
@@ -70,6 +66,10 @@
    },
    {
     "d": "2026-11-01",
+    "n": 0
+   },
+   {
+    "d": "2026-11-02",
     "n": 0
    }
   ],
@@ -438,23 +438,17 @@
   }
  ],
  "queue": {
-  "total": 13,
+  "total": 9,
   "by_channel": {
-   "Threads": 1,
-   "X": 12,
+   "Threads": 0,
+   "X": 9,
    "Instagram": 0
   },
   "by_day": [
    {
-    "d": "2026-11-01",
-    "Threads": 1,
-    "X": 4,
-    "Instagram": 0
-   },
-   {
     "d": "2026-11-02",
     "Threads": 0,
-    "X": 4,
+    "X": 5,
     "Instagram": 0
    },
    {
