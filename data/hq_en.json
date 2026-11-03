@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records.",
- "today": "2026-11-02",
- "built": "2026-11-02 23:40",
+ "today": "2026-11-04",
+ "built": "2026-11-04 00:14",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -20,7 +20,7 @@
  ],
  "published": {
   "today": 0,
-  "total": 128,
+  "total": 166,
   "kinds_today": {
    "Blog": 0,
    "Free tools": 0,
@@ -34,276 +34,48 @@
   },
   "kinds_all": {
    "Blog": 71,
-   "Free tools": 24,
-   "note": 20,
-   "Qiita": 6,
-   "Hatena": 3,
+   "Free tools": 28,
+   "note": 41,
+   "Qiita": 11,
+   "Hatena": 7,
    "X": 0,
-   "Threads": 2,
-   "Instagram": 1,
+   "Threads": 4,
+   "Instagram": 3,
    "EQUA site": 1
   },
   "week": [
    {
-    "d": "2026-10-27",
-    "n": 3
-   },
-   {
-    "d": "2026-10-28",
-    "n": 1
-   },
-   {
     "d": "2026-10-29",
-    "n": 0
+    "n": 4
    },
    {
     "d": "2026-10-30",
-    "n": 0
+    "n": 4
    },
    {
     "d": "2026-10-31",
-    "n": 0
+    "n": 6
    },
    {
     "d": "2026-11-01",
-    "n": 0
+    "n": 5
    },
    {
     "d": "2026-11-02",
+    "n": 4
+   },
+   {
+    "d": "2026-11-03",
+    "n": 5
+   },
+   {
+    "d": "2026-11-04",
     "n": 0
    }
   ],
   "today_items": []
  },
  "log": [
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Free tools",
-   "s": "English free tool published: “Prorated Rent Calculator”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "English blog post published: “How to calculate prorated rent (3 methods, wi…”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “家事按分の計算のしかた”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "English blog post published: “Password rules for a small business: what NIS…”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “自宅で仕事をしている人の「家賃や電気代、どこまで経費？」”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “「ストレージがいっぱいです」と出たiPhone、あわてて写真を消す前に”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “光回線をやめたい。でも違約金はいくら？”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “個人事業主の帳簿・領収書は何年保存？”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “小さな会社のパスワードのルール”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "English blog post published: “How to find reused and weak passwords (and wh…”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “人が辞めた日にやるアカウント整理”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "English blog post published: “When someone leaves: an account offboarding c…”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Threads",
-   "s": "Posted on Threads: “パスワードのルール（NIST 2025）紹介”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "English blog post published: “Clicked a phishing link at work? What to do n…”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “偽メールのリンクを押した・入力してしまったときにやること”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Instagram",
-   "s": "Posted on Instagram: “Excel”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Qiita",
-   "s": "Qiita article published: “パスワードの使い回しと「末尾だけ変えた」パスワードを、ブラウザのJavaScriptだけで…”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “請求書番号の付け方”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “Excelの入力ミスを減らすいちばん簡単な方法”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "English blog post published: “How to number your invoices (a simple system,…”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Free tools",
-   "s": "Free tool published: “FX 損切り・ロット計算ツール”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “PHPの脆弱性 確認と更新”"
-  },
-  {
-   "d": "10/21",
-   "t": null,
-   "kind": "Blog",
-   "s": "English blog post published: “PHP critical RCE”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Qiita",
-   "s": "Qiita article published: “PHP脆弱性 確認手順”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “AIに「1か月で1万ドル」を任せた実録 Day8”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Hatena",
-   "s": "Hatena post published: “PHPの重大な脆弱性、今日確かめることは3つ（2026年10月）”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Free tools",
-   "s": "English free tool published: “Forex position size calculator”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Blog",
-   "s": "English blog post published: “How to calculate forex position size from you…”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “請求書番号、どう付けていますか？”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “Excelの入力ミスを減らすいちばん簡単な方法”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “偽メールのリンクを押した・入力してしまったときにやること”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “AIに仕事を「任せっぱなし」にしないための指示書の作り方”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “FXの取引数量は「損切りの幅」から決める”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Blog",
-   "s": "English blog post published: “Stop typos in your spreadsheet: drop-down lis…”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “外壁塗装の塗装面積と塗料の缶数の出し方”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Qiita",
-   "s": "Qiita article published: “pycelでExcelの数式をテスト”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Free tools",
-   "s": "Free tool published: “工期（稼働日）計算”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “車検は満了日の2か月前から”"
-  },
   {
    "d": "10/22",
    "t": null,
@@ -403,14 +175,50 @@
   {
    "d": "10/26",
    "t": null,
-   "kind": "note",
-   "s": "note article published: “「リンクを知っている全員」で共有する前に”"
+   "kind": "Threads",
+   "s": "Posted on Threads: “Threads iPhoneストレージ”"
+  },
+  {
+   "d": "10/26",
+   "t": null,
+   "kind": "Instagram",
+   "s": "Posted on Instagram: “IGリール ExcelのVLOOKUP（03）”"
+  },
+  {
+   "d": "10/26",
+   "t": null,
+   "kind": "Threads",
+   "s": "Posted on Threads: “Threads スマホを売る前”"
   },
   {
    "d": "10/26",
    "t": null,
    "kind": "note",
-   "s": "note article published: “パソコンが遅いのは「机が狭い」から？”"
+   "s": "note article published: “71『「リンクを知っている全員」で共有する前に』公開”"
+  },
+  {
+   "d": "10/26",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “72『パソコンが遅いのは「机が狭い」から？”"
+  },
+  {
+   "d": "10/26",
+   "t": null,
+   "kind": "Instagram",
+   "s": "Posted on Instagram: “IGリール06 車屋スタジオ”"
+  },
+  {
+   "d": "10/27",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “公開”"
+  },
+  {
+   "d": "10/27",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita article published: “11『JSONファイル1つでSNSの予約投稿キューを作る：期限の来た分だけ投稿し、二重投稿…”"
   },
   {
    "d": "10/27",
@@ -434,30 +242,209 @@
    "d": "10/28",
    "t": null,
    "kind": "note",
-   "s": "note article published: “10/28 15:4x 「不審なログインがありました」と通知が来たら？”"
+   "s": "note article published: “04:2x note公開”"
+  },
+  {
+   "d": "10/28",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “08:4x VLOOKUPで #N/A が出たときの直し方”"
+  },
+  {
+   "d": "10/28",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “15:4x 「不審なログインがありました」と通知が来たら？”"
+  },
+  {
+   "d": "10/28",
+   "t": null,
+   "kind": "Free tools",
+   "s": "Free tool published: “支払期日の計算ツール”"
+  },
+  {
+   "d": "10/28",
+   "t": null,
+   "kind": "Free tools",
+   "s": "Free tool published: “建設スタジオ 無料版”"
+  },
+  {
+   "d": "10/29",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “79「月末締め・翌月末払い」の支払期日を正しく出す”"
+  },
+  {
+   "d": "10/29",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “81実録Day15”"
+  },
+  {
+   "d": "10/29",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita article published: “12 パソコン用アプリのダウンロードページで、スマホの人にだけ「自分に送る」案内を出す”"
+  },
+  {
+   "d": "10/29",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “80カフェやホテルのフリーWi-Fi、今も危ないの？”"
+  },
+  {
+   "d": "10/30",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “84実録Day16 広告をだけ使った日”"
+  },
+  {
+   "d": "10/30",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita article published: “13 縦動画の字幕に合わせてVOICEVOXの声を置き…-16 LUFSにそろえる”"
+  },
+  {
+   "d": "10/30",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “82塗料の必要量と缶数の計算方法”"
+  },
+  {
+   "d": "10/30",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “83配管の必要本数の計算方法”"
+  },
+  {
+   "d": "10/31",
+   "t": null,
+   "kind": "Free tools",
+   "s": "Free tool published: “建設の数量計算”"
+  },
+  {
+   "d": "10/31",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “85実録Day17 声を入れたら、動画が回り出した”"
+  },
+  {
+   "d": "10/31",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “86残土の量とダンプの台数の計算方法”"
+  },
+  {
+   "d": "10/31",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita article published: “14 数量の切り上げと浮動小数点の誤差”"
+  },
+  {
+   "d": "10/31",
+   "t": null,
+   "kind": "Hatena",
+   "s": "Hatena post published: “はてな 残土のダンプ台数、ほぐし率を掛け忘れると足りなくなる”"
+  },
+  {
+   "d": "10/31",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “87壁紙（クロス）の必要な長さの計算方法”"
+  },
+  {
+   "d": "11/1",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “実録Day18（有料）”"
+  },
+  {
+   "d": "11/1",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “89 生コン量とミキサー車（無料）”"
+  },
+  {
+   "d": "11/1",
+   "t": null,
+   "kind": "Hatena",
+   "s": "Hatena post published: “はてな 生コンの量、厚みをcmのまま”"
+  },
+  {
+   "d": "11/1",
+   "t": null,
+   "kind": "Free tools",
+   "s": "Free tool published: “フリーランス・個人事業主スタジオ（見本）”"
+  },
+  {
+   "d": "11/1",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “90 床タイルの必要枚数（無料）”"
+  },
+  {
+   "d": "11/2",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “実録Day19（有料）”"
+  },
+  {
+   "d": "11/2",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “91 足場の面積（無料）”"
+  },
+  {
+   "d": "11/2",
+   "t": null,
+   "kind": "Hatena",
+   "s": "Hatena post published: “はてな 足場の面積”"
+  },
+  {
+   "d": "11/2",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “92 在庫日数（無料）”"
+  },
+  {
+   "d": "11/3",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “実録Day20（有料）”"
+  },
+  {
+   "d": "11/3",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “93 粗利率から売値（無料）”"
+  },
+  {
+   "d": "11/3",
+   "t": null,
+   "kind": "Hatena",
+   "s": "Hatena post published: “はてな 外壁塗装の見積書の項目と単位”"
+  },
+  {
+   "d": "11/3",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita article published: “15 動画にオープニングを足す（ffmpeg）”"
+  },
+  {
+   "d": "11/3",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “95 AIに頼むときの止める所（無料）”"
   }
  ],
  "queue": {
-  "total": 9,
+  "total": 0,
   "by_channel": {
    "Threads": 0,
-   "X": 9,
+   "X": 0,
    "Instagram": 0
   },
-  "by_day": [
-   {
-    "d": "2026-11-02",
-    "Threads": 0,
-    "X": 5,
-    "Instagram": 0
-   },
-   {
-    "d": "2026-11-03",
-    "Threads": 0,
-    "X": 4,
-    "Instagram": 0
-   }
-  ]
+  "by_day": []
  },
  "products": {
   "total": 15,
