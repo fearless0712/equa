@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records.",
- "today": "2026-11-04",
- "built": "2026-11-04 00:14",
+ "today": "2026-11-05",
+ "built": "2026-11-05 00:41",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -20,7 +20,7 @@
  ],
  "published": {
   "today": 0,
-  "total": 166,
+  "total": 173,
   "kinds_today": {
    "Blog": 0,
    "Free tools": 0,
@@ -33,10 +33,10 @@
    "EQUA site": 0
   },
   "kinds_all": {
-   "Blog": 71,
-   "Free tools": 28,
-   "note": 41,
-   "Qiita": 11,
+   "Blog": 72,
+   "Free tools": 30,
+   "note": 44,
+   "Qiita": 12,
    "Hatena": 7,
    "X": 0,
    "Threads": 4,
@@ -44,10 +44,6 @@
    "EQUA site": 1
   },
   "week": [
-   {
-    "d": "2026-10-29",
-    "n": 4
-   },
    {
     "d": "2026-10-30",
     "n": 4
@@ -70,54 +66,16 @@
    },
    {
     "d": "2026-11-04",
+    "n": 7
+   },
+   {
+    "d": "2026-11-05",
     "n": 0
    }
   ],
   "today_items": []
  },
  "log": [
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “建設業許可の更新はいつまで”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Qiita",
-   "s": "Qiita article published: “Threads APIで動画投稿”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “Excelで工期（稼働日）を数える”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “中古車の原価と粗利”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Free tools",
-   "s": "Free tool published: “車検の日付計算”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “工事写真台帳の作り方”"
-  },
-  {
-   "d": "10/22",
-   "t": null,
-   "kind": "Blog",
-   "s": "English blog post published: “WORKDAY.INTL”"
-  },
   {
    "d": "10/25",
    "t": null,
@@ -435,6 +393,48 @@
    "t": null,
    "kind": "note",
    "s": "note article published: “95 AIに頼むときの止める所（無料）”"
+  },
+  {
+   "d": "11/4",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “実録Day21”"
+  },
+  {
+   "d": "11/4",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita article published: “16 YouTube Data APIで予約投稿（Python）”"
+  },
+  {
+   "d": "11/4",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “96 見られる題材と売る物のずれ（無料）”"
+  },
+  {
+   "d": "11/4",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “99 加重平均（SUMPRODUCT）”"
+  },
+  {
+   "d": "11/4",
+   "t": null,
+   "kind": "Free tools",
+   "s": "English free tool published: “Drawdown recovery calculator（英語）”"
+  },
+  {
+   "d": "11/4",
+   "t": null,
+   "kind": "Blog",
+   "s": "English blog post published: “drawdown recovery table”"
+  },
+  {
+   "d": "11/4",
+   "t": null,
+   "kind": "Free tools",
+   "s": "English free tool published: “Trading Studio 英語見本”"
   }
  ],
  "queue": {
