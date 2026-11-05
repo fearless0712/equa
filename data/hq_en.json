@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records.",
- "today": "2026-11-05",
- "built": "2026-11-05 01:56",
+ "today": "2026-11-06",
+ "built": "2026-11-06 00:40",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -20,7 +20,7 @@
  ],
  "published": {
   "today": 0,
-  "total": 173,
+  "total": 177,
   "kinds_today": {
    "Blog": 0,
    "Free tools": 0,
@@ -34,8 +34,8 @@
   },
   "kinds_all": {
    "Blog": 72,
-   "Free tools": 30,
-   "note": 44,
+   "Free tools": 31,
+   "note": 47,
    "Qiita": 12,
    "Hatena": 7,
    "X": 0,
@@ -44,10 +44,6 @@
    "EQUA site": 1
   },
   "week": [
-   {
-    "d": "2026-10-30",
-    "n": 4
-   },
    {
     "d": "2026-10-31",
     "n": 6
@@ -70,36 +66,16 @@
    },
    {
     "d": "2026-11-05",
+    "n": 4
+   },
+   {
+    "d": "2026-11-06",
     "n": 0
    }
   ],
   "today_items": []
  },
  "log": [
-  {
-   "d": "10/25",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “67 2段階認証の6桁”"
-  },
-  {
-   "d": "10/25",
-   "t": null,
-   "kind": "Blog",
-   "s": "Blog post published: “Excelで外れ値”"
-  },
-  {
-   "d": "10/25",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “68 ピボットテーブル”"
-  },
-  {
-   "d": "10/25",
-   "t": null,
-   "kind": "Free tools",
-   "s": "Free tool published: “IGまとめページ”"
-  },
   {
    "d": "10/25",
    "t": null,
@@ -435,6 +411,30 @@
    "t": null,
    "kind": "Free tools",
    "s": "English free tool published: “Trading Studio 英語見本”"
+  },
+  {
+   "d": "11/5",
+   "t": null,
+   "kind": "Free tools",
+   "s": "Free tool published: “作り変えの案内（御社向け）”"
+  },
+  {
+   "d": "11/5",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “100 石膏ボードの枚数”"
+  },
+  {
+   "d": "11/5",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “101 砕石のトン数”"
+  },
+  {
+   "d": "11/5",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “102 減価償却の月割り”"
   }
  ],
  "queue": {
