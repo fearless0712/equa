@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records.",
- "today": "2026-11-13",
- "built": "2026-11-13 00:39",
+ "today": "2026-11-14",
+ "built": "2026-11-14 00:40",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -45,10 +45,6 @@
   },
   "week": [
    {
-    "d": "2026-11-07",
-    "n": 1
-   },
-   {
     "d": "2026-11-08",
     "n": 1
    },
@@ -70,6 +66,10 @@
    },
    {
     "d": "2026-11-13",
+    "n": 0
+   },
+   {
+    "d": "2026-11-14",
     "n": 0
    }
   ],
