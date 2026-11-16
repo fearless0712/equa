@@ -336,16 +336,16 @@
     while (g.firstChild) g.removeChild(g.firstChild);
     var W = 800, H = (NARROW || EMSQ) ? 800 : 500;
     V = EMSQ
-      ? { W: W, H: H, cx: 400, cy: 398, rx: 300, ry: 300, ringIn: 138, ringStep: 17, nodeR: 46, fs: 1.55, nfs: 2.2, cfs: 1.9, core: 96 }
+      ? { W: W, H: H, cx: 400, cy: 398, rx: 300, ry: 300, ringIn: 154, ringStep: 14, labelR: 134, nodeR: 46, fs: 1.55, nfs: 2.2, cfs: 1.9, core: 96 }
       : NARROW
-      ? { W: W, H: H, cx: 400, cy: 404, rx: 312, ry: 320, ringIn: 150, ringStep: 17, nodeR: 42, fs: 1.55, core: 92 }
-      : { W: W, H: H, cx: 400, cy: 252, rx: 322, ry: 172, ringIn: 104, ringStep: 12, nodeR: 27, fs: 1, nfs: EMBED ? 1.25 : 1, cfs: EMBED ? 1.15 : 1, core: 66 };
+      ? { W: W, H: H, cx: 400, cy: 404, rx: 312, ry: 320, ringIn: 150, ringStep: 16, labelR: 130, nodeR: 42, fs: 1.55, core: 92 }
+      : { W: W, H: H, cx: 400, cy: 252, rx: 322, ry: 172, ringIn: 110, ringStep: 11, labelR: 98, nodeR: 27, fs: 1, nfs: EMBED ? 1.25 : 1, cfs: EMBED ? 1.15 : 1, core: 66 };
     V.nfs = V.nfs || V.fs; V.cfs = V.cfs || V.fs;
     var TAB = EMBED ? {} : { tabindex: '0', role: 'button' };
     g.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
     V.ringOut = V.ringIn + V.ringStep * 5;
     V.tickR = V.ringOut + 10;
-    V.labelR = V.ringOut + 24 * V.fs;
+    // 時刻の数字は内側の輪（中央の円と部署の軌道のあいだ）に置き、外側の部署の丸と重ならないようにする
     var defs = s('defs', {}, g);
     ORDER.forEach(function (id) {
       var rg = s('radialGradient', { id: 'halo-' + id }, defs);
