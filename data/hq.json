@@ -1,7 +1,7 @@
 {
  "about": "EQUA司令塔の公開データ。公開済みの記録から自動で作成。",
  "today": "2026-11-17",
- "built": "2026-11-17 01:01",
+ "built": "2026-11-17 06:35",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -20,7 +20,7 @@
  ],
  "published": {
   "today": 0,
-  "total": 182,
+  "total": 198,
   "kinds_today": {
    "ブログ": 0,
    "無料ツール": 0,
@@ -35,9 +35,9 @@
   "kinds_all": {
    "ブログ": 72,
    "無料ツール": 31,
-   "note": 52,
-   "Qiita": 12,
-   "はてな": 7,
+   "note": 62,
+   "Qiita": 15,
+   "はてな": 10,
    "X": 0,
    "Threads": 4,
    "Instagram": 3,
@@ -50,23 +50,23 @@
    },
    {
     "d": "2026-11-12",
-    "n": 0
+    "n": 1
    },
    {
     "d": "2026-11-13",
-    "n": 0
+    "n": 1
    },
    {
     "d": "2026-11-14",
-    "n": 0
+    "n": 2
    },
    {
     "d": "2026-11-15",
-    "n": 0
+    "n": 4
    },
    {
     "d": "2026-11-16",
-    "n": 0
+    "n": 2
    },
    {
     "d": "2026-11-17",
@@ -76,102 +76,6 @@
   "today_items": []
  },
  "log": [
-  {
-   "d": "10/26",
-   "t": null,
-   "kind": "Threads",
-   "s": "Threads投稿『Threads iPhoneストレージ』"
-  },
-  {
-   "d": "10/26",
-   "t": null,
-   "kind": "Instagram",
-   "s": "Instagram投稿『IGリール ExcelのVLOOKUP（03）』"
-  },
-  {
-   "d": "10/26",
-   "t": null,
-   "kind": "Threads",
-   "s": "Threads投稿『Threads スマホを売る前』"
-  },
-  {
-   "d": "10/26",
-   "t": null,
-   "kind": "note",
-   "s": "note公開『71『「リンクを知っている全員」で共有する前に』公開』"
-  },
-  {
-   "d": "10/26",
-   "t": null,
-   "kind": "note",
-   "s": "note公開『72『パソコンが遅いのは「机が狭い」から？』"
-  },
-  {
-   "d": "10/26",
-   "t": null,
-   "kind": "Instagram",
-   "s": "Instagram投稿『IGリール06 車屋スタジオ』"
-  },
-  {
-   "d": "10/27",
-   "t": null,
-   "kind": "note",
-   "s": "note公開『公開』"
-  },
-  {
-   "d": "10/27",
-   "t": null,
-   "kind": "Qiita",
-   "s": "Qiita公開『11『JSONファイル1つでSNSの予約投稿キューを作る：期限の来た分だけ投稿し、二重投稿…』"
-  },
-  {
-   "d": "10/27",
-   "t": null,
-   "kind": "note",
-   "s": "note公開『パスワード、8文字と12文字で何が違う？』"
-  },
-  {
-   "d": "10/27",
-   "t": null,
-   "kind": "note",
-   "s": "note公開『「2か月前」「10営業日後」をExcelで正しく出す』"
-  },
-  {
-   "d": "10/27",
-   "t": null,
-   "kind": "Threads",
-   "s": "Threads投稿『リンクを知っている全員』"
-  },
-  {
-   "d": "10/28",
-   "t": null,
-   "kind": "note",
-   "s": "note公開『04:2x note公開』"
-  },
-  {
-   "d": "10/28",
-   "t": null,
-   "kind": "note",
-   "s": "note公開『08:4x VLOOKUPで #N/A が出たときの直し方』"
-  },
-  {
-   "d": "10/28",
-   "t": null,
-   "kind": "note",
-   "s": "note公開『15:4x 「不審なログインがありました」と通知が来たら？』"
-  },
-  {
-   "d": "10/28",
-   "t": null,
-   "kind": "無料ツール",
-   "s": "無料ツール公開『支払期日の計算ツール』"
-  },
-  {
-   "d": "10/28",
-   "t": null,
-   "kind": "無料ツール",
-   "s": "無料ツール公開『建設スタジオ 無料版』"
-  },
   {
    "d": "10/29",
    "t": null,
@@ -188,7 +92,7 @@
    "d": "10/29",
    "t": null,
    "kind": "Qiita",
-   "s": "Qiita公開『12 パソコン用アプリのダウンロードページで、スマホの人にだけ「自分に送る」案内を出す』"
+   "s": "Qiita公開『パソコン用アプリのダウンロードページで、スマホの人にだけ「自分に送る」案内を出す』"
   },
   {
    "d": "10/29",
@@ -206,7 +110,7 @@
    "d": "10/30",
    "t": null,
    "kind": "Qiita",
-   "s": "Qiita公開『13 縦動画の字幕に合わせてVOICEVOXの声を置き…-16 LUFSにそろえる』"
+   "s": "Qiita公開『縦動画の字幕に合わせてVOICEVOXの声を置き…-16 LUFSにそろえる』"
   },
   {
    "d": "10/30",
@@ -242,7 +146,7 @@
    "d": "10/31",
    "t": null,
    "kind": "Qiita",
-   "s": "Qiita公開『14 数量の切り上げと浮動小数点の誤差』"
+   "s": "Qiita公開『数量の切り上げと浮動小数点の誤差』"
   },
   {
    "d": "10/31",
@@ -266,7 +170,7 @@
    "d": "11/1",
    "t": null,
    "kind": "note",
-   "s": "note公開『89 生コン量とミキサー車（無料）』"
+   "s": "note公開『生コン量とミキサー車（無料）』"
   },
   {
    "d": "11/1",
@@ -284,7 +188,7 @@
    "d": "11/1",
    "t": null,
    "kind": "note",
-   "s": "note公開『90 床タイルの必要枚数（無料）』"
+   "s": "note公開『床タイルの必要枚数（無料）』"
   },
   {
    "d": "11/2",
@@ -296,7 +200,7 @@
    "d": "11/2",
    "t": null,
    "kind": "note",
-   "s": "note公開『91 足場の面積（無料）』"
+   "s": "note公開『足場の面積（無料）』"
   },
   {
    "d": "11/2",
@@ -308,7 +212,7 @@
    "d": "11/2",
    "t": null,
    "kind": "note",
-   "s": "note公開『92 在庫日数（無料）』"
+   "s": "note公開『在庫日数（無料）』"
   },
   {
    "d": "11/3",
@@ -320,7 +224,7 @@
    "d": "11/3",
    "t": null,
    "kind": "note",
-   "s": "note公開『93 粗利率から売値（無料）』"
+   "s": "note公開『粗利率から売値（無料）』"
   },
   {
    "d": "11/3",
@@ -332,13 +236,13 @@
    "d": "11/3",
    "t": null,
    "kind": "Qiita",
-   "s": "Qiita公開『15 動画にオープニングを足す（ffmpeg）』"
+   "s": "Qiita公開『動画にオープニングを足す（ffmpeg）』"
   },
   {
    "d": "11/3",
    "t": null,
    "kind": "note",
-   "s": "note公開『95 AIに頼むときの止める所（無料）』"
+   "s": "note公開『AIに頼むときの止める所（無料）』"
   },
   {
    "d": "11/4",
@@ -350,19 +254,19 @@
    "d": "11/4",
    "t": null,
    "kind": "Qiita",
-   "s": "Qiita公開『16 YouTube Data APIで予約投稿（Python）』"
+   "s": "Qiita公開『YouTube Data APIで予約投稿（Python）』"
   },
   {
    "d": "11/4",
    "t": null,
    "kind": "note",
-   "s": "note公開『96 見られる題材と売る物のずれ（無料）』"
+   "s": "note公開『見られる題材と売る物のずれ（無料）』"
   },
   {
    "d": "11/4",
    "t": null,
    "kind": "note",
-   "s": "note公開『99 加重平均（SUMPRODUCT）』"
+   "s": "note公開『加重平均（SUMPRODUCT）』"
   },
   {
    "d": "11/4",
@@ -392,25 +296,37 @@
    "d": "11/5",
    "t": null,
    "kind": "note",
-   "s": "note公開『100 石膏ボードの枚数』"
+   "s": "note公開『石膏ボードの枚数』"
   },
   {
    "d": "11/5",
    "t": null,
    "kind": "note",
-   "s": "note公開『101 砕石のトン数』"
+   "s": "note公開『砕石のトン数』"
   },
   {
    "d": "11/5",
    "t": null,
    "kind": "note",
-   "s": "note公開『102 減価償却の月割り』"
+   "s": "note公開『減価償却の月割り』"
+  },
+  {
+   "d": "11/5",
+   "t": null,
+   "kind": "はてな",
+   "s": "はてな公開『年の途中で買ったパソコンの減価償却』"
+  },
+  {
+   "d": "11/6",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『スマホが急につながらないとき』"
   },
   {
    "d": "11/7",
    "t": null,
    "kind": "note",
-   "s": "note公開『106 Excelの日付が数字になる』"
+   "s": "note公開『Excelの日付が数字になる』"
   },
   {
    "d": "11/8",
@@ -422,19 +338,103 @@
    "d": "11/9",
    "t": null,
    "kind": "note",
-   "s": "note公開『107 当たり1%のくじを100回引いたら』"
+   "s": "note公開『当たり1%のくじを100回引いたら』"
+  },
+  {
+   "d": "11/9",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita公開『同じ動画を2回アップロードしないための小さなガード』"
+  },
+  {
+   "d": "11/9",
+   "t": null,
+   "kind": "はてな",
+   "s": "はてな公開『1TB買ったのにパソコンでは931GB？』"
   },
   {
    "d": "11/10",
    "t": null,
    "kind": "note",
-   "s": "note公開『105 売値と粗利の計算表の作り方』"
+   "s": "note公開『売値と粗利の計算表の作り方』"
+  },
+  {
+   "d": "11/10",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita公開『ランダムな4桁の番号は何人でかぶるか』"
+  },
+  {
+   "d": "11/10",
+   "t": null,
+   "kind": "はてな",
+   "s": "はてな公開『投資信託の手数料、年1%と0.1%の差は30年でいくら？』"
   },
   {
    "d": "11/11",
    "t": null,
    "kind": "note",
-   "s": "note公開『109 1TBなのに931GB』"
+   "s": "note公開『1TBなのに931GB』"
+  },
+  {
+   "d": "11/12",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『USBに4GB以上のファイルがコピーできない原因と直し方』"
+  },
+  {
+   "d": "11/13",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『128GBのスマホで実際に使える容量は？』"
+  },
+  {
+   "d": "11/14",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『スマホを毎日充電すると1年で何回分』"
+  },
+  {
+   "d": "11/14",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『1Gbpsの光回線なら1GBは何秒』"
+  },
+  {
+   "d": "11/15",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『実録Day27-32』"
+  },
+  {
+   "d": "11/15",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『8Kテレビは何倍』"
+  },
+  {
+   "d": "11/15",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『99%見抜く警告の本当の確率』"
+  },
+  {
+   "d": "11/15",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita公開『Threads API でリンクのクリック数を取る』"
+  },
+  {
+   "d": "11/16",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『値段そのままで量が1割減ったら何%の値上げ』"
+  },
+  {
+   "d": "11/16",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『クーポン2枚、使う順番で払う金額は変わる？』"
   }
  ],
  "queue": {
@@ -458,5 +458,1052 @@
     "n": 6
    }
   ]
- }
+ },
+ "v": 2,
+ "schedule": {
+  "depts": [
+   {
+    "id": "sns",
+    "ja": "SNS部",
+    "en": "Social"
+   },
+   {
+    "id": "studio",
+    "ja": "制作部",
+    "en": "Studio"
+   },
+   {
+    "id": "biz",
+    "ja": "営業部",
+    "en": "Sales"
+   },
+   {
+    "id": "dev",
+    "ja": "開発部",
+    "en": "Development"
+   },
+   {
+    "id": "pr",
+    "ja": "広報部",
+    "en": "Publishing"
+   },
+   {
+    "id": "admin",
+    "ja": "管理部",
+    "en": "Operations"
+   }
+  ],
+  "jobs": [
+   {
+    "id": "line",
+    "dept": "biz",
+    "ja": "LINEの新着確認",
+    "en": "Check new LINE messages",
+    "times": [
+     "07:27",
+     "08:27",
+     "09:27",
+     "10:27",
+     "11:27",
+     "12:27",
+     "13:27",
+     "14:27",
+     "15:27",
+     "16:27",
+     "17:27",
+     "18:27",
+     "19:27",
+     "20:27",
+     "21:27",
+     "22:27",
+     "23:27"
+    ],
+    "days": null,
+    "proof": null
+   },
+   {
+    "id": "daily",
+    "dept": "admin",
+    "ja": "日次の集計と司令塔の更新",
+    "en": "Daily tally & HQ refresh",
+    "times": [
+     "00:03"
+    ],
+    "days": null,
+    "proof": "hq"
+   },
+   {
+    "id": "sync",
+    "dept": "admin",
+    "ja": "データの同期",
+    "en": "Data sync",
+    "times": [
+     "02:37"
+    ],
+    "days": null,
+    "proof": null
+   },
+   {
+    "id": "tt_res",
+    "dept": "sns",
+    "ja": "TikTokの予約（3本）",
+    "en": "Schedule TikTok (3 videos)",
+    "times": [
+     "04:47"
+    ],
+    "days": null,
+    "proof": "tiktok_res"
+   },
+   {
+    "id": "tt_pub",
+    "dept": "sns",
+    "ja": "TikTok 公開",
+    "en": "TikTok goes live",
+    "times": [
+     "06:15",
+     "12:15",
+     "21:15"
+    ],
+    "days": null,
+    "proof": "tiktok"
+   },
+   {
+    "id": "yt_res",
+    "dept": "sns",
+    "ja": "YouTubeショートの予約（5本）",
+    "en": "Schedule YouTube Shorts (5)",
+    "times": [
+     "05:47"
+    ],
+    "days": null,
+    "proof": "yt_res"
+   },
+   {
+    "id": "yt_pub",
+    "dept": "sns",
+    "ja": "YouTubeショート 公開",
+    "en": "YouTube Short goes live",
+    "times": [
+     "07:37",
+     "10:37",
+     "12:37",
+     "15:37",
+     "18:37"
+    ],
+    "days": null,
+    "proof": "yt"
+   },
+   {
+    "id": "x_news",
+    "dept": "sns",
+    "ja": "Xのニュース解説",
+    "en": "X news explainer",
+    "times": [
+     "06:15"
+    ],
+    "days": null,
+    "proof": "x"
+   },
+   {
+    "id": "threads",
+    "dept": "sns",
+    "ja": "Threads 投稿",
+    "en": "Threads post",
+    "times": [
+     "06:15",
+     "12:15",
+     "17:15",
+     "21:15",
+     "23:15"
+    ],
+    "days": null,
+    "proof": "threads"
+   },
+   {
+    "id": "ig_reel",
+    "dept": "sns",
+    "ja": "Instagramリール",
+    "en": "Instagram Reel",
+    "times": [
+     "07:20",
+     "12:20",
+     "20:20"
+    ],
+    "days": null,
+    "proof": "ig"
+   },
+   {
+    "id": "note",
+    "dept": "studio",
+    "ja": "note 公開",
+    "en": "note article goes live",
+    "times": [
+     "08:40",
+     "15:40"
+    ],
+    "days": null,
+    "proof": "note"
+   },
+   {
+    "id": "pr_post",
+    "dept": "pr",
+    "ja": "Qiita・ブログ",
+    "en": "Qiita & blog",
+    "times": [
+     "10:13"
+    ],
+    "days": null,
+    "proof": "pr"
+   },
+   {
+    "id": "scout",
+    "dept": "biz",
+    "ja": "案件の巡回",
+    "en": "Project scouting",
+    "times": [
+     "13:47",
+     "19:47"
+    ],
+    "days": null,
+    "proof": null
+   },
+   {
+    "id": "sns_stats",
+    "dept": "admin",
+    "ja": "SNSの数字の集計",
+    "en": "Social stats tally",
+    "times": [
+     "23:41"
+    ],
+    "days": null,
+    "proof": null
+   },
+   {
+    "id": "long_make",
+    "dept": "studio",
+    "ja": "長い動画の制作",
+    "en": "Long video production",
+    "times": [
+     "01:07"
+    ],
+    "days": [
+     2,
+     6
+    ],
+    "proof": null
+   },
+   {
+    "id": "long_pub",
+    "dept": "studio",
+    "ja": "長い動画 公開",
+    "en": "Long video goes live",
+    "times": [
+     "18:07"
+    ],
+    "days": [
+     3
+    ],
+    "proof": "yt_long"
+   },
+   {
+    "id": "long_pub2",
+    "dept": "studio",
+    "ja": "長い動画 公開",
+    "en": "Long video goes live",
+    "times": [
+     "10:07"
+    ],
+    "days": [
+     0
+    ],
+    "proof": "yt_long"
+   },
+   {
+    "id": "weekly",
+    "dept": "admin",
+    "ja": "週のふりかえり",
+    "en": "Weekly review",
+    "times": [
+     "01:13"
+    ],
+    "days": [
+     0
+    ],
+    "proof": null
+   }
+  ]
+ },
+ "proof": {
+  "daily|00:03": "done",
+  "tt_res|04:47": "done",
+  "tt_pub|06:15": "done",
+  "tt_pub|12:15": "queued",
+  "tt_pub|21:15": "queued",
+  "yt_res|05:47": "done",
+  "yt_pub|07:37": "queued",
+  "yt_pub|10:37": "queued",
+  "yt_pub|12:37": "queued",
+  "yt_pub|15:37": "queued",
+  "yt_pub|18:37": "queued",
+  "x_news|06:15": "done",
+  "threads|06:15": "done",
+  "ig_reel|07:20": "queued",
+  "ig_reel|12:20": "queued",
+  "ig_reel|20:20": "queued"
+ },
+ "depts": [
+  {
+   "id": "sns",
+   "ja": "SNS部",
+   "en": "Social",
+   "sub_ja": "Threads・Instagram・X・TikTok・YouTube",
+   "sub_en": "Threads · Instagram · X · TikTok · YouTube",
+   "stats": [
+    {
+     "k": "threads",
+     "today": 1,
+     "total": 70
+    },
+    {
+     "k": "ig",
+     "today": 0,
+     "total": 50,
+     "queued": 6
+    },
+    {
+     "k": "x",
+     "today": 1,
+     "total": 16
+    },
+    {
+     "k": "tiktok",
+     "today": 1,
+     "total": 31
+    },
+    {
+     "k": "yt",
+     "today": 0,
+     "total": 60,
+     "queued": 6
+    }
+   ],
+   "recent": [
+    {
+     "d": "2026-11-16",
+     "kind": "Instagram",
+     "title": "2038年にパソコンの時計が止まる？ 2038年問題とは",
+     "url": "https://www.instagram.com/reel/DfzPrd4Iurj/"
+    },
+    {
+     "d": "2026-11-16",
+     "kind": "Instagram",
+     "title": "預金の利息3,000円、全部受け取れる？ 利息にかかる税金",
+     "url": "https://www.instagram.com/reel/DfyYpZvh0fQ/"
+    },
+    {
+     "d": "2026-11-16",
+     "kind": "Instagram",
+     "title": "「2個目半額」は全部で何%引き？",
+     "url": "https://www.instagram.com/reel/Dfx2zlFB4lb/"
+    },
+    {
+     "d": "2026-11-16",
+     "kind": "YouTube",
+     "title": "128GBのスマホ、実際に使えるのはどれくらい？",
+     "url": "https://youtu.be/-EBwE9NxA88"
+    },
+    {
+     "d": "2026-11-16",
+     "kind": "YouTube",
+     "title": "クーポン2枚、使う順番で払う金額は変わる？",
+     "url": "https://youtu.be/Xxh8EVSneVw"
+    },
+    {
+     "d": "2026-11-16",
+     "kind": "YouTube",
+     "title": "スマホを毎日充電すると、1年で充電365回分？ 充電の回数の数え方",
+     "url": "https://youtu.be/sBoCRoBqNWI"
+    }
+   ],
+   "week": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    17,
+    3
+   ]
+  },
+  {
+   "id": "studio",
+   "ja": "制作部",
+   "en": "Studio",
+   "sub_ja": "リール・長い動画・note",
+   "sub_en": "Reels · long videos · note",
+   "stats": [
+    {
+     "k": "reels",
+     "today": 0,
+     "total": 56
+    },
+    {
+     "k": "long",
+     "today": 0,
+     "total": 6,
+     "queued": 1
+    },
+    {
+     "k": "note",
+     "today": 0,
+     "total": 62
+    }
+   ],
+   "recent": [
+    {
+     "d": "2026-11-16",
+     "kind": "note",
+     "title": "クーポン2枚、使う順番で払う金額は変わる？"
+    },
+    {
+     "d": "2026-11-16",
+     "kind": "note",
+     "title": "値段そのままで量が1割減ったら何%の値上げ"
+    },
+    {
+     "d": "2026-11-15",
+     "kind": "YouTube",
+     "title": "IT・AI用語集 セキュリティ13語",
+     "url": "https://youtu.be/srDfVZtIjgo"
+    },
+    {
+     "d": "2026-11-15",
+     "kind": "note",
+     "title": "99%見抜く警告の本当の確率"
+    },
+    {
+     "d": "2026-11-15",
+     "kind": "note",
+     "title": "8Kテレビは何倍"
+    },
+    {
+     "d": "2026-11-11",
+     "kind": "YouTube",
+     "title": "IT・AI用語集",
+     "url": "https://youtu.be/tCPowSMT4k8"
+    }
+   ],
+   "week": [
+    2,
+    1,
+    1,
+    2,
+    4,
+    2,
+    0
+   ]
+  },
+  {
+   "id": "biz",
+   "ja": "営業部",
+   "en": "Sales",
+   "sub_ja": "問い合わせ・案件の巡回と応募",
+   "sub_en": "Inquiries · project scouting",
+   "stats": [],
+   "recent": [],
+   "week": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "dev",
+   "ja": "開発部",
+   "en": "Development",
+   "sub_ja": "無料ツール・業種別スタジオ・自動返信",
+   "sub_en": "Free tools · industry studios · auto-replies",
+   "stats": [
+    {
+     "k": "tools",
+     "today": 0,
+     "total": 31
+    },
+    {
+     "k": "studio_tools",
+     "total": 16
+    }
+   ],
+   "recent": [
+    {
+     "d": "2026-11-05",
+     "kind": "無料ツール",
+     "title": "作り変えの案内（御社向け）",
+     "url": "https://tools.equaglobal.com/studio/custom/"
+    },
+    {
+     "d": "2026-11-04",
+     "kind": "無料ツール",
+     "title": "Trading Studio 英語見本",
+     "url": "https://tools.equaglobal.com/studio/trading/"
+    },
+    {
+     "d": "2026-11-04",
+     "kind": "無料ツール",
+     "title": "Drawdown recovery calculator（英語）",
+     "url": "https://tools.equaglobal.com/drawdown-recovery/"
+    },
+    {
+     "d": "2026-11-01",
+     "kind": "無料ツール",
+     "title": "フリーランス・個人事業主スタジオ（見本）",
+     "url": "https://tools.equaglobal.com/studio/freelance/"
+    },
+    {
+     "d": "2026-10-31",
+     "kind": "無料ツール",
+     "title": "建設の数量計算",
+     "url": "https://tools.equaglobal.com/suryo/"
+    },
+    {
+     "d": "2026-10-28",
+     "kind": "無料ツール",
+     "title": "建設スタジオ 無料版",
+     "url": "https://tools.equaglobal.com/studio/kensetsu/free/"
+    }
+   ],
+   "week": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "pr",
+   "ja": "広報部",
+   "en": "Publishing",
+   "sub_ja": "ブログ・Qiita・はてな",
+   "sub_en": "Blog · Qiita · Hatena",
+   "stats": [
+    {
+     "k": "blog",
+     "today": 0,
+     "total": 72
+    },
+    {
+     "k": "qiita",
+     "today": 0,
+     "total": 15
+    },
+    {
+     "k": "hatena",
+     "today": 0,
+     "total": 10
+    }
+   ],
+   "recent": [
+    {
+     "d": "2026-11-15",
+     "kind": "Qiita",
+     "title": "Threads API でリンクのクリック数を取る"
+    },
+    {
+     "d": "2026-11-10",
+     "kind": "はてな",
+     "title": "投資信託の手数料、年1%と0.1%の差は30年でいくら？"
+    },
+    {
+     "d": "2026-11-10",
+     "kind": "Qiita",
+     "title": "ランダムな4桁の番号は何人でかぶるか"
+    },
+    {
+     "d": "2026-11-09",
+     "kind": "はてな",
+     "title": "1TB買ったのにパソコンでは931GB？"
+    },
+    {
+     "d": "2026-11-09",
+     "kind": "Qiita",
+     "title": "同じ動画を2回アップロードしないための小さなガード"
+    },
+    {
+     "d": "2026-11-05",
+     "kind": "はてな",
+     "title": "年の途中で買ったパソコンの減価償却"
+    }
+   ],
+   "week": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "admin",
+   "ja": "管理部",
+   "en": "Operations",
+   "sub_ja": "集計・同期・記録",
+   "sub_en": "Tallies · sync · records",
+   "stats": [],
+   "recent": [],
+   "week": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "kpi": [
+  {
+   "id": "ig_followers",
+   "v": 3869,
+   "delta": 83,
+   "prev_d": "2026-11-16",
+   "asof": "2026-11-17",
+   "series": [
+    {
+     "d": "2026-10-22",
+     "v": 1218
+    },
+    {
+     "d": "2026-11-01",
+     "v": 1266
+    },
+    {
+     "d": "2026-11-02",
+     "v": 1267
+    },
+    {
+     "d": "2026-11-06",
+     "v": 1752
+    },
+    {
+     "d": "2026-11-07",
+     "v": 2665
+    },
+    {
+     "d": "2026-11-08",
+     "v": 3037
+    },
+    {
+     "d": "2026-11-09",
+     "v": 3268
+    },
+    {
+     "d": "2026-11-10",
+     "v": 3366
+    },
+    {
+     "d": "2026-11-11",
+     "v": 3452
+    },
+    {
+     "d": "2026-11-13",
+     "v": 3564
+    },
+    {
+     "d": "2026-11-14",
+     "v": 3632
+    },
+    {
+     "d": "2026-11-15",
+     "v": 3710
+    },
+    {
+     "d": "2026-11-16",
+     "v": 3786
+    },
+    {
+     "d": "2026-11-17",
+     "v": 3869
+    }
+   ]
+  },
+  {
+   "id": "tt_followers",
+   "v": 5447,
+   "delta": -1,
+   "prev_d": "2026-11-15",
+   "asof": "2026-11-16",
+   "series": [
+    {
+     "d": "2026-11-15",
+     "v": 5448
+    },
+    {
+     "d": "2026-11-16",
+     "v": 5447
+    }
+   ]
+  },
+  {
+   "id": "week_published",
+   "v": 46,
+   "breakdown": {
+    "reels": 18,
+    "shorts": 16,
+    "long": 2,
+    "note": 10,
+    "blog": 0,
+    "tools": 0
+   },
+   "asof": "2026-11-17",
+   "series": [
+    {
+     "d": "2026-11-11",
+     "v": 8
+    },
+    {
+     "d": "2026-11-12",
+     "v": 6
+    },
+    {
+     "d": "2026-11-13",
+     "v": 6
+    },
+    {
+     "d": "2026-11-14",
+     "v": 7
+    },
+    {
+     "d": "2026-11-15",
+     "v": 9
+    },
+    {
+     "d": "2026-11-16",
+     "v": 10
+    },
+    {
+     "d": "2026-11-17",
+     "v": 0
+    }
+   ]
+  },
+  {
+   "id": "tools_total",
+   "v": 31,
+   "asof": "2026-11-17",
+   "series": [
+    {
+     "d": "2026-11-04",
+     "v": 30
+    },
+    {
+     "d": "2026-11-05",
+     "v": 31
+    },
+    {
+     "d": "2026-11-06",
+     "v": 31
+    },
+    {
+     "d": "2026-11-07",
+     "v": 31
+    },
+    {
+     "d": "2026-11-08",
+     "v": 31
+    },
+    {
+     "d": "2026-11-09",
+     "v": 31
+    },
+    {
+     "d": "2026-11-10",
+     "v": 31
+    },
+    {
+     "d": "2026-11-11",
+     "v": 31
+    },
+    {
+     "d": "2026-11-12",
+     "v": 31
+    },
+    {
+     "d": "2026-11-13",
+     "v": 31
+    },
+    {
+     "d": "2026-11-14",
+     "v": 31
+    },
+    {
+     "d": "2026-11-15",
+     "v": 31
+    },
+    {
+     "d": "2026-11-16",
+     "v": 31
+    },
+    {
+     "d": "2026-11-17",
+     "v": 31
+    }
+   ]
+  },
+  {
+   "id": "jobs_today",
+   "client": true
+  }
+ ],
+ "activity": [
+  {
+   "t": "2026-11-17 06:24",
+   "dept": "sns",
+   "kind": "X",
+   "title": "ゆうちょ銀行の1年の定期貯金の金利が、11月9日から年0.5%→0.7%に上がりました"
+  },
+  {
+   "t": "2026-11-17 06:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-17 06:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "当たりが1%のくじ、100回引けば必ず当たる？"
+  },
+  {
+   "t": "2026-11-16 23:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-16 21:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "zipはなぜ小さくなる？"
+  },
+  {
+   "t": "2026-11-16 20:53",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-16 20:25",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "2038年にパソコンの時計が止まる？ 2038年問題とは",
+   "url": "https://www.instagram.com/reel/DfzPrd4Iurj/"
+  },
+  {
+   "t": "2026-11-16 18:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "128GBのスマホ、実際に使えるのはどれくらい？",
+   "url": "https://youtu.be/-EBwE9NxA88"
+  },
+  {
+   "t": "2026-11-16 16:59",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-16 15:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "クーポン2枚、使う順番で払う金額は変わる？",
+   "url": "https://youtu.be/Xxh8EVSneVw"
+  },
+  {
+   "t": "2026-11-16 12:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "スマホを毎日充電すると、1年で充電365回分？ 充電の回数の数え方",
+   "url": "https://youtu.be/sBoCRoBqNWI"
+  },
+  {
+   "t": "2026-11-16 12:25",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "預金の利息3,000円、全部受け取れる？ 利息にかかる税金",
+   "url": "https://www.instagram.com/reel/DfyYpZvh0fQ/"
+  },
+  {
+   "t": "2026-11-16 12:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "シンプソンのパラドックスとは？ 全体の成約率で負けているのに、どちらのグループでも勝ってい…"
+  },
+  {
+   "t": "2026-11-16 12:03",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-16 10:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "url": "https://youtu.be/dzHL8YXqkKk"
+  },
+  {
+   "t": "2026-11-16 07:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "値段はそのままで量が1割減ったら、何%の値上げ？",
+   "url": "https://youtu.be/WKU_V7o-IzE"
+  },
+  {
+   "t": "2026-11-16 07:29",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "「2個目半額」は全部で何%引き？",
+   "url": "https://www.instagram.com/reel/Dfx2zlFB4lb/"
+  },
+  {
+   "t": "2026-11-16 06:20",
+   "dept": "sns",
+   "kind": "X",
+   "title": "福岡市長選挙は、1位の人がいたのに当選者が決まらず、選挙をやり直すことになりました"
+  },
+  {
+   "t": "2026-11-16 06:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "税込1,100円・原価700円の商品、粗利率は何%？"
+  },
+  {
+   "t": "2026-11-16 06:07",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-16",
+   "dept": "studio",
+   "kind": "note",
+   "title": "値段そのままで量が1割減ったら何%の値上げ"
+  },
+  {
+   "t": "2026-11-16",
+   "dept": "studio",
+   "kind": "note",
+   "title": "クーポン2枚、使う順番で払う金額は変わる？"
+  },
+  {
+   "t": "2026-11-15 23:10",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-15 21:15",
+   "dept": "sns",
+   "kind": "TikTok"
+  },
+  {
+   "t": "2026-11-15 20:53",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-15 20:37",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "スマホを毎日充電すると、1年で充電365回分？ 充電の回数の数え方",
+   "url": "https://www.instagram.com/reel/DfwsKrTzmBo/"
+  },
+  {
+   "t": "2026-11-15 18:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "不正ログインを99%見抜く仕組み。警告が出たとき、本当に不正の確率は何%？",
+   "url": "https://youtu.be/6GdcDllFvfU"
+  },
+  {
+   "t": "2026-11-15 16:59",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-15 12:51",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "クーポン2枚、使う順番で払う金額は変わる？",
+   "url": "https://www.instagram.com/reel/Dfv23IpuxmJ/"
+  },
+  {
+   "t": "2026-11-15 12:15",
+   "dept": "sns",
+   "kind": "TikTok"
+  },
+  {
+   "t": "2026-11-15 12:03",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-15 10:07",
+   "dept": "studio",
+   "kind": "YouTube",
+   "long": true,
+   "title": "IT・AI用語集 セキュリティ13語",
+   "url": "https://youtu.be/srDfVZtIjgo"
+  },
+  {
+   "t": "2026-11-15 07:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "値段はそのままで量が1割減ったら、何%の値上げ？",
+   "url": "https://www.instagram.com/reel/DfvUmlAoclu/"
+  },
+  {
+   "t": "2026-11-15 07:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "4Kはハイビジョンの4倍。なら8Kテレビは何倍？",
+   "url": "https://youtu.be/pmOj043KFAs"
+  },
+  {
+   "t": "2026-11-15 06:20",
+   "dept": "sns",
+   "kind": "X",
+   "title": "Appleのサイトで買ったiPhoneが合わなかったら、受け取ってから14日以内は返品を申…"
+  },
+  {
+   "t": "2026-11-15 06:15",
+   "dept": "sns",
+   "kind": "TikTok"
+  },
+  {
+   "t": "2026-11-15 06:07",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-15",
+   "dept": "studio",
+   "kind": "note",
+   "title": "実録Day27-32"
+  },
+  {
+   "t": "2026-11-15",
+   "dept": "studio",
+   "kind": "note",
+   "title": "8Kテレビは何倍"
+  },
+  {
+   "t": "2026-11-15",
+   "dept": "studio",
+   "kind": "note",
+   "title": "99%見抜く警告の本当の確率"
+  }
+ ]
 }

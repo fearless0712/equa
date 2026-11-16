@@ -6,73 +6,75 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>EQUA司令塔</title>
-<meta name="description" content="EQUA司令塔：公開している記事・ツール・発信の動きを、公開済みの記録から自動で表示する画面です。">
-<meta name="theme-color" content="#060a12">
+<meta name="description" content="EQUA司令塔：部署ごとの動きと毎日の定期作業を、公開済みの記録から自動で表示する画面です。">
+<meta name="theme-color" content="#05070c">
 <link rel="canonical" href="https://equaglobal.com/hq.html">
 <link rel="alternate" hreflang="ja" href="https://equaglobal.com/hq.html">
 <link rel="alternate" hreflang="en" href="https://equaglobal.com/en/hq.html">
 <link rel="alternate" hreflang="x-default" href="https://equaglobal.com/hq.html">
 <link rel="icon" type="image/png" href="favicon.png?v=202610210023">
-<link rel="stylesheet" href="assets/css/hq.css?v=202610292400">
-<script src="assets/js/hq.js?v=202610292400" defer></script>
+<link rel="stylesheet" href="assets/css/hq.css?v=202611170500">
+<script src="assets/js/hq.js?v=202611170500" defer></script>
 </head>
 <body>
-<div class="rotate-hint" id="rotateHint">横向きにすると、司令塔の全体を表示します</div>
 <div class="vp" id="vp">
 <div class="stage" id="stage">
-<div class="app">
+<div class="app" id="app">
 <header class="hd">
-  <div class="dots" aria-hidden="true"><i></i><i></i><i></i></div>
   <div class="hd-brand">
     <div class="brand"><b>EQUA</b> · Command Center</div>
     <div class="org">運営 <em>Eternal Philosophy</em> ＞ <em>EQUA</em> ＞ <em>MisaNeco Works</em></div>
   </div>
   <h1 class="title">EQUA<span>司令塔</span></h1>
   <div class="sp"></div>
+  <div class="upd" id="upd" title="データの更新時刻"></div>
   <a class="back" href="index.html">EQUAトップへ</a>
-  <div class="live"><i></i>LIVE</div>
+  <div class="live" aria-hidden="true"><i></i>LIVE</div>
   <div class="clock"><div class="t" id="clk">--:--:--</div><div class="d" id="dte">----</div></div>
 </header>
 <main class="grid">
-  <section class="panel flow">
-    <div class="ph"><b>今日の公開</b><span class="r" id="flowN"></span></div>
-    <div class="pb"><ol class="steps" id="steps"></ol><div class="flowfoot" id="flowfoot"></div></div>
+  <aside class="col-l panel" aria-labelledby="kpiH">
+    <div class="ph"><h2 id="kpiH">KPI</h2><span class="r">押すと説明</span></div>
+    <div class="kpis" id="kpis"></div>
+  </aside>
+  <section class="col-c" aria-labelledby="vizH">
+    <div class="panel viz">
+      <div class="ph"><h2 id="vizH">部署と定期作業 · 24時間</h2><div class="scanlog" id="scanlog" aria-hidden="true"><span class="sh">今日の予定をなぞる</span><ol id="scanrows"></ol></div></div>
+      <div class="vizbox" id="vizbox">
+        <div class="legend" id="legend" aria-hidden="true"></div>
+        <svg id="g" role="group" aria-labelledby="vizH"></svg>
+        <canvas id="cv" aria-hidden="true"></canvas>
+        <div class="nextbox" id="nextbox"></div>
+      </div>
+    </div>
+    <div class="depts" id="depts"></div>
   </section>
-  <section class="panel graph">
-    <div class="ph"><b>組織図</b><span>· 承認 → 司令 → 担当 → 発信</span>
-      <span class="r legend"><span><i class="c-am"></i>承認</span><span><i class="c-cy"></i>担当</span><span><i class="c-vi"></i>SNS</span><span><i class="c-gr"></i>記事・ツール</span><span><i class="c-pk"></i>サイト・商品</span></span></div>
-    <div class="pb gpb"><svg id="g" viewBox="0 0 960 520" preserveAspectRatio="xMidYMid meet" role="img" aria-label="組織図：MisaNecoが承認し、司令が担当に振り分け、ブログ・無料ツール・note・Qiita・はてな・X・Threads・Instagram・EQUAサイトへ発信する流れ"></svg></div>
-  </section>
-  <aside class="side">
-    <section class="panel kpip">
-      <div class="ph"><b>KPI</b><span class="r" id="kpiNote"></span></div>
-      <div class="pb"><div class="kpis" id="kpis"></div></div>
+  <aside class="col-r">
+    <section class="panel sched" aria-labelledby="schH">
+      <div class="ph"><h2 id="schH">今日の定期作業</h2><span class="r" id="schedSum"></span></div>
+      <div class="sfilter" id="sfilter" role="toolbar" aria-label="部署で絞りこむ"></div>
+      <ol class="slist" id="sched"></ol>
     </section>
-    <section class="panel queuep">
-      <div class="ph"><b>予約済みの投稿</b><span class="r" id="qNote"></span></div>
-      <div class="pb"><div class="qbars" id="qbars"></div></div>
+    <section class="panel logp" aria-labelledby="logH">
+      <div class="ph"><h2 id="logH">作業ログ</h2><span class="r">公開・投稿の記録</span></div>
+      <ol class="alog" id="log"></ol>
+      <div class="sr" id="live" aria-live="polite"></div>
     </section>
   </aside>
-  <div class="bottom">
-    <section class="panel pubp">
-      <div class="ph"><b>今日公開したもの</b><span class="r" id="pubN"></span></div>
-      <div class="chips" id="chips"></div>
-      <div class="plist" id="plist"><div class="inner" id="pinner"></div></div>
-    </section>
-    <section class="panel logp">
-      <div class="ph"><b>公開ログ</b><span>· 公開済みの記録</span><span class="r" id="logN"></span></div>
-      <div class="log" id="log"></div>
-    </section>
-  </div>
 </main>
 <footer class="ft">
-  <span class="note">表示している数字は公開済みの記録から自動で作っています</span>
+  <span class="note">数字はすべて公開済みの記録から自動で作っています（お金の数字は載せていません）</span>
   <span class="bar" aria-hidden="true"><i></i></span>
   <span class="op">運営 Eternal Philosophy ＞ EQUA ＞ MisaNeco Works</span>
-  <span id="fbuilt"></span>
 </footer>
 </div>
+<div class="scrim" id="scrim" hidden></div>
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="dwTitle" hidden>
+  <div class="dw-hd"><span class="dw-dot" id="dwDot"></span><h2 id="dwTitle"></h2><button type="button" class="dw-x" id="dwClose" aria-label="閉じる">×</button></div>
+  <div class="dw-body" id="dwBody"></div>
 </div>
 </div>
+</div>
+<noscript><p class="nojs">この画面の表示には JavaScript が必要です。</p></noscript>
 </body>
 </html>
