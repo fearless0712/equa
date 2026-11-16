@@ -114,14 +114,17 @@
   /* ---- 画面に合わせて 1600×900 を縮める（スマホ縦は1列） ---- */
   if (EMBED) document.body.classList.add('embed');
   var stage = $('stage');
-  var NARROW = false;
+  var NARROW = false, EMSQ = false;
   function fit() {
     var w = window.innerWidth, ht = window.innerHeight;
     var narrow = !EMBED && w < 760 && ht > w;
-    var changed = narrow !== NARROW;
-    NARROW = narrow;
+    // 埋め込み：真ん中の映像だけを枠いっぱいに。縦横比で「正方形に近い形（スマホ）」と「横長（PC）」を切りかえる
+    var emsq = EMBED && w / Math.max(1, ht - 26) < 1.3;
+    var changed = narrow !== NARROW || emsq !== EMSQ;
+    NARROW = narrow; EMSQ = emsq;
     document.body.classList.toggle('narrow', narrow);
-    if (narrow) stage.style.transform = '';
+    document.body.classList.toggle('emsq', emsq);
+    if (narrow || EMBED) stage.style.transform = '';
     else {
       var sc = Math.min(w / 1600, ht / 900);
       var x = Math.max(0, (w - 1600 * sc) / 2), y = Math.max(0, (ht - 900 * sc) / 2);
@@ -331,10 +334,14 @@
   function buildViz() {
     var g = $('g');
     while (g.firstChild) g.removeChild(g.firstChild);
-    var W = 800, H = NARROW ? 800 : 500;
-    V = NARROW
+    var W = 800, H = (NARROW || EMSQ) ? 800 : 500;
+    V = EMSQ
+      ? { W: W, H: H, cx: 400, cy: 398, rx: 300, ry: 300, ringIn: 138, ringStep: 17, nodeR: 46, fs: 1.55, nfs: 2.2, cfs: 1.9, core: 96 }
+      : NARROW
       ? { W: W, H: H, cx: 400, cy: 404, rx: 312, ry: 320, ringIn: 150, ringStep: 17, nodeR: 42, fs: 1.55, core: 92 }
-      : { W: W, H: H, cx: 400, cy: 252, rx: 322, ry: 172, ringIn: 104, ringStep: 12, nodeR: 27, fs: 1, core: 66 };
+      : { W: W, H: H, cx: 400, cy: 252, rx: 322, ry: 172, ringIn: 104, ringStep: 12, nodeR: 27, fs: 1, nfs: EMBED ? 1.25 : 1, cfs: EMBED ? 1.15 : 1, core: 66 };
+    V.nfs = V.nfs || V.fs; V.cfs = V.cfs || V.fs;
+    var TAB = EMBED ? {} : { tabindex: '0', role: 'button' };
     g.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
     V.ringOut = V.ringIn + V.ringStep * 5;
     V.tickR = V.ringOut + 10;
@@ -388,8 +395,8 @@
     var core = s('g', { class: 'core' }, g);
     s('circle', { cx: V.cx, cy: V.cy, r: V.core + 34, fill: 'url(#coreg)' }, core);
     s('circle', { class: 'c1', cx: V.cx, cy: V.cy, r: V.core, 'stroke-width': 1.2 }, core);
-    var t1 = s('text', { class: 't1', x: V.cx, y: V.cy + 6 * V.fs, 'text-anchor': 'middle', 'font-size': 24 * V.fs }, core); t1.textContent = 'EQUA';
-    var t2 = s('text', { class: 't2', x: V.cx, y: V.cy + 24 * V.fs, 'text-anchor': 'middle', 'font-size': 9.5 * V.fs }, core); t2.textContent = 'HQ · ' + (D ? md(D.today) : '');
+    var t1 = s('text', { class: 't1', x: V.cx, y: V.cy + 6 * V.cfs, 'text-anchor': 'middle', 'font-size': 24 * V.cfs }, core); t1.textContent = 'EQUA';
+    var t2 = s('text', { class: 't2', x: V.cx, y: V.cy + 24 * V.cfs, 'text-anchor': 'middle', 'font-size': 9.5 * V.cfs }, core); t2.textContent = 'HQ · ' + (D ? md(D.today) : '');
     // 予定の点
     var slots = s('g', {}, g);
     SLOT_EL = {};
@@ -398,7 +405,8 @@
       var i = ORDER.indexOf(sl.dept);
       var p = polar(V.ringIn + i * V.ringStep, sl.m / 4);
       var st = slotStatus(sl, now);
-      var gg = s('g', { class: 'slot ' + st, tabindex: '0', role: 'button', 'aria-label': sl.t + ' ' + deptName(sl.dept) + ' ' + jobName(sl.job) + ' ' + L.st[st] }, slots);
+      var gg = s('g', EMBED ? { class: 'slot ' + st } : { class: 'slot ' + st, tabindex: '0', role: 'button', 'aria-label': sl.t + ' ' + deptName(sl.dept) + ' ' + jobName(sl.job) + ' ' + L.st[st] }, slots);
+      if (EMBED) gg.setAttribute('aria-hidden', 'true');
       s('circle', { cx: p[0], cy: p[1], r: 9 * V.fs, fill: 'transparent' }, gg);
       s('circle', { class: 'd', cx: p[0], cy: p[1], r: 3 * V.fs, fill: COL[sl.dept] }, gg);
       gg.addEventListener('click', function () { openJob(sl.job); });
@@ -416,16 +424,17 @@
     ORDER.forEach(function (id) {
       if (!DEPT[id]) return;
       var n = V.nodes[id];
-      var gg = s('g', { class: 'node', tabindex: '0', role: 'button' }, g);
+      var gg = s('g', { class: 'node' }, g);
+      for (var ta in TAB) gg.setAttribute(ta, TAB[ta]);
       s('circle', { class: 'halo', cx: n.x, cy: n.y, r: V.nodeR * 2.1, fill: 'url(#halo-' + id + ')' }, gg);
       s('circle', { class: 'nb', cx: n.x, cy: n.y, r: V.nodeR, stroke: COL[id] }, gg);
       var sc = V.nodeR / 27 * 0.95;
       var ic = s('path', { d: ICON[id], fill: 'none', stroke: COL[id], 'stroke-width': 1.6 / sc * 0.9, 'stroke-linecap': 'round', 'stroke-linejoin': 'round',
         transform: 'translate(' + (n.x - 12 * sc) + ' ' + (n.y - 12 * sc) + ') scale(' + sc + ')' }, gg);
       ic.setAttribute('aria-hidden', 'true');
-      var nm = s('text', { class: 'nm', x: n.x, y: n.y + V.nodeR + 16 * V.fs, 'text-anchor': 'middle', 'font-size': 13 * V.fs }, gg);
+      var nm = s('text', { class: 'nm', x: n.x, y: n.y + V.nodeR + 16 * V.nfs, 'text-anchor': 'middle', 'font-size': 13 * V.nfs }, gg);
       nm.textContent = deptName(id);
-      var ns = s('text', { class: 'ns', x: n.x, y: n.y + V.nodeR + 29 * V.fs, 'text-anchor': 'middle', 'font-size': 9.5 * V.fs }, gg);
+      var ns = s('text', { class: 'ns', x: n.x, y: n.y + V.nodeR + 29 * V.nfs, 'text-anchor': 'middle', 'font-size': 9.5 * V.nfs }, gg);
       gg.addEventListener('click', function () { openDept(id); });
       gg.addEventListener('keydown', keyAct(function () { openDept(id); }));
       NODE_EL[id] = { g: gg, ns: ns, hotUntil: 0 };

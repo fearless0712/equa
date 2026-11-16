@@ -230,8 +230,34 @@ body.narrow .dc .st span{display:inline}
 .dw-body svg.spk{width:100%;height:60px;display:block}
 .dw-body .note{font-size:11px;color:var(--tx3);margin-top:10px}
 
-/* 埋め込み（トップの縮小表示） */
+/* 埋め込み（トップの縮小表示）：真ん中の映像だけを枠いっぱいに。縮めずに、映像（SVG）が枠に合わせて大きくなる */
 body.embed .back,body.embed .scrim,body.embed .drawer{display:none}
+body.embed .stage{width:100%;height:100%;transform:none!important}
+body.embed .app{background-size:auto,32px 32px,32px 32px}
+body.embed .hd{height:26px;gap:10px;padding:0 10px;background:rgba(8,12,21,.7)}
+body.embed .hd-brand,body.embed .upd,body.embed .clock .d{display:none}
+body.embed .title{font-size:11px;letter-spacing:.12em;margin:0}
+body.embed .title span{margin-left:5px}
+body.embed .live{font-size:9px;gap:5px}
+body.embed .live i{width:6px;height:6px}
+body.embed .clock{min-width:0}
+body.embed .clock .t{font-size:12px}
+body.embed .grid{display:flex;padding:0;gap:0}
+body.embed .col-l,body.embed .col-r,body.embed .depts,body.embed .ft,body.embed .viz .ph,body.embed .legend{display:none}
+body.embed .col-c{flex:1}
+body.embed .viz{flex:1;height:auto;border:0;border-radius:0;background:transparent}
+body.embed .viz::before,body.embed .viz::after{display:none}
+body.embed #g .slot,body.embed #g .node{cursor:default}
+body.embed .nextbox{left:12px;top:10px;font-size:11px}
+body.embed .nextbox .nt{font-size:20px}
+/* 正方形に近い枠（スマホ）：円を最大にして、次の予定は下の帯に2行で */
+body.emsq .vizbox svg,body.emsq .vizbox canvas{height:calc(100% - 46px)}
+body.emsq .nextbox{top:auto;left:10px;right:112px;bottom:5px;max-width:none;display:flex;flex-wrap:wrap;align-items:baseline;gap:0 8px;line-height:1.35;font-size:11px}
+body.emsq .nextbox .nl{order:0;font-size:9px;letter-spacing:.12em}
+body.emsq .nextbox .nt{order:1;font-size:16px}
+body.emsq .nextbox .nd{order:2}
+body.emsq .nextbox .nj{order:3;flex:1 1 100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+body.emsq .nextbox .nj~.nj{display:none}
 
 /* 止める */
 body.paused .live i,body.paused .dc .st.on i{animation-play-state:paused}

@@ -1,4 +1,4 @@
-/* トップの EQUA司令塔（縮小表示）。iframe は 16:9、クリックは上の a が受ける */
+/* トップの EQUA司令塔（真ん中の映像だけを表示）。PCは16:9、スマホは円が大きく映る縦長ぎみ（5:6）。クリックは上の a が受ける */
 .hq-embed {
   position: relative; display: block; width: 100%; aspect-ratio: 16 / 9;
   border-radius: 6px; overflow: hidden; background: #060a12;
@@ -15,6 +15,7 @@
 }
 .hq-embed:hover, .hq-embed:focus-visible { box-shadow: var(--glow), 0 18px 50px rgba(0, 0, 0, .55); outline: none; }
 .hq-note { font-size: 12px; color: var(--ink-3); margin: 10px 0 0; line-height: 1.6; }
-@media (max-width: 520px) {
+@media (max-width: 640px) {
+  .hq-embed { aspect-ratio: 5 / 6; }
   .hq-open { right: 6px; bottom: 6px; font-size: 11px; padding: 4px 9px; }
 }
