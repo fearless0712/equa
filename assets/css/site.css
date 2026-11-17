@@ -322,3 +322,8 @@ a.card-link:hover .go { background: rgba(201, 162, 74, .14); color: var(--gold-3
   .juta-bar__btn:hover, .juta-bar__btn:focus-visible { color: #fff; filter: brightness(1.08); }
   .juta-bar__x { flex: 0 0 auto; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line-2); background: transparent; color: var(--ink-2); font-size: 20px; line-height: 1; cursor: pointer; }
 }
+
+/* 11/17 将さん『いきなりLINEの緑のボタンが出てくると違和感、HPのデザインに合わせてゴールドに』→ LINEのボタンもサイトの金色にそろえる */
+.line-btn, .juta-bar__btn { background: var(--gold-grad); color: #14110a; border: 1px solid #e6c77a; box-shadow: none; }
+.site-footer a.line-btn { color: #14110a; }
+.line-btn:hover, .line-btn:focus-visible, .juta-bar__btn:hover, .juta-bar__btn:focus-visible { color: #14110a; filter: brightness(1.06); box-shadow: 0 0 24px rgba(230, 199, 122, .35); }
