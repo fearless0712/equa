@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records.",
- "today": "2026-11-18",
- "built": "2026-11-18 00:39",
+ "today": "2026-11-19",
+ "built": "2026-11-19 00:39",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -20,7 +20,7 @@
  ],
  "published": {
   "today": 0,
-  "total": 201,
+  "total": 203,
   "kinds_today": {
    "Blog": 0,
    "Free tools": 0,
@@ -35,8 +35,8 @@
   "kinds_all": {
    "Blog": 72,
    "Free tools": 31,
-   "note": 63,
-   "Qiita": 16,
+   "note": 64,
+   "Qiita": 17,
    "Hatena": 10,
    "X": 0,
    "Threads": 4,
@@ -44,10 +44,6 @@
    "EQUA site": 2
   },
   "week": [
-   {
-    "d": "2026-11-12",
-    "n": 1
-   },
    {
     "d": "2026-11-13",
     "n": 1
@@ -70,24 +66,16 @@
    },
    {
     "d": "2026-11-18",
+    "n": 2
+   },
+   {
+    "d": "2026-11-19",
     "n": 0
    }
   ],
   "today_items": []
  },
  "log": [
-  {
-   "d": "10/29",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “80カフェやホテルのフリーWi-Fi、今も危ないの？”"
-  },
-  {
-   "d": "10/30",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “84実録Day16 広告をだけ使った日”"
-  },
   {
    "d": "10/30",
    "t": null,
@@ -435,6 +423,18 @@
    "t": null,
    "kind": "EQUA site",
    "s": "EQUA site updated: “業種から選ぶ”"
+  },
+  {
+   "d": "11/18",
+   "t": null,
+   "kind": "note",
+   "s": "note article published: “USBの速さは何で決まる”"
+  },
+  {
+   "d": "11/18",
+   "t": null,
+   "kind": "Qiita",
+   "s": "Qiita article published: “GA4でLINEボタンのクリックと相談欄の表示を数える”"
   }
  ],
  "queue": {
@@ -724,8 +724,7 @@
   "daily|00:03": "done",
   "ig_reel|07:20": "queued",
   "ig_reel|12:20": "queued",
-  "ig_reel|20:20": "queued",
-  "long_pub|18:07": "queued"
+  "ig_reel|20:20": "queued"
  },
  "depts": [
   {
@@ -738,76 +737,76 @@
     {
      "k": "threads",
      "today": 0,
-     "total": 74
+     "total": 79
     },
     {
      "k": "ig",
      "today": 0,
-     "total": 53,
+     "total": 56,
      "queued": 3
     },
     {
      "k": "x",
      "today": 0,
-     "total": 16
+     "total": 17
     },
     {
      "k": "tiktok",
      "today": 0,
-     "total": 33
+     "total": 36
     },
     {
      "k": "yt",
      "today": 0,
-     "total": 65,
-     "queued": 1
+     "total": 69,
+     "queued": 0
     }
    ],
    "recent": [
+    {
+     "d": "2026-11-18",
+     "kind": "Instagram",
+     "title": "半額シールと2割引を重ねたら、何%引き？",
+     "url": "https://www.instagram.com/reel/Df4Z4lAK0It/"
+    },
+    {
+     "d": "2026-11-18",
+     "kind": "Instagram",
+     "title": "「3個買うと1個無料」は、全部で何%引き？",
+     "url": "https://www.instagram.com/reel/Df3jRh1gzrR/"
+    },
+    {
+     "d": "2026-11-18",
+     "kind": "Instagram",
+     "title": "10円玉が実は最強!? 硬貨を溶かすと何円分？ 1円玉1億枚は1億円より上？",
+     "url": "https://www.instagram.com/reel/Df3BfIfoZHR/"
+    },
+    {
+     "d": "2026-11-18",
+     "kind": "YouTube",
+     "title": "1億円は何キロ？ 1円玉だったら何トン？",
+     "url": "https://youtu.be/AwGg0k-bC00"
+    },
+    {
+     "d": "2026-11-18",
+     "kind": "YouTube",
+     "title": "円安で、円の価値は何%下がる？ ドルが25%上がったときの計算",
+     "url": "https://youtu.be/K01O8UP8akY"
+    },
     {
      "d": "2026-11-17",
      "kind": "Instagram",
      "title": "USB 2.0と3.0は何倍速い？ 速さの数字とケーブルの見分け方",
      "url": "https://www.instagram.com/reel/Df11vvaOfsr/"
-    },
-    {
-     "d": "2026-11-17",
-     "kind": "Instagram",
-     "title": "円安で、円の価値は何%下がる？ ドルが25%上がったときの計算",
-     "url": "https://www.instagram.com/reel/Df0_CxLh23E/"
-    },
-    {
-     "d": "2026-11-17",
-     "kind": "Instagram",
-     "title": "1億円は何キロ？ 1円玉だったら何トン？",
-     "url": "https://www.instagram.com/reel/Df0eQFxBE5o/"
-    },
-    {
-     "d": "2026-11-17",
-     "kind": "YouTube",
-     "title": "預金の利息3,000円、全部受け取れる？ 利息にかかる税金",
-     "url": "https://youtu.be/YvNHdEVrHGc"
-    },
-    {
-     "d": "2026-11-17",
-     "kind": "YouTube",
-     "title": "カードの12回払い、手数料「100円あたり8円ちょっと」は年何%？",
-     "url": "https://youtu.be/wt_dQBZatmA"
-    },
-    {
-     "d": "2026-11-17",
-     "kind": "YouTube",
-     "title": "「2個目半額」は全部で何%引き？",
-     "url": "https://youtu.be/_PfTFt_sAQA"
     }
    ],
    "week": [
     14,
     14,
     14,
-    14,
     17,
     17,
+    16,
     0
    ]
   },
@@ -821,21 +820,32 @@
     {
      "k": "reels",
      "today": 0,
-     "total": 56
+     "total": 59
     },
     {
      "k": "long",
      "today": 0,
-     "total": 6,
-     "queued": 1
+     "total": 7,
+     "queued": 0
     },
     {
      "k": "note",
      "today": 0,
-     "total": 63
+     "total": 64
     }
    ],
    "recent": [
+    {
+     "d": "2026-11-18",
+     "kind": "YouTube",
+     "title": "もしも検証 硬貨1億枚を金属として換算",
+     "url": "https://youtu.be/Ahry1VhaVpw"
+    },
+    {
+     "d": "2026-11-18",
+     "kind": "note",
+     "title": "USBの速さは何で決まる"
+    },
     {
      "d": "2026-11-17",
      "kind": "note",
@@ -856,26 +866,15 @@
      "kind": "YouTube",
      "title": "IT・AI用語集 セキュリティ13語",
      "url": "https://youtu.be/srDfVZtIjgo"
-    },
-    {
-     "d": "2026-11-15",
-     "kind": "note",
-     "title": "99%見抜く警告の本当の確率"
-    },
-    {
-     "d": "2026-11-11",
-     "kind": "YouTube",
-     "title": "IT・AI用語集",
-     "url": "https://youtu.be/tCPowSMT4k8"
     }
    ],
    "week": [
-    1,
     1,
     2,
     4,
     2,
     1,
+    2,
     0
    ]
   },
@@ -977,7 +976,7 @@
     {
      "k": "qiita",
      "today": 0,
-     "total": 16
+     "total": 17
     },
     {
      "k": "hatena",
@@ -986,6 +985,11 @@
     }
    ],
    "recent": [
+    {
+     "d": "2026-11-18",
+     "kind": "Qiita",
+     "title": "GA4でLINEボタンのクリックと相談欄の表示を数える"
+    },
     {
      "d": "2026-11-17",
      "kind": "Qiita",
@@ -1010,19 +1014,14 @@
      "d": "2026-11-09",
      "kind": "Hatena",
      "title": "1TB買ったのにパソコンでは931GB？"
-    },
-    {
-     "d": "2026-11-09",
-     "kind": "Qiita",
-     "title": "同じ動画を2回アップロードしないための小さなガード"
     }
    ],
    "week": [
     0,
     0,
-    0,
     1,
     0,
+    1,
     1,
     0
    ]
@@ -1040,8 +1039,8 @@
     0,
     0,
     0,
-    0,
     1,
+    0,
     0
    ]
   }
@@ -1049,15 +1048,11 @@
  "kpi": [
   {
    "id": "ig_followers",
-   "v": 3948,
-   "delta": 79,
-   "prev_d": "2026-11-17",
-   "asof": "2026-11-18",
+   "v": 4063,
+   "delta": 115,
+   "prev_d": "2026-11-18",
+   "asof": "2026-11-19",
    "series": [
-    {
-     "d": "2026-11-01",
-     "v": 1266
-    },
     {
      "d": "2026-11-02",
      "v": 1267
@@ -1109,15 +1104,19 @@
     {
      "d": "2026-11-18",
      "v": 3948
+    },
+    {
+     "d": "2026-11-19",
+     "v": 4063
     }
    ]
   },
   {
    "id": "tt_followers",
    "v": 5446,
-   "delta": -1,
-   "prev_d": "2026-11-16",
-   "asof": "2026-11-18",
+   "delta": 0,
+   "prev_d": "2026-11-18",
+   "asof": "2026-11-19",
    "series": [
     {
      "d": "2026-11-15",
@@ -1130,26 +1129,26 @@
     {
      "d": "2026-11-18",
      "v": 5446
+    },
+    {
+     "d": "2026-11-19",
+     "v": 5446
     }
    ]
   },
   {
    "id": "week_published",
-   "v": 47,
+   "v": 50,
    "breakdown": {
     "reels": 18,
-    "shorts": 18,
-    "long": 1,
+    "shorts": 20,
+    "long": 2,
     "note": 10,
     "blog": 0,
     "tools": 0
    },
-   "asof": "2026-11-18",
+   "asof": "2026-11-19",
    "series": [
-    {
-     "d": "2026-11-12",
-     "v": 6
-    },
     {
      "d": "2026-11-13",
      "v": 6
@@ -1172,6 +1171,10 @@
     },
     {
      "d": "2026-11-18",
+     "v": 9
+    },
+    {
+     "d": "2026-11-19",
      "v": 0
     }
    ]
@@ -1179,12 +1182,8 @@
   {
    "id": "tools_total",
    "v": 31,
-   "asof": "2026-11-18",
+   "asof": "2026-11-19",
    "series": [
-    {
-     "d": "2026-11-05",
-     "v": 31
-    },
     {
      "d": "2026-11-06",
      "v": 31
@@ -1236,6 +1235,10 @@
     {
      "d": "2026-11-18",
      "v": 31
+    },
+    {
+     "d": "2026-11-19",
+     "v": 31
     }
    ]
   },
@@ -1245,6 +1248,122 @@
   }
  ],
  "activity": [
+  {
+   "t": "2026-11-18 23:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-18 21:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-18 21:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "k-means法とは？ お客さんを自動でグループ分けするとき、グループの数は誰が決める？"
+  },
+  {
+   "t": "2026-11-18 20:31",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "半額シールと2割引を重ねたら、何%引き？",
+   "url": "https://www.instagram.com/reel/Df4Z4lAK0It/"
+  },
+  {
+   "t": "2026-11-18 18:07",
+   "dept": "studio",
+   "kind": "YouTube",
+   "long": true,
+   "title": "もしも検証 硬貨1億枚を金属として換算",
+   "url": "https://youtu.be/Ahry1VhaVpw"
+  },
+  {
+   "t": "2026-11-18 17:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-18 15:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "url": "https://youtu.be/HGifJ9S7ZJ8"
+  },
+  {
+   "t": "2026-11-18 12:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "1億円は何キロ？ 1円玉だったら何トン？",
+   "url": "https://youtu.be/AwGg0k-bC00"
+  },
+  {
+   "t": "2026-11-18 12:34",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "「3個買うと1個無料」は、全部で何%引き？",
+   "url": "https://www.instagram.com/reel/Df3jRh1gzrR/"
+  },
+  {
+   "t": "2026-11-18 12:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-18 12:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "バスケット分析とは？ 「一緒に買われる」商品は、信頼度だけで決めていい？"
+  },
+  {
+   "t": "2026-11-18 10:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "url": "https://youtu.be/UFgwODms1Eg"
+  },
+  {
+   "t": "2026-11-18 07:38",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "10円玉が実は最強!? 硬貨を溶かすと何円分？ 1円玉1億枚は1億円より上？",
+   "url": "https://www.instagram.com/reel/Df3BfIfoZHR/"
+  },
+  {
+   "t": "2026-11-18 07:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "円安で、円の価値は何%下がる？ ドルが25%上がったときの計算",
+   "url": "https://youtu.be/K01O8UP8akY"
+  },
+  {
+   "t": "2026-11-18 06:20",
+   "dept": "sns",
+   "kind": "X",
+   "title": "楽天証券で、最大約447万口座分の名前・住所・電話番号などが漏れたおそれがあると発表されま…"
+  },
+  {
+   "t": "2026-11-18 06:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-18 06:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "「2個目半額」は全部で何%引き？"
+  },
+  {
+   "t": "2026-11-18",
+   "dept": "studio",
+   "kind": "note",
+   "title": "USBの速さは何で決まる"
+  },
+  {
+   "t": "2026-11-18",
+   "dept": "pr",
+   "kind": "Qiita",
+   "title": "GA4でLINEボタンのクリックと相談欄の表示を数える"
+  },
   {
    "t": "2026-11-17 23:16",
    "dept": "sns",
@@ -1369,122 +1488,6 @@
   },
   {
    "t": "2026-11-16 23:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-16 21:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "zipはなぜ小さくなる？"
-  },
-  {
-   "t": "2026-11-16 20:53",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-16 20:25",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "2038年にパソコンの時計が止まる？ 2038年問題とは",
-   "url": "https://www.instagram.com/reel/DfzPrd4Iurj/"
-  },
-  {
-   "t": "2026-11-16 18:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "128GBのスマホ、実際に使えるのはどれくらい？",
-   "url": "https://youtu.be/-EBwE9NxA88"
-  },
-  {
-   "t": "2026-11-16 16:59",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-16 15:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "クーポン2枚、使う順番で払う金額は変わる？",
-   "url": "https://youtu.be/Xxh8EVSneVw"
-  },
-  {
-   "t": "2026-11-16 12:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "スマホを毎日充電すると、1年で充電365回分？ 充電の回数の数え方",
-   "url": "https://youtu.be/sBoCRoBqNWI"
-  },
-  {
-   "t": "2026-11-16 12:25",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "預金の利息3,000円、全部受け取れる？ 利息にかかる税金",
-   "url": "https://www.instagram.com/reel/DfyYpZvh0fQ/"
-  },
-  {
-   "t": "2026-11-16 12:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "シンプソンのパラドックスとは？ 全体の成約率で負けているのに、どちらのグループでも勝ってい…"
-  },
-  {
-   "t": "2026-11-16 12:03",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-16 10:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "url": "https://youtu.be/dzHL8YXqkKk"
-  },
-  {
-   "t": "2026-11-16 07:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "値段はそのままで量が1割減ったら、何%の値上げ？",
-   "url": "https://youtu.be/WKU_V7o-IzE"
-  },
-  {
-   "t": "2026-11-16 07:29",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "「2個目半額」は全部で何%引き？",
-   "url": "https://www.instagram.com/reel/Dfx2zlFB4lb/"
-  },
-  {
-   "t": "2026-11-16 06:20",
-   "dept": "sns",
-   "kind": "X",
-   "title": "福岡市長選挙は、1位の人がいたのに当選者が決まらず、選挙をやり直すことになりました"
-  },
-  {
-   "t": "2026-11-16 06:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "税込1,100円・原価700円の商品、粗利率は何%？"
-  },
-  {
-   "t": "2026-11-16 06:07",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-16",
-   "dept": "studio",
-   "kind": "note",
-   "title": "値段そのままで量が1割減ったら何%の値上げ"
-  },
-  {
-   "t": "2026-11-16",
-   "dept": "studio",
-   "kind": "note",
-   "title": "クーポン2枚、使う順番で払う金額は変わる？"
-  },
-  {
-   "t": "2026-11-15 23:10",
    "dept": "sns",
    "kind": "Threads"
   }

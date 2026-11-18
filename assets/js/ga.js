@@ -10,7 +10,7 @@ window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);
   'use strict';
   var STUDIO = /^\/studio\/([a-z0-9-]+)\/(?:index\.html)?$/;
   var FREE_ZIP = /^\/studio\/[a-z0-9-]+\/free\/[^\/]+\.zip$/i;
-  var FREE_TOOL = /^\/(suryo|kouki|shiharai|anbun|hiwari|riekiritsu|kinri|shaken|workdays|due-date|hozon|sonkiri|freelance-rate|erabikata)\/(?:index\.html)?$/;
+  var FREE_TOOL = /^\/(suryo|kouki|shiharai|anbun|hiwari|riekiritsu|kinri|shaken|workdays|due-date|hozon|sonkiri|freelance-rate|erabikata|shift)\/(?:index\.html)?$/;
   function send(name, p) { try { p.page_path = w.location.pathname; p.transport_type = 'beacon'; gtag('event', name, p); } catch (e) { /* 計測できなくてもページはそのまま */ } }
   function store(host) {
     if (host === 'booth.pm' || /\.booth\.pm$/.test(host)) return 'BOOTH';
