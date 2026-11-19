@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records.",
- "today": "2026-11-19",
- "built": "2026-11-19 00:39",
+ "today": "2026-11-20",
+ "built": "2026-11-20 00:40",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -20,7 +20,7 @@
  ],
  "published": {
   "today": 0,
-  "total": 203,
+  "total": 204,
   "kinds_today": {
    "Blog": 0,
    "Free tools": 0,
@@ -37,17 +37,13 @@
    "Free tools": 31,
    "note": 64,
    "Qiita": 17,
-   "Hatena": 10,
+   "Hatena": 11,
    "X": 0,
    "Threads": 4,
    "Instagram": 3,
    "EQUA site": 2
   },
   "week": [
-   {
-    "d": "2026-11-13",
-    "n": 1
-   },
    {
     "d": "2026-11-14",
     "n": 2
@@ -70,18 +66,16 @@
    },
    {
     "d": "2026-11-19",
+    "n": 1
+   },
+   {
+    "d": "2026-11-20",
     "n": 0
    }
   ],
   "today_items": []
  },
  "log": [
-  {
-   "d": "10/30",
-   "t": null,
-   "kind": "Qiita",
-   "s": "Qiita article published: “縦動画の字幕に合わせてVOICEVOXの声を置き…-16 LUFSにそろえる”"
-  },
   {
    "d": "10/30",
    "t": null,
@@ -435,6 +429,12 @@
    "t": null,
    "kind": "Qiita",
    "s": "Qiita article published: “GA4でLINEボタンのクリックと相談欄の表示を数える”"
+  },
+  {
+   "d": "11/19",
+   "t": null,
+   "kind": "Hatena",
+   "s": "Hatena post published: “手数料10%のお店で「粗利30%」を残す売値は？”"
   }
  ],
  "queue": {
@@ -737,76 +737,76 @@
     {
      "k": "threads",
      "today": 0,
-     "total": 79
+     "total": 84
     },
     {
      "k": "ig",
      "today": 0,
-     "total": 56,
-     "queued": 3
+     "total": 59,
+     "queued": 4
     },
     {
      "k": "x",
      "today": 0,
-     "total": 17
+     "total": 18
     },
     {
      "k": "tiktok",
      "today": 0,
-     "total": 36
+     "total": 39
     },
     {
      "k": "yt",
      "today": 0,
-     "total": 69,
+     "total": 74,
      "queued": 0
     }
    ],
    "recent": [
     {
-     "d": "2026-11-18",
+     "d": "2026-11-19",
      "kind": "Instagram",
+     "title": "「はい」を重ねると話が進む？「YES誘導話法」と「YES話法」の使い方",
+     "url": "https://www.instagram.com/reel/Df7BGMAhk1c/"
+    },
+    {
+     "d": "2026-11-19",
+     "kind": "Instagram",
+     "title": "一度断られた後のお願いが通りやすいのはなぜ？「ドア・イン・ザ・フェイス」の使い方",
+     "url": "https://www.instagram.com/reel/Df6KINKhPb7/"
+    },
+    {
+     "d": "2026-11-19",
+     "kind": "Instagram",
+     "title": "お願いを断られない頼み方、知ってる？「フット・イン・ザ・ドア」の使い方",
+     "url": "https://www.instagram.com/reel/Df5nyZCI6vN/"
+    },
+    {
+     "d": "2026-11-19",
+     "kind": "YouTube",
      "title": "半額シールと2割引を重ねたら、何%引き？",
-     "url": "https://www.instagram.com/reel/Df4Z4lAK0It/"
+     "url": "https://youtu.be/zDru6efSw0I"
     },
     {
-     "d": "2026-11-18",
-     "kind": "Instagram",
-     "title": "「3個買うと1個無料」は、全部で何%引き？",
-     "url": "https://www.instagram.com/reel/Df3jRh1gzrR/"
-    },
-    {
-     "d": "2026-11-18",
-     "kind": "Instagram",
-     "title": "10円玉が実は最強!? 硬貨を溶かすと何円分？ 1円玉1億枚は1億円より上？",
-     "url": "https://www.instagram.com/reel/Df3BfIfoZHR/"
-    },
-    {
-     "d": "2026-11-18",
+     "d": "2026-11-19",
      "kind": "YouTube",
-     "title": "1億円は何キロ？ 1円玉だったら何トン？",
-     "url": "https://youtu.be/AwGg0k-bC00"
-    },
-    {
-     "d": "2026-11-18",
-     "kind": "YouTube",
-     "title": "円安で、円の価値は何%下がる？ ドルが25%上がったときの計算",
-     "url": "https://youtu.be/K01O8UP8akY"
-    },
-    {
-     "d": "2026-11-17",
-     "kind": "Instagram",
      "title": "USB 2.0と3.0は何倍速い？ 速さの数字とケーブルの見分け方",
-     "url": "https://www.instagram.com/reel/Df11vvaOfsr/"
+     "url": "https://youtu.be/kDgMgkdECoQ"
+    },
+    {
+     "d": "2026-11-19",
+     "kind": "YouTube",
+     "title": "「3個買うと1個無料」は、全部で何%引き？",
+     "url": "https://youtu.be/Yljq3sEQ1AE"
     }
    ],
    "week": [
     14,
     14,
-    14,
     17,
     17,
     16,
+    17,
     0
    ]
   },
@@ -820,7 +820,7 @@
     {
      "k": "reels",
      "today": 0,
-     "total": 59
+     "total": 63
     },
     {
      "k": "long",
@@ -869,12 +869,12 @@
     }
    ],
    "week": [
-    1,
     2,
     4,
     2,
     1,
     2,
+    0,
     0
    ]
   },
@@ -981,10 +981,15 @@
     {
      "k": "hatena",
      "today": 0,
-     "total": 10
+     "total": 11
     }
    ],
    "recent": [
+    {
+     "d": "2026-11-19",
+     "kind": "Hatena",
+     "title": "手数料10%のお店で「粗利30%」を残す売値は？"
+    },
     {
      "d": "2026-11-18",
      "kind": "Qiita",
@@ -1009,18 +1014,13 @@
      "d": "2026-11-10",
      "kind": "Qiita",
      "title": "ランダムな4桁の番号は何人でかぶるか"
-    },
-    {
-     "d": "2026-11-09",
-     "kind": "Hatena",
-     "title": "1TB買ったのにパソコンでは931GB？"
     }
    ],
    "week": [
     0,
-    0,
     1,
     0,
+    1,
     1,
     1,
     0
@@ -1038,8 +1038,8 @@
     0,
     0,
     0,
-    0,
     1,
+    0,
     0,
     0
    ]
@@ -1048,10 +1048,10 @@
  "kpi": [
   {
    "id": "ig_followers",
-   "v": 4063,
-   "delta": 115,
+   "v": 4129,
+   "delta": 181,
    "prev_d": "2026-11-18",
-   "asof": "2026-11-19",
+   "asof": "2026-11-20",
    "series": [
     {
      "d": "2026-11-02",
@@ -1106,8 +1106,8 @@
      "v": 3948
     },
     {
-     "d": "2026-11-19",
-     "v": 4063
+     "d": "2026-11-20",
+     "v": 4129
     }
    ]
   },
@@ -1116,7 +1116,7 @@
    "v": 5446,
    "delta": 0,
    "prev_d": "2026-11-18",
-   "asof": "2026-11-19",
+   "asof": "2026-11-20",
    "series": [
     {
      "d": "2026-11-15",
@@ -1131,28 +1131,24 @@
      "v": 5446
     },
     {
-     "d": "2026-11-19",
+     "d": "2026-11-20",
      "v": 5446
     }
    ]
   },
   {
    "id": "week_published",
-   "v": 50,
+   "v": 52,
    "breakdown": {
     "reels": 18,
-    "shorts": 20,
+    "shorts": 23,
     "long": 2,
-    "note": 10,
+    "note": 9,
     "blog": 0,
     "tools": 0
    },
-   "asof": "2026-11-19",
+   "asof": "2026-11-20",
    "series": [
-    {
-     "d": "2026-11-13",
-     "v": 6
-    },
     {
      "d": "2026-11-14",
      "v": 7
@@ -1175,6 +1171,10 @@
     },
     {
      "d": "2026-11-19",
+     "v": 8
+    },
+    {
+     "d": "2026-11-20",
      "v": 0
     }
    ]
@@ -1182,12 +1182,8 @@
   {
    "id": "tools_total",
    "v": 31,
-   "asof": "2026-11-19",
+   "asof": "2026-11-20",
    "series": [
-    {
-     "d": "2026-11-06",
-     "v": 31
-    },
     {
      "d": "2026-11-07",
      "v": 31
@@ -1239,6 +1235,10 @@
     {
      "d": "2026-11-19",
      "v": 31
+    },
+    {
+     "d": "2026-11-20",
+     "v": 31
     }
    ]
   },
@@ -1248,6 +1248,115 @@
   }
  ],
  "activity": [
+  {
+   "t": "2026-11-19 23:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-19 21:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-19 21:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "10%引きと10%還元、どっちが得？"
+  },
+  {
+   "t": "2026-11-19 20:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "「はい」を重ねると話が進む？「YES誘導話法」と「YES話法」の使い方",
+   "url": "https://www.instagram.com/reel/Df7BGMAhk1c/"
+  },
+  {
+   "t": "2026-11-19 18:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "半額シールと2割引を重ねたら、何%引き？",
+   "url": "https://youtu.be/zDru6efSw0I"
+  },
+  {
+   "t": "2026-11-19 17:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-19 15:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "url": "https://youtu.be/rUE8ktWs89Q"
+  },
+  {
+   "t": "2026-11-19 12:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "一度断られた後のお願いが通りやすいのはなぜ？「ドア・イン・ザ・フェイス」の使い方",
+   "url": "https://www.instagram.com/reel/Df6KINKhPb7/"
+  },
+  {
+   "t": "2026-11-19 12:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "USB 2.0と3.0は何倍速い？ 速さの数字とケーブルの見分け方",
+   "url": "https://youtu.be/kDgMgkdECoQ"
+  },
+  {
+   "t": "2026-11-19 12:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-19 12:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "Excelに日付を入れたら「46331」と出た？"
+  },
+  {
+   "t": "2026-11-19 10:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "url": "https://youtu.be/2kj9HfJWi2Y"
+  },
+  {
+   "t": "2026-11-19 07:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "お願いを断られない頼み方、知ってる？「フット・イン・ザ・ドア」の使い方",
+   "url": "https://www.instagram.com/reel/Df5nyZCI6vN/"
+  },
+  {
+   "t": "2026-11-19 07:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "「3個買うと1個無料」は、全部で何%引き？",
+   "url": "https://youtu.be/Yljq3sEQ1AE"
+  },
+  {
+   "t": "2026-11-19 06:21",
+   "dept": "sns",
+   "kind": "X",
+   "title": "車を持っている人に毎年かかる税金は、今年4月から名前が「自動車税」になりました（前は「自動…"
+  },
+  {
+   "t": "2026-11-19 06:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-19 06:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "決定木とは？ 練習データで100%当たる予測が、新しいデータで外れるのはなぜ？"
+  },
+  {
+   "t": "2026-11-19",
+   "dept": "pr",
+   "kind": "Hatena",
+   "title": "手数料10%のお店で「粗利30%」を残す売値は？"
+  },
   {
    "t": "2026-11-18 23:16",
    "dept": "sns",
@@ -1379,117 +1488,6 @@
    "dept": "sns",
    "kind": "TikTok",
    "title": "Gitのブランチとマージとは？ 同じファイルを2人で直すとどうなる？"
-  },
-  {
-   "t": "2026-11-17 20:36",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "USB 2.0と3.0は何倍速い？ 速さの数字とケーブルの見分け方",
-   "url": "https://www.instagram.com/reel/Df11vvaOfsr/"
-  },
-  {
-   "t": "2026-11-17 18:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "預金の利息3,000円、全部受け取れる？ 利息にかかる税金",
-   "url": "https://youtu.be/YvNHdEVrHGc"
-  },
-  {
-   "t": "2026-11-17 17:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-17 15:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "url": "https://youtu.be/7yXgdVMybDs"
-  },
-  {
-   "t": "2026-11-17 12:38",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "円安で、円の価値は何%下がる？ ドルが25%上がったときの計算",
-   "url": "https://www.instagram.com/reel/Df0_CxLh23E/"
-  },
-  {
-   "t": "2026-11-17 12:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "カードの12回払い、手数料「100円あたり8円ちょっと」は年何%？",
-   "url": "https://youtu.be/wt_dQBZatmA"
-  },
-  {
-   "t": "2026-11-17 12:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-17 12:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "A/Bテストは何人で判断できる？"
-  },
-  {
-   "t": "2026-11-17 10:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "url": "https://youtu.be/QPoHA00g4nc"
-  },
-  {
-   "t": "2026-11-17 07:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "1億円は何キロ？ 1円玉だったら何トン？",
-   "url": "https://www.instagram.com/reel/Df0eQFxBE5o/"
-  },
-  {
-   "t": "2026-11-17 07:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "「2個目半額」は全部で何%引き？",
-   "url": "https://youtu.be/_PfTFt_sAQA"
-  },
-  {
-   "t": "2026-11-17 06:24",
-   "dept": "sns",
-   "kind": "X",
-   "title": "ゆうちょ銀行の1年の定期貯金の金利が、11月9日から年0.5%→0.7%に上がりました"
-  },
-  {
-   "t": "2026-11-17 06:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-17 06:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "当たりが1%のくじ、100回引けば必ず当たる？"
-  },
-  {
-   "t": "2026-11-17",
-   "dept": "pr",
-   "kind": "Qiita",
-   "title": "IGリールの合言葉コメントへ自動DM（Webhook）"
-  },
-  {
-   "t": "2026-11-17",
-   "dept": "studio",
-   "kind": "note",
-   "title": "3個買うと1個無料は何%引き"
-  },
-  {
-   "t": "2026-11-17",
-   "dept": "admin",
-   "kind": "EQUA site",
-   "title": "業種から選ぶ",
-   "url": "https://equaglobal.com/"
-  },
-  {
-   "t": "2026-11-16 23:15",
-   "dept": "sns",
-   "kind": "Threads"
   }
  ],
  "products": {
