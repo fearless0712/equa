@@ -376,3 +376,6 @@ a.card-link:hover .go { background: rgba(201, 162, 74, .14); color: var(--gold-3
 .svc-made { margin: 0; padding-left: 1.2em; }
 .svc-made li { color: var(--ink-2); }
 @media (max-width: 520px) { .path { padding: 16px; } .steps li { padding-left: 52px; } .steps li::before { left: 12px; } .price-box { padding: 16px; } }
+/* 11/19 メールの窓口（相談ページの相談欄） */
+.gy-custom .mail-line { margin-top: 8px; font-size: 14.5px; overflow-wrap: anywhere; }
+.prose dd a, .co-box dd a { overflow-wrap: anywhere; }

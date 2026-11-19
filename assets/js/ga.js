@@ -3,6 +3,7 @@ window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);
    送るのは上の gtag だけ（新しい通信先なし）。送るのはリンク先・ページの場所・ボタンの印（data-cta）・ボタンの文字・道具の名前だけで、入力した内容は送らない。
    select_item … BOOTH・Gumroad へのリンク（item_id＝URLの商品番号。外部ストアのクリックは purchase として送らない）
    line_click … line.me へのリンク（page_path・cta＝どのボタンか）
+   mail_click … mailto: のリンク（11/19、送るのはアドレスまで。件名・本文の部分は送らない）
    free_download … /studio/<業種>/free/ の zip ／ studio_view … /studio/<業種>/ の見本ページを開いた（作り変えの相談 custom は除く）
    custom_service_view … data-ga-view="custom_service" の欄（/studio/custom/・業種ページの相談欄）が画面に入った（1ページ1回）
    free_tool_use … 主な無料ツールで、入力・計算ボタンなどを初めて使った（1ページ1回。入力した値は送らない） */
@@ -26,6 +27,7 @@ window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);
     if (path.charAt(0) !== '/') path = '/' + path;
     if (store(host)) return 'select_item';
     if (host === 'line.me' || /\.line\.me$/.test(host)) return 'line_click';
+    if ((a.protocol || '').toLowerCase() === 'mailto:') return 'mail_click';
     if (host === w.location.hostname && FREE_ZIP.test(path)) return 'free_download';
     return '';
   }
@@ -40,10 +42,10 @@ window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);
     if (!a || !a.href) return;
     var k = kind(a);
     if (!k) return;
-    var p = { link_url: a.href };
+    var p = { link_url: k === 'mail_click' ? a.href.split('?')[0] : a.href };
     var cta = a.getAttribute && a.getAttribute('data-cta');
     if (cta) p.cta = cta;
-    if (k === 'line_click') { var t = label(a); if (t) p.link_text = t; }
+    if (k === 'line_click' || k === 'mail_click') { var t = label(a); if (t) p.link_text = t; }
     if (k === 'free_download') p.file_name = (a.pathname || '').split('/').pop();
     if (k === 'select_item') {
       var host = (a.hostname || '').toLowerCase(), path = a.pathname || '';
