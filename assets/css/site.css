@@ -379,3 +379,9 @@ a.card-link:hover .go { background: rgba(201, 162, 74, .14); color: var(--gold-3
 /* 11/19 メールの窓口（相談ページの相談欄） */
 .gy-custom .mail-line { margin-top: 8px; font-size: 14.5px; overflow-wrap: anywhere; }
 .prose dd a, .co-box dd a { overflow-wrap: anywhere; }
+/* 11/20 業務課題のカードが7枚：広い画面は4列（4・3）、中くらいは2列で最後の1枚を横いっぱい、スマホは1列 */
+@media (min-width: 1000px) { .task-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (min-width: 600px) and (max-width: 999px) { .task-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .task-grid li:last-child:nth-child(odd) { grid-column: 1 / -1; } }
+@media (max-width: 599px) { .task-grid { grid-template-columns: 1fr; } }
+/* 11/20 相談ページの対応業務が6枚：広い画面は3列（3・3） */
+@media (min-width: 1000px) { .svc-list { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
