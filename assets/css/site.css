@@ -327,3 +327,52 @@ a.card-link:hover .go { background: rgba(201, 162, 74, .14); color: var(--gold-3
 .line-btn, .juta-bar__btn { background: var(--gold-grad); color: #14110a; border: 1px solid #e6c77a; box-shadow: none; }
 .site-footer a.line-btn { color: #14110a; }
 .line-btn:hover, .line-btn:focus-visible, .juta-bar__btn:hover, .juta-bar__btn:focus-visible { color: #14110a; filter: brightness(1.06); box-shadow: 0 0 24px rgba(230, 199, 122, .35); }
+
+/* 11/19 ブランドメッセージと2本の導線（相談／すぐ使う）・解決できる業務・相談ページ（service.html） */
+.juta-hero .juta-sub { font-family: var(--serif-ja); font-size: clamp(18px, 2.6vw, 24px); line-height: 1.55; color: var(--gold-3); margin: 0 0 10px; font-weight: 700; }
+.paths { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 14px; margin: 24px 0 0; }
+.path { display: flex; flex-direction: column; gap: 8px; min-width: 0; padding: 18px; border-radius: var(--radius); border: 1px solid var(--line-2); background: linear-gradient(180deg, var(--surface-2), var(--surface)); box-shadow: var(--shadow); }
+.path.main { border-color: rgba(230, 199, 122, .6); border-top: 3px solid var(--gold-2); background: radial-gradient(ellipse 90% 70% at 0% 0%, rgba(201, 162, 74, .14), transparent 60%), var(--surface-2); }
+.path .path-tag { font-size: 12.5px; font-weight: 700; letter-spacing: .08em; color: var(--gold); margin: 0; }
+.path h2 { font-size: 19px; margin: 0; color: var(--gold-3); }
+.path p { margin: 0; color: var(--ink-2); font-size: 15px; }
+.path .juta-acts { margin: auto 0 0; padding-top: 6px; }
+.path .juta-price { margin: 0; }
+.path .more-link { font-size: 14.5px; margin: 0; }
+.tasks .sub { margin: 0 0 14px; color: var(--ink-2); font-size: 15px; }
+.task-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none; }
+.task-grid li { display: flex; flex-direction: column; gap: 4px; min-width: 0; padding: 14px 16px; border-radius: 10px; border: 1px solid var(--line); border-left: 2px solid var(--gold); background: var(--surface); }
+.task-grid b { font-family: var(--serif-ja); color: var(--gold-3); font-size: 16.5px; }
+.task-grid .pain { color: var(--ink-3); font-size: 14px; line-height: 1.7; }
+.task-grid .fix { color: var(--ink-2); font-size: 14.5px; line-height: 1.7; }
+.task-grid .fix::before { content: "→ "; color: var(--gold); }
+.tasks .task-more { margin: 14px 0 0; }
+.tasks .task-more .btn { margin-top: 0; }
+.svc-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none; }
+.svc-list li { display: flex; flex-direction: column; gap: 2px; min-width: 0; padding: 14px 16px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); }
+.svc-list b { color: var(--gold-3); font-family: var(--serif-ja); font-size: 16px; }
+.svc-list span { color: var(--ink-2); font-size: 14.5px; line-height: 1.7; }
+.scope { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 12px; }
+.scope > div { min-width: 0; padding: 16px 18px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); }
+.scope h3 { margin: 0 0 6px; font-size: 16.5px; }
+.scope ul { margin: 0; padding-left: 1.2em; }
+.scope li { color: var(--ink-2); font-size: 15px; }
+.scope .no h3 { color: var(--ink-2); }
+.scope .yes h3 { color: var(--gold-3); }
+.steps { counter-reset: step; list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.steps li { counter-increment: step; position: relative; padding: 12px 16px 12px 58px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); min-width: 0; }
+.steps li::before { content: counter(step); position: absolute; left: 14px; top: 12px; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: var(--serif-en); font-weight: 700; font-size: 17px; color: #14110a; background: var(--gold-grad); }
+.steps b { display: block; color: var(--ink); font-size: 16px; }
+.steps span { display: block; color: var(--ink-2); font-size: 14.5px; line-height: 1.7; }
+.price-box { padding: 18px 20px; border-radius: var(--radius); border: 1px solid rgba(230, 199, 122, .5); background: radial-gradient(ellipse 80% 120% at 0% 0%, rgba(201, 162, 74, .12), transparent 60%), var(--surface-2); }
+.price-box .big { margin: 0 0 8px; font-size: 16px; color: var(--ink-2); }
+.price-box .big b { color: var(--gold-3); font-size: 24px; margin-left: 6px; font-family: var(--serif-ja); }
+.price-box ul { margin: 0; padding-left: 1.2em; }
+.price-box li { color: var(--ink-2); font-size: 15px; }
+.faq details { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); padding: 0 16px; margin: 0 0 10px; }
+.faq summary { cursor: pointer; font-weight: 700; color: var(--ink); padding: 12px 0; min-height: 44px; list-style-position: outside; }
+.faq summary:hover { color: var(--gold-3); }
+.faq details p { margin: 0 0 14px; color: var(--ink-2); font-size: 15px; }
+.svc-made { margin: 0; padding-left: 1.2em; }
+.svc-made li { color: var(--ink-2); }
+@media (max-width: 520px) { .path { padding: 16px; } .steps li { padding-left: 52px; } .steps li::before { left: 12px; } .price-box { padding: 16px; } }
