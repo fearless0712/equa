@@ -1,7 +1,7 @@
 {
  "about": "EQUA司令塔の公開データ。公開済みの記録から自動で作成。",
- "today": "2026-11-20",
- "built": "2026-11-20 00:40",
+ "today": "2026-11-21",
+ "built": "2026-11-21 00:45",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -20,7 +20,7 @@
  ],
  "published": {
   "today": 0,
-  "total": 204,
+  "total": 205,
   "kinds_today": {
    "ブログ": 0,
    "無料ツール": 0,
@@ -37,17 +37,13 @@
    "無料ツール": 31,
    "note": 64,
    "Qiita": 17,
-   "はてな": 11,
+   "はてな": 12,
    "X": 0,
    "Threads": 4,
    "Instagram": 3,
    "EQUAサイト": 2
   },
   "week": [
-   {
-    "d": "2026-11-14",
-    "n": 2
-   },
    {
     "d": "2026-11-15",
     "n": 4
@@ -70,18 +66,16 @@
    },
    {
     "d": "2026-11-20",
+    "n": 1
+   },
+   {
+    "d": "2026-11-21",
     "n": 0
    }
   ],
   "today_items": []
  },
  "log": [
-  {
-   "d": "10/30",
-   "t": null,
-   "kind": "note",
-   "s": "note公開『82塗料の必要量と缶数の計算方法』"
-  },
   {
    "d": "10/30",
    "t": null,
@@ -435,6 +429,12 @@
    "t": null,
    "kind": "はてな",
    "s": "はてな公開『手数料10%のお店で「粗利30%」を残す売値は？』"
+  },
+  {
+   "d": "11/20",
+   "t": null,
+   "kind": "はてな",
+   "s": "はてな公開『大きいサイズのほうが安い？「100mlあたり」で比べる』"
   }
  ],
  "queue": {
@@ -750,13 +750,13 @@
     {
      "k": "threads",
      "today": 0,
-     "total": 84
+     "total": 89
     },
     {
      "k": "ig",
      "today": 0,
-     "total": 59,
-     "queued": 4
+     "total": 62,
+     "queued": 6
     },
     {
      "k": "x",
@@ -766,60 +766,60 @@
     {
      "k": "tiktok",
      "today": 0,
-     "total": 39
+     "total": 42
     },
     {
      "k": "yt",
      "today": 0,
-     "total": 74,
+     "total": 79,
      "queued": 0
     }
    ],
    "recent": [
     {
-     "d": "2026-11-19",
+     "d": "2026-11-20",
      "kind": "Instagram",
+     "title": "大きいサイズのほうが安い？ 500ml 198円と2L 880円、100mlあたりで比べる…",
+     "url": "https://www.instagram.com/reel/Df9l1s9gqgX/"
+    },
+    {
+     "d": "2026-11-20",
+     "kind": "Instagram",
+     "title": "手数料10%のフリマ・ネットショップで、粗利30%残る売値はいくら？",
+     "url": "https://www.instagram.com/reel/Df8u8oYgUpU/"
+    },
+    {
+     "d": "2026-11-20",
+     "kind": "Instagram",
+     "title": "仕入れ値が上がったら、売値はいくら上げる？（粗利30%を守る計算）",
+     "url": "https://www.instagram.com/reel/Df8MlNzqbbV/"
+    },
+    {
+     "d": "2026-11-20",
+     "kind": "YouTube",
      "title": "「はい」を重ねると話が進む？「YES誘導話法」と「YES話法」の使い方",
-     "url": "https://www.instagram.com/reel/Df7BGMAhk1c/"
+     "url": "https://youtu.be/l16_iAyqyZQ"
     },
     {
-     "d": "2026-11-19",
-     "kind": "Instagram",
+     "d": "2026-11-20",
+     "kind": "YouTube",
      "title": "一度断られた後のお願いが通りやすいのはなぜ？「ドア・イン・ザ・フェイス」の使い方",
-     "url": "https://www.instagram.com/reel/Df6KINKhPb7/"
+     "url": "https://youtu.be/GZunjPcSqDc"
     },
     {
-     "d": "2026-11-19",
-     "kind": "Instagram",
+     "d": "2026-11-20",
+     "kind": "YouTube",
      "title": "お願いを断られない頼み方、知ってる？「フット・イン・ザ・ドア」の使い方",
-     "url": "https://www.instagram.com/reel/Df5nyZCI6vN/"
-    },
-    {
-     "d": "2026-11-19",
-     "kind": "YouTube",
-     "title": "半額シールと2割引を重ねたら、何%引き？",
-     "url": "https://youtu.be/zDru6efSw0I"
-    },
-    {
-     "d": "2026-11-19",
-     "kind": "YouTube",
-     "title": "USB 2.0と3.0は何倍速い？ 速さの数字とケーブルの見分け方",
-     "url": "https://youtu.be/kDgMgkdECoQ"
-    },
-    {
-     "d": "2026-11-19",
-     "kind": "YouTube",
-     "title": "「3個買うと1個無料」は、全部で何%引き？",
-     "url": "https://youtu.be/Yljq3sEQ1AE"
+     "url": "https://youtu.be/a43MoktL8io"
     }
    ],
    "week": [
-    14,
     14,
     17,
     17,
     16,
     17,
+    16,
     0
    ]
   },
@@ -833,7 +833,7 @@
     {
      "k": "reels",
      "today": 0,
-     "total": 63
+     "total": 68
     },
     {
      "k": "long",
@@ -882,11 +882,11 @@
     }
    ],
    "week": [
-    2,
     4,
     2,
     1,
     2,
+    0,
     0,
     0
    ]
@@ -994,10 +994,15 @@
     {
      "k": "hatena",
      "today": 0,
-     "total": 11
+     "total": 12
     }
    ],
    "recent": [
+    {
+     "d": "2026-11-20",
+     "kind": "はてな",
+     "title": "大きいサイズのほうが安い？「100mlあたり」で比べる"
+    },
     {
      "d": "2026-11-19",
      "kind": "はてな",
@@ -1022,17 +1027,12 @@
      "d": "2026-11-10",
      "kind": "はてな",
      "title": "投資信託の手数料、年1%と0.1%の差は30年でいくら？"
-    },
-    {
-     "d": "2026-11-10",
-     "kind": "Qiita",
-     "title": "ランダムな4桁の番号は何人でかぶるか"
     }
    ],
    "week": [
-    0,
     1,
     0,
+    1,
     1,
     1,
     1,
@@ -1050,8 +1050,8 @@
    "week": [
     0,
     0,
-    0,
     1,
+    0,
     0,
     0,
     0
@@ -1061,15 +1061,11 @@
  "kpi": [
   {
    "id": "ig_followers",
-   "v": 4129,
-   "delta": 181,
-   "prev_d": "2026-11-18",
-   "asof": "2026-11-20",
+   "v": 4228,
+   "delta": 99,
+   "prev_d": "2026-11-20",
+   "asof": "2026-11-21",
    "series": [
-    {
-     "d": "2026-11-02",
-     "v": 1267
-    },
     {
      "d": "2026-11-06",
      "v": 1752
@@ -1121,6 +1117,10 @@
     {
      "d": "2026-11-20",
      "v": 4129
+    },
+    {
+     "d": "2026-11-21",
+     "v": 4228
     }
    ]
   },
@@ -1128,8 +1128,8 @@
    "id": "tt_followers",
    "v": 5446,
    "delta": 0,
-   "prev_d": "2026-11-18",
-   "asof": "2026-11-20",
+   "prev_d": "2026-11-20",
+   "asof": "2026-11-21",
    "series": [
     {
      "d": "2026-11-15",
@@ -1146,26 +1146,26 @@
     {
      "d": "2026-11-20",
      "v": 5446
+    },
+    {
+     "d": "2026-11-21",
+     "v": 5446
     }
    ]
   },
   {
    "id": "week_published",
-   "v": 52,
+   "v": 53,
    "breakdown": {
     "reels": 18,
-    "shorts": 23,
+    "shorts": 26,
     "long": 2,
-    "note": 9,
+    "note": 7,
     "blog": 0,
     "tools": 0
    },
-   "asof": "2026-11-20",
+   "asof": "2026-11-21",
    "series": [
-    {
-     "d": "2026-11-14",
-     "v": 7
-    },
     {
      "d": "2026-11-15",
      "v": 9
@@ -1188,6 +1188,10 @@
     },
     {
      "d": "2026-11-20",
+     "v": 8
+    },
+    {
+     "d": "2026-11-21",
      "v": 0
     }
    ]
@@ -1195,12 +1199,8 @@
   {
    "id": "tools_total",
    "v": 31,
-   "asof": "2026-11-20",
+   "asof": "2026-11-21",
    "series": [
-    {
-     "d": "2026-11-07",
-     "v": 31
-    },
     {
      "d": "2026-11-08",
      "v": 31
@@ -1252,6 +1252,10 @@
     {
      "d": "2026-11-20",
      "v": 31
+    },
+    {
+     "d": "2026-11-21",
+     "v": 31
     }
    ]
   },
@@ -1261,6 +1265,109 @@
   }
  ],
  "activity": [
+  {
+   "t": "2026-11-20 23:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-20 21:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-20 21:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "「はい」を重ねると話が進む？「YES誘導話法」と「YES話法」の使い方"
+  },
+  {
+   "t": "2026-11-20 20:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "大きいサイズのほうが安い？ 500ml 198円と2L 880円、100mlあたりで比べる…",
+   "url": "https://www.instagram.com/reel/Df9l1s9gqgX/"
+  },
+  {
+   "t": "2026-11-20 18:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "「はい」を重ねると話が進む？「YES誘導話法」と「YES話法」の使い方",
+   "url": "https://youtu.be/l16_iAyqyZQ"
+  },
+  {
+   "t": "2026-11-20 17:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-20 15:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "url": "https://youtu.be/3oV-YOH5QgQ"
+  },
+  {
+   "t": "2026-11-20 12:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "手数料10%のフリマ・ネットショップで、粗利30%残る売値はいくら？",
+   "url": "https://www.instagram.com/reel/Df8u8oYgUpU/"
+  },
+  {
+   "t": "2026-11-20 12:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "一度断られた後のお願いが通りやすいのはなぜ？「ドア・イン・ザ・フェイス」の使い方",
+   "url": "https://youtu.be/GZunjPcSqDc"
+  },
+  {
+   "t": "2026-11-20 12:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-20 12:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "一度断られた後のお願いが通りやすいのはなぜ？「ドア・イン・ザ・フェイス」の使い方"
+  },
+  {
+   "t": "2026-11-20 10:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "url": "https://youtu.be/fxUcEuDXVWc"
+  },
+  {
+   "t": "2026-11-20 07:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "仕入れ値が上がったら、売値はいくら上げる？（粗利30%を守る計算）",
+   "url": "https://www.instagram.com/reel/Df8MlNzqbbV/"
+  },
+  {
+   "t": "2026-11-20 07:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "お願いを断られない頼み方、知ってる？「フット・イン・ザ・ドア」の使い方",
+   "url": "https://youtu.be/a43MoktL8io"
+  },
+  {
+   "t": "2026-11-20 06:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-20 06:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "お願いを断られない頼み方、知ってる？「フット・イン・ザ・ドア」の使い方"
+  },
+  {
+   "t": "2026-11-20",
+   "dept": "pr",
+   "kind": "はてな",
+   "title": "大きいサイズのほうが安い？「100mlあたり」で比べる"
+  },
   {
    "t": "2026-11-19 23:15",
    "dept": "sns",
@@ -1400,107 +1507,6 @@
    "long": true,
    "title": "もしも検証 硬貨1億枚を金属として換算",
    "url": "https://youtu.be/Ahry1VhaVpw"
-  },
-  {
-   "t": "2026-11-18 17:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-18 15:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "url": "https://youtu.be/HGifJ9S7ZJ8"
-  },
-  {
-   "t": "2026-11-18 12:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "1億円は何キロ？ 1円玉だったら何トン？",
-   "url": "https://youtu.be/AwGg0k-bC00"
-  },
-  {
-   "t": "2026-11-18 12:34",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "「3個買うと1個無料」は、全部で何%引き？",
-   "url": "https://www.instagram.com/reel/Df3jRh1gzrR/"
-  },
-  {
-   "t": "2026-11-18 12:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-18 12:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "バスケット分析とは？ 「一緒に買われる」商品は、信頼度だけで決めていい？"
-  },
-  {
-   "t": "2026-11-18 10:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "url": "https://youtu.be/UFgwODms1Eg"
-  },
-  {
-   "t": "2026-11-18 07:38",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "10円玉が実は最強!? 硬貨を溶かすと何円分？ 1円玉1億枚は1億円より上？",
-   "url": "https://www.instagram.com/reel/Df3BfIfoZHR/"
-  },
-  {
-   "t": "2026-11-18 07:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "円安で、円の価値は何%下がる？ ドルが25%上がったときの計算",
-   "url": "https://youtu.be/K01O8UP8akY"
-  },
-  {
-   "t": "2026-11-18 06:20",
-   "dept": "sns",
-   "kind": "X",
-   "title": "楽天証券で、最大約447万口座分の名前・住所・電話番号などが漏れたおそれがあると発表されま…"
-  },
-  {
-   "t": "2026-11-18 06:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-18 06:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "「2個目半額」は全部で何%引き？"
-  },
-  {
-   "t": "2026-11-18",
-   "dept": "studio",
-   "kind": "note",
-   "title": "USBの速さは何で決まる"
-  },
-  {
-   "t": "2026-11-18",
-   "dept": "pr",
-   "kind": "Qiita",
-   "title": "GA4でLINEボタンのクリックと相談欄の表示を数える"
-  },
-  {
-   "t": "2026-11-17 23:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-17 21:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-17 21:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "Gitのブランチとマージとは？ 同じファイルを2人で直すとどうなる？"
   }
  ]
 }
