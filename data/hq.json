@@ -1,7 +1,7 @@
 {
  "about": "EQUA司令塔の公開データ。公開済みの記録から自動で作成。",
- "today": "2026-11-22",
- "built": "2026-11-22 00:41",
+ "today": "2026-11-23",
+ "built": "2026-11-23 00:39",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -20,7 +20,7 @@
  ],
  "published": {
   "today": 0,
-  "total": 206,
+  "total": 207,
   "kinds_today": {
    "ブログ": 0,
    "無料ツール": 0,
@@ -37,17 +37,13 @@
    "無料ツール": 31,
    "note": 64,
    "Qiita": 17,
-   "はてな": 13,
+   "はてな": 14,
    "X": 0,
    "Threads": 4,
    "Instagram": 3,
    "EQUAサイト": 2
   },
   "week": [
-   {
-    "d": "2026-11-16",
-    "n": 2
-   },
    {
     "d": "2026-11-17",
     "n": 3
@@ -70,18 +66,16 @@
    },
    {
     "d": "2026-11-22",
+    "n": 1
+   },
+   {
+    "d": "2026-11-23",
     "n": 0
    }
   ],
   "today_items": []
  },
  "log": [
-  {
-   "d": "10/31",
-   "t": null,
-   "kind": "無料ツール",
-   "s": "無料ツール公開『建設の数量計算』"
-  },
   {
    "d": "10/31",
    "t": null,
@@ -435,6 +429,12 @@
    "t": null,
    "kind": "はてな",
    "s": "はてな公開『家賃と更新料の月あたり』"
+  },
+  {
+   "d": "11/22",
+   "t": null,
+   "kind": "はてな",
+   "s": "はてな公開『雨の予備日（20日＋3割では足りない）』"
   }
  ],
  "queue": {
@@ -737,8 +737,7 @@
   "daily|00:03": "done",
   "ig_reel|07:20": "queued",
   "ig_reel|12:20": "queued",
-  "ig_reel|20:20": "queued",
-  "long_pub2|10:07": "queued"
+  "ig_reel|20:20": "queued"
  },
  "depts": [
   {
@@ -751,13 +750,13 @@
     {
      "k": "threads",
      "today": 0,
-     "total": 94
+     "total": 99
     },
     {
      "k": "ig",
      "today": 0,
-     "total": 65,
-     "queued": 7
+     "total": 68,
+     "queued": 4
     },
     {
      "k": "x",
@@ -767,60 +766,60 @@
     {
      "k": "tiktok",
      "today": 0,
-     "total": 45
+     "total": 48
     },
     {
      "k": "yt",
      "today": 0,
-     "total": 84,
-     "queued": 1
+     "total": 88,
+     "queued": 0
     }
    ],
    "recent": [
     {
-     "d": "2026-11-21",
+     "d": "2026-11-22",
      "kind": "Instagram",
-     "title": "3割引きしたあと3割増しにすると、元の値段に戻る？",
-     "url": "https://www.instagram.com/reel/DgAKpPFSVDy/"
+     "title": "生成AIの有料プラン、月3,000円なら元は取れる？ 時給2,000円で計算すると",
+     "url": "https://www.instagram.com/reel/DgCveRrJ1cp/"
     },
     {
-     "d": "2026-11-21",
+     "d": "2026-11-22",
      "kind": "Instagram",
+     "title": "固定費が月60万円のお店、何人来たら黒字になる？（損益分岐点の客数）",
+     "url": "https://www.instagram.com/reel/DgB4fgxSVDT/"
+    },
+    {
+     "d": "2026-11-22",
+     "kind": "Instagram",
+     "title": "7掛けで仕入れて2割引きで売ると、粗利率は何%？",
+     "url": "https://www.instagram.com/reel/DgBWM7-PEK6/"
+    },
+    {
+     "d": "2026-11-22",
+     "kind": "YouTube",
+     "title": "毎月1万円ずつ買うと、平均いくらで買えた？",
+     "url": "https://youtu.be/Fy5JuIzmPps"
+    },
+    {
+     "d": "2026-11-22",
+     "kind": "YouTube",
+     "title": "2038年にパソコンの時計が止まる？ 2038年問題とは",
+     "url": "https://youtu.be/TvICAzJS1aE"
+    },
+    {
+     "d": "2026-11-22",
+     "kind": "YouTube",
      "title": "1割引きのセールで2割多く売れたら、もうかった？（売上と粗利の計算）",
-     "url": "https://www.instagram.com/reel/Df_T7icyzYj/"
-    },
-    {
-     "d": "2026-11-21",
-     "kind": "Instagram",
-     "title": "手袋をするとスマホが反応しないのはなぜ？",
-     "url": "https://www.instagram.com/reel/Df-xXN9t6Ix/"
-    },
-    {
-     "d": "2026-11-21",
-     "kind": "YouTube",
-     "title": "大きいサイズのほうが安い？ 500ml 198円と2L 880円、100mlあたりで比べる…",
-     "url": "https://youtu.be/kWw6hmC4njI"
-    },
-    {
-     "d": "2026-11-21",
-     "kind": "YouTube",
-     "title": "仕入れ値が上がったら、売値はいくら上げる？（粗利30%を守る計算）",
-     "url": "https://youtu.be/aqRcYC_hGX4"
-    },
-    {
-     "d": "2026-11-21",
-     "kind": "YouTube",
-     "title": "手数料10%のフリマ・ネットショップで、粗利30%残る売値はいくら？",
-     "url": "https://youtu.be/xBujZb_ZEh8"
+     "url": "https://youtu.be/vSc074yBHMI"
     }
    ],
    "week": [
     17,
-    17,
     16,
     17,
     16,
     16,
+    15,
     0
    ]
   },
@@ -839,8 +838,8 @@
     {
      "k": "long",
      "today": 0,
-     "total": 7,
-     "queued": 1
+     "total": 8,
+     "queued": 0
     },
     {
      "k": "note",
@@ -849,6 +848,12 @@
     }
    ],
    "recent": [
+    {
+     "d": "2026-11-22",
+     "kind": "YouTube",
+     "title": "もしも検証 もしもコロナが来なかった2026年",
+     "url": "https://youtu.be/8-lhzTGxMYY"
+    },
     {
      "d": "2026-11-18",
      "kind": "YouTube",
@@ -874,21 +879,15 @@
      "d": "2026-11-16",
      "kind": "note",
      "title": "値段そのままで量が1割減ったら何%の値上げ"
-    },
-    {
-     "d": "2026-11-15",
-     "kind": "YouTube",
-     "title": "IT・AI用語集 セキュリティ13語",
-     "url": "https://youtu.be/srDfVZtIjgo"
     }
    ],
    "week": [
-    2,
     1,
     2,
     0,
     0,
     0,
+    1,
     0
    ]
   },
@@ -995,10 +994,15 @@
     {
      "k": "hatena",
      "today": 0,
-     "total": 13
+     "total": 14
     }
    ],
    "recent": [
+    {
+     "d": "2026-11-22",
+     "kind": "はてな",
+     "title": "雨の予備日（20日＋3割では足りない）"
+    },
     {
      "d": "2026-11-21",
      "kind": "はてな",
@@ -1023,15 +1027,10 @@
      "d": "2026-11-17",
      "kind": "Qiita",
      "title": "IGリールの合言葉コメントへ自動DM（Webhook）"
-    },
-    {
-     "d": "2026-11-15",
-     "kind": "Qiita",
-     "title": "Threads API でリンクのクリック数を取る"
     }
    ],
    "week": [
-    0,
+    1,
     1,
     1,
     1,
@@ -1049,8 +1048,8 @@
    "stats": [],
    "recent": [],
    "week": [
-    0,
     1,
+    0,
     0,
     0,
     0,
@@ -1160,21 +1159,17 @@
   },
   {
    "id": "week_published",
-   "v": 52,
+   "v": 50,
    "breakdown": {
     "reels": 18,
-    "shorts": 29,
-    "long": 1,
-    "note": 4,
+    "shorts": 28,
+    "long": 2,
+    "note": 2,
     "blog": 0,
     "tools": 0
    },
-   "asof": "2026-11-22",
+   "asof": "2026-11-23",
    "series": [
-    {
-     "d": "2026-11-16",
-     "v": 10
-    },
     {
      "d": "2026-11-17",
      "v": 9
@@ -1197,6 +1192,10 @@
     },
     {
      "d": "2026-11-22",
+     "v": 8
+    },
+    {
+     "d": "2026-11-23",
      "v": 0
     }
    ]
@@ -1204,12 +1203,8 @@
   {
    "id": "tools_total",
    "v": 31,
-   "asof": "2026-11-22",
+   "asof": "2026-11-23",
    "series": [
-    {
-     "d": "2026-11-09",
-     "v": 31
-    },
     {
      "d": "2026-11-10",
      "v": 31
@@ -1261,6 +1256,10 @@
     {
      "d": "2026-11-22",
      "v": 31
+    },
+    {
+     "d": "2026-11-23",
+     "v": 31
     }
    ]
   },
@@ -1270,6 +1269,111 @@
   }
  ],
  "activity": [
+  {
+   "t": "2026-11-22 23:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-22 21:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-22 21:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "スマホを毎日充電すると、1年で充電365回分？ 充電の回数の数え方"
+  },
+  {
+   "t": "2026-11-22 20:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "生成AIの有料プラン、月3,000円なら元は取れる？ 時給2,000円で計算すると",
+   "url": "https://www.instagram.com/reel/DgCveRrJ1cp/"
+  },
+  {
+   "t": "2026-11-22 18:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "毎月1万円ずつ買うと、平均いくらで買えた？",
+   "url": "https://youtu.be/Fy5JuIzmPps"
+  },
+  {
+   "t": "2026-11-22 17:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-22 15:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "2038年にパソコンの時計が止まる？ 2038年問題とは",
+   "url": "https://youtu.be/TvICAzJS1aE"
+  },
+  {
+   "t": "2026-11-22 12:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "固定費が月60万円のお店、何人来たら黒字になる？（損益分岐点の客数）",
+   "url": "https://www.instagram.com/reel/DgB4fgxSVDT/"
+  },
+  {
+   "t": "2026-11-22 12:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "url": "https://youtu.be/fRUo-YHC-dg"
+  },
+  {
+   "t": "2026-11-22 12:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-22 12:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "値段はそのままで量が1割減ったら、何%の値上げ？"
+  },
+  {
+   "t": "2026-11-22 10:07",
+   "dept": "studio",
+   "kind": "YouTube",
+   "long": true,
+   "title": "もしも検証 もしもコロナが来なかった2026年",
+   "url": "https://youtu.be/8-lhzTGxMYY"
+  },
+  {
+   "t": "2026-11-22 07:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "7掛けで仕入れて2割引きで売ると、粗利率は何%？",
+   "url": "https://www.instagram.com/reel/DgBWM7-PEK6/"
+  },
+  {
+   "t": "2026-11-22 07:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "1割引きのセールで2割多く売れたら、もうかった？（売上と粗利の計算）",
+   "url": "https://youtu.be/vSc074yBHMI"
+  },
+  {
+   "t": "2026-11-22 06:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-22 06:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "スマホの充電1回、電気代はいくら？"
+  },
+  {
+   "t": "2026-11-22",
+   "dept": "pr",
+   "kind": "はてな",
+   "title": "雨の予備日（20日＋3割では足りない）"
+  },
   {
    "t": "2026-11-21 23:15",
    "dept": "sns",
@@ -1405,109 +1509,6 @@
   },
   {
    "t": "2026-11-20 17:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-20 15:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "url": "https://youtu.be/3oV-YOH5QgQ"
-  },
-  {
-   "t": "2026-11-20 12:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "手数料10%のフリマ・ネットショップで、粗利30%残る売値はいくら？",
-   "url": "https://www.instagram.com/reel/Df8u8oYgUpU/"
-  },
-  {
-   "t": "2026-11-20 12:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "一度断られた後のお願いが通りやすいのはなぜ？「ドア・イン・ザ・フェイス」の使い方",
-   "url": "https://youtu.be/GZunjPcSqDc"
-  },
-  {
-   "t": "2026-11-20 12:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-20 12:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "一度断られた後のお願いが通りやすいのはなぜ？「ドア・イン・ザ・フェイス」の使い方"
-  },
-  {
-   "t": "2026-11-20 10:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "url": "https://youtu.be/fxUcEuDXVWc"
-  },
-  {
-   "t": "2026-11-20 07:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "仕入れ値が上がったら、売値はいくら上げる？（粗利30%を守る計算）",
-   "url": "https://www.instagram.com/reel/Df8MlNzqbbV/"
-  },
-  {
-   "t": "2026-11-20 07:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "お願いを断られない頼み方、知ってる？「フット・イン・ザ・ドア」の使い方",
-   "url": "https://youtu.be/a43MoktL8io"
-  },
-  {
-   "t": "2026-11-20 06:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-20 06:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "お願いを断られない頼み方、知ってる？「フット・イン・ザ・ドア」の使い方"
-  },
-  {
-   "t": "2026-11-20",
-   "dept": "pr",
-   "kind": "はてな",
-   "title": "大きいサイズのほうが安い？「100mlあたり」で比べる"
-  },
-  {
-   "t": "2026-11-19 23:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-19 21:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-19 21:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "10%引きと10%還元、どっちが得？"
-  },
-  {
-   "t": "2026-11-19 20:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "「はい」を重ねると話が進む？「YES誘導話法」と「YES話法」の使い方",
-   "url": "https://www.instagram.com/reel/Df7BGMAhk1c/"
-  },
-  {
-   "t": "2026-11-19 18:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "半額シールと2割引を重ねたら、何%引き？",
-   "url": "https://youtu.be/zDru6efSw0I"
-  },
-  {
-   "t": "2026-11-19 17:15",
    "dept": "sns",
    "kind": "Threads"
   }
