@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records.",
- "today": "2026-11-23",
- "built": "2026-11-23 00:39",
+ "today": "2026-11-24",
+ "built": "2026-11-24 00:37",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -20,7 +20,7 @@
  ],
  "published": {
   "today": 0,
-  "total": 207,
+  "total": 208,
   "kinds_today": {
    "Blog": 0,
    "Free tools": 0,
@@ -34,7 +34,7 @@
   },
   "kinds_all": {
    "Blog": 72,
-   "Free tools": 31,
+   "Free tools": 32,
    "note": 64,
    "Qiita": 17,
    "Hatena": 14,
@@ -44,10 +44,6 @@
    "EQUA site": 2
   },
   "week": [
-   {
-    "d": "2026-11-17",
-    "n": 3
-   },
    {
     "d": "2026-11-18",
     "n": 2
@@ -70,18 +66,16 @@
    },
    {
     "d": "2026-11-23",
+    "n": 1
+   },
+   {
+    "d": "2026-11-24",
     "n": 0
    }
   ],
   "today_items": []
  },
  "log": [
-  {
-   "d": "10/31",
-   "t": null,
-   "kind": "note",
-   "s": "note article published: “85実録Day17 声を入れたら、動画が回り出した”"
-  },
   {
    "d": "10/31",
    "t": null,
@@ -435,6 +429,12 @@
    "t": null,
    "kind": "Hatena",
    "s": "Hatena post published: “雨の予備日（20日＋3割では足りない）”"
+  },
+  {
+   "d": "11/23",
+   "t": null,
+   "kind": "Free tools",
+   "s": "Free tool published: “ウィジェット見本JSON（AIの残り・架空の値・クロール除外）”"
   }
  ],
  "queue": {
@@ -737,12 +737,12 @@
     {
      "k": "threads",
      "today": 0,
-     "total": 99
+     "total": 104
     },
     {
      "k": "ig",
      "today": 0,
-     "total": 68,
+     "total": 71,
      "queued": 4
     },
     {
@@ -753,60 +753,60 @@
     {
      "k": "tiktok",
      "today": 0,
-     "total": 48
+     "total": 51
     },
     {
      "k": "yt",
      "today": 0,
-     "total": 88,
+     "total": 93,
      "queued": 0
     }
    ],
    "recent": [
     {
-     "d": "2026-11-22",
+     "d": "2026-11-23",
      "kind": "Instagram",
+     "title": "カード払いの手数料3%は、利益から見ると何%？（キャッシュレス決済の手数料）",
+     "url": "https://www.instagram.com/reel/DgFUfJkB9cF/"
+    },
+    {
+     "d": "2026-11-23",
+     "kind": "Instagram",
+     "title": "電子レンジを使うとWi-Fiが遅くなるのはなぜ？",
+     "url": "https://www.instagram.com/reel/DgEdUvvAnni/"
+    },
+    {
+     "d": "2026-11-23",
+     "kind": "Instagram",
+     "title": "100個仕入れて20個売れ残ったら、利益はいくら？（売れ残りと利益の計算）",
+     "url": "https://www.instagram.com/reel/DgD7EUFB7xg/"
+    },
+    {
+     "d": "2026-11-23",
+     "kind": "YouTube",
+     "title": "3割引きしたあと3割増しにすると、元の値段に戻る？",
+     "url": "https://youtu.be/sNMlk9_N_p8"
+    },
+    {
+     "d": "2026-11-23",
+     "kind": "YouTube",
      "title": "生成AIの有料プラン、月3,000円なら元は取れる？ 時給2,000円で計算すると",
-     "url": "https://www.instagram.com/reel/DgCveRrJ1cp/"
+     "url": "https://youtu.be/hAcgGiRtJWE"
     },
     {
-     "d": "2026-11-22",
-     "kind": "Instagram",
+     "d": "2026-11-23",
+     "kind": "YouTube",
      "title": "固定費が月60万円のお店、何人来たら黒字になる？（損益分岐点の客数）",
-     "url": "https://www.instagram.com/reel/DgB4fgxSVDT/"
-    },
-    {
-     "d": "2026-11-22",
-     "kind": "Instagram",
-     "title": "7掛けで仕入れて2割引きで売ると、粗利率は何%？",
-     "url": "https://www.instagram.com/reel/DgBWM7-PEK6/"
-    },
-    {
-     "d": "2026-11-22",
-     "kind": "YouTube",
-     "title": "毎月1万円ずつ買うと、平均いくらで買えた？",
-     "url": "https://youtu.be/Fy5JuIzmPps"
-    },
-    {
-     "d": "2026-11-22",
-     "kind": "YouTube",
-     "title": "2038年にパソコンの時計が止まる？ 2038年問題とは",
-     "url": "https://youtu.be/TvICAzJS1aE"
-    },
-    {
-     "d": "2026-11-22",
-     "kind": "YouTube",
-     "title": "1割引きのセールで2割多く売れたら、もうかった？（売上と粗利の計算）",
-     "url": "https://youtu.be/vSc074yBHMI"
+     "url": "https://youtu.be/DOX9moe0cm8"
     }
    ],
    "week": [
-    17,
     16,
     17,
     16,
     16,
     15,
+    16,
     0
    ]
   },
@@ -820,7 +820,7 @@
     {
      "k": "reels",
      "today": 0,
-     "total": 72
+     "total": 75
     },
     {
      "k": "long",
@@ -869,12 +869,12 @@
     }
    ],
    "week": [
-    1,
     2,
     0,
     0,
     0,
     1,
+    0,
     0
    ]
   },
@@ -906,7 +906,7 @@
     {
      "k": "tools",
      "today": 0,
-     "total": 31
+     "total": 32
     },
     {
      "k": "studio_tools",
@@ -914,6 +914,12 @@
     }
    ],
    "recent": [
+    {
+     "d": "2026-11-23",
+     "kind": "Free tools",
+     "title": "ウィジェット見本JSON（AIの残り・架空の値・クロール除外）",
+     "url": "https://tools.equaglobal.com/widget-demo/summary.json"
+    },
     {
      "d": "2026-11-05",
      "kind": "Free tools",
@@ -943,12 +949,6 @@
      "kind": "Free tools",
      "title": "建設の数量計算",
      "url": "https://tools.equaglobal.com/suryo/"
-    },
-    {
-     "d": "2026-10-28",
-     "kind": "Free tools",
-     "title": "建設スタジオ 無料版",
-     "url": "https://tools.equaglobal.com/studio/kensetsu/free/"
     }
    ],
    "week": [
@@ -957,7 +957,7 @@
     0,
     0,
     0,
-    0,
+    1,
     0
    ]
   },
@@ -1022,7 +1022,7 @@
     1,
     1,
     1,
-    1,
+    0,
     0
    ]
   },
@@ -1035,7 +1035,7 @@
    "stats": [],
    "recent": [],
    "week": [
-    1,
+    0,
     0,
     0,
     0,
@@ -1048,15 +1048,11 @@
  "kpi": [
   {
    "id": "ig_followers",
-   "v": 4338,
-   "delta": 110,
-   "prev_d": "2026-11-21",
-   "asof": "2026-11-22",
+   "v": 4625,
+   "delta": 287,
+   "prev_d": "2026-11-22",
+   "asof": "2026-11-23",
    "series": [
-    {
-     "d": "2026-11-07",
-     "v": 2665
-    },
     {
      "d": "2026-11-08",
      "v": 3037
@@ -1108,15 +1104,19 @@
     {
      "d": "2026-11-22",
      "v": 4338
+    },
+    {
+     "d": "2026-11-23",
+     "v": 4625
     }
    ]
   },
   {
    "id": "tt_followers",
    "v": 5444,
-   "delta": -2,
-   "prev_d": "2026-11-21",
-   "asof": "2026-11-22",
+   "delta": 0,
+   "prev_d": "2026-11-22",
+   "asof": "2026-11-23",
    "series": [
     {
      "d": "2026-11-15",
@@ -1141,6 +1141,10 @@
     {
      "d": "2026-11-22",
      "v": 5444
+    },
+    {
+     "d": "2026-11-23",
+     "v": 5444
     }
    ]
   },
@@ -1151,16 +1155,12 @@
     "reels": 18,
     "shorts": 28,
     "long": 2,
-    "note": 2,
+    "note": 1,
     "blog": 0,
-    "tools": 0
+    "tools": 1
    },
-   "asof": "2026-11-23",
+   "asof": "2026-11-24",
    "series": [
-    {
-     "d": "2026-11-17",
-     "v": 9
-    },
     {
      "d": "2026-11-18",
      "v": 9
@@ -1183,19 +1183,19 @@
     },
     {
      "d": "2026-11-23",
+     "v": 9
+    },
+    {
+     "d": "2026-11-24",
      "v": 0
     }
    ]
   },
   {
    "id": "tools_total",
-   "v": 31,
-   "asof": "2026-11-23",
+   "v": 32,
+   "asof": "2026-11-24",
    "series": [
-    {
-     "d": "2026-11-10",
-     "v": 31
-    },
     {
      "d": "2026-11-11",
      "v": 31
@@ -1246,7 +1246,11 @@
     },
     {
      "d": "2026-11-23",
-     "v": 31
+     "v": 32
+    },
+    {
+     "d": "2026-11-24",
+     "v": 32
     }
    ]
   },
@@ -1256,6 +1260,112 @@
   }
  ],
  "activity": [
+  {
+   "t": "2026-11-23 23:17",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-23 21:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-23 21:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "128GBのスマホ、実際に使えるのはどれくらい？"
+  },
+  {
+   "t": "2026-11-23 20:54",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "カード払いの手数料3%は、利益から見ると何%？（キャッシュレス決済の手数料）",
+   "url": "https://www.instagram.com/reel/DgFUfJkB9cF/"
+  },
+  {
+   "t": "2026-11-23 18:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "3割引きしたあと3割増しにすると、元の値段に戻る？",
+   "url": "https://youtu.be/sNMlk9_N_p8"
+  },
+  {
+   "t": "2026-11-23 17:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-23 15:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "生成AIの有料プラン、月3,000円なら元は取れる？ 時給2,000円で計算すると",
+   "url": "https://youtu.be/hAcgGiRtJWE"
+  },
+  {
+   "t": "2026-11-23 12:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "電子レンジを使うとWi-Fiが遅くなるのはなぜ？",
+   "url": "https://www.instagram.com/reel/DgEdUvvAnni/"
+  },
+  {
+   "t": "2026-11-23 12:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "固定費が月60万円のお店、何人来たら黒字になる？（損益分岐点の客数）",
+   "url": "https://youtu.be/DOX9moe0cm8"
+  },
+  {
+   "t": "2026-11-23 12:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-23 12:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "クーポン2枚、使う順番で払う金額は変わる？"
+  },
+  {
+   "t": "2026-11-23 10:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "手袋をするとスマホが反応しないのはなぜ？",
+   "url": "https://youtu.be/EwdIX5XW9-s"
+  },
+  {
+   "t": "2026-11-23 07:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "100個仕入れて20個売れ残ったら、利益はいくら？（売れ残りと利益の計算）",
+   "url": "https://www.instagram.com/reel/DgD7EUFB7xg/"
+  },
+  {
+   "t": "2026-11-23 07:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "7掛けで仕入れて2割引きで売ると、粗利率は何%？",
+   "url": "https://youtu.be/fL468vpgEqs"
+  },
+  {
+   "t": "2026-11-23 06:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-23 06:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "4Kはハイビジョンの4倍。なら8Kテレビは何倍？"
+  },
+  {
+   "t": "2026-11-23",
+   "dept": "dev",
+   "kind": "Free tools",
+   "title": "ウィジェット見本JSON（AIの残り・架空の値・クロール除外）",
+   "url": "https://tools.equaglobal.com/widget-demo/summary.json"
+  },
   {
    "t": "2026-11-22 23:15",
    "dept": "sns",
@@ -1393,109 +1503,6 @@
   },
   {
    "t": "2026-11-21 17:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-21 15:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "url": "https://youtu.be/MeDiwVyEZOI"
-  },
-  {
-   "t": "2026-11-21 12:54",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "1割引きのセールで2割多く売れたら、もうかった？（売上と粗利の計算）",
-   "url": "https://www.instagram.com/reel/Df_T7icyzYj/"
-  },
-  {
-   "t": "2026-11-21 12:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "仕入れ値が上がったら、売値はいくら上げる？（粗利30%を守る計算）",
-   "url": "https://youtu.be/aqRcYC_hGX4"
-  },
-  {
-   "t": "2026-11-21 12:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-21 12:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "家賃が5万円上がると、売上はいくら増やせばいい？"
-  },
-  {
-   "t": "2026-11-21 10:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "url": "https://youtu.be/4eAPGIQhRzI"
-  },
-  {
-   "t": "2026-11-21 07:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "手袋をするとスマホが反応しないのはなぜ？",
-   "url": "https://www.instagram.com/reel/Df-xXN9t6Ix/"
-  },
-  {
-   "t": "2026-11-21 07:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "手数料10%のフリマ・ネットショップで、粗利30%残る売値はいくら？",
-   "url": "https://youtu.be/xBujZb_ZEh8"
-  },
-  {
-   "t": "2026-11-21 06:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-21 06:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "100メガの回線で、1ギガのファイルは何秒？"
-  },
-  {
-   "t": "2026-11-21",
-   "dept": "pr",
-   "kind": "Hatena",
-   "title": "家賃と更新料の月あたり"
-  },
-  {
-   "t": "2026-11-20 23:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-20 21:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-20 21:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "「はい」を重ねると話が進む？「YES誘導話法」と「YES話法」の使い方"
-  },
-  {
-   "t": "2026-11-20 20:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "大きいサイズのほうが安い？ 500ml 198円と2L 880円、100mlあたりで比べる…",
-   "url": "https://www.instagram.com/reel/Df9l1s9gqgX/"
-  },
-  {
-   "t": "2026-11-20 18:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "「はい」を重ねると話が進む？「YES誘導話法」と「YES話法」の使い方",
-   "url": "https://youtu.be/l16_iAyqyZQ"
-  },
-  {
-   "t": "2026-11-20 17:16",
    "dept": "sns",
    "kind": "Threads"
   }
