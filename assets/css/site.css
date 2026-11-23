@@ -395,3 +395,9 @@ a.card-link:hover .go { background: rgba(201, 162, 74, .14); color: var(--gold-3
 .price-table tbody th span { display: block; margin-top: 2px; color: var(--ink-2); font-weight: 400; font-size: 14px; }
 .price-table td { color: var(--gold-3); font-weight: 700; font-size: 15px; white-space: nowrap; }
 .price-table tbody tr:last-child th, .price-table tbody tr:last-child td { border-bottom: 0; }
+
+.foot-sns { display: flex; flex-direction: column; gap: 8px; }
+.foot-sns p { margin: 0; font-size: 13px; color: var(--ink-2); }
+.foot-sns nav { display: flex; flex-wrap: wrap; gap: 8px; }
+.foot-sns a { display: inline-block; padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; font-size: 13px; color: var(--ink); text-decoration: none; background: var(--bg-2); }
+.foot-sns a:hover { border-color: var(--ink-2); }
