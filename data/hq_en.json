@@ -1,7 +1,7 @@
 {
  "about": "EQUA HQ public data. Built automatically from published records.",
- "today": "2026-11-24",
- "built": "2026-11-24 00:37",
+ "today": "2026-11-25",
+ "built": "2026-11-25 00:38",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -45,10 +45,6 @@
   },
   "week": [
    {
-    "d": "2026-11-18",
-    "n": 2
-   },
-   {
     "d": "2026-11-19",
     "n": 1
    },
@@ -70,6 +66,10 @@
    },
    {
     "d": "2026-11-24",
+    "n": 0
+   },
+   {
+    "d": "2026-11-25",
     "n": 0
    }
   ],
@@ -724,7 +724,7 @@
   "daily|00:03": "done",
   "ig_reel|07:20": "queued",
   "ig_reel|12:20": "queued",
-  "ig_reel|20:20": "queued"
+  "long_pub|18:07": "queued"
  },
  "depts": [
   {
@@ -737,13 +737,13 @@
     {
      "k": "threads",
      "today": 0,
-     "total": 104
+     "total": 108
     },
     {
      "k": "ig",
      "today": 0,
-     "total": 71,
-     "queued": 4
+     "total": 74,
+     "queued": 2
     },
     {
      "k": "x",
@@ -753,60 +753,60 @@
     {
      "k": "tiktok",
      "today": 0,
-     "total": 51
+     "total": 54
     },
     {
      "k": "yt",
      "today": 0,
-     "total": 93,
-     "queued": 0
+     "total": 98,
+     "queued": 1
     }
    ],
    "recent": [
     {
-     "d": "2026-11-23",
+     "d": "2026-11-24",
      "kind": "Instagram",
+     "title": "年会費1,100円のクレジットカード、いくら使えば元が取れる？（ポイント還元率と年会費の計…",
+     "url": "https://www.instagram.com/reel/DgH5CCHBlt-/"
+    },
+    {
+     "d": "2026-11-24",
+     "kind": "Instagram",
+     "title": "送料無料まであと800円、足すのと送料を払うのはどっちが得？（送料無料ラインの計算）",
+     "url": "https://www.instagram.com/reel/DgHCIq5sBdp/"
+    },
+    {
+     "d": "2026-11-24",
+     "kind": "Instagram",
+     "title": "スマホの白い画面を拡大すると、何色？（約1677万色の正体）",
+     "url": "https://www.instagram.com/reel/DgGfwkQN7QN/"
+    },
+    {
+     "d": "2026-11-24",
+     "kind": "YouTube",
+     "title": "スマホの充電1回、電気代はいくら？",
+     "url": "https://youtu.be/lMK7n3pB1js"
+    },
+    {
+     "d": "2026-11-24",
+     "kind": "YouTube",
+     "title": "海外のサイトがすぐ開くのはなぜ？",
+     "url": "https://youtu.be/54YnSMqDVVA"
+    },
+    {
+     "d": "2026-11-24",
+     "kind": "YouTube",
      "title": "カード払いの手数料3%は、利益から見ると何%？（キャッシュレス決済の手数料）",
-     "url": "https://www.instagram.com/reel/DgFUfJkB9cF/"
-    },
-    {
-     "d": "2026-11-23",
-     "kind": "Instagram",
-     "title": "電子レンジを使うとWi-Fiが遅くなるのはなぜ？",
-     "url": "https://www.instagram.com/reel/DgEdUvvAnni/"
-    },
-    {
-     "d": "2026-11-23",
-     "kind": "Instagram",
-     "title": "100個仕入れて20個売れ残ったら、利益はいくら？（売れ残りと利益の計算）",
-     "url": "https://www.instagram.com/reel/DgD7EUFB7xg/"
-    },
-    {
-     "d": "2026-11-23",
-     "kind": "YouTube",
-     "title": "3割引きしたあと3割増しにすると、元の値段に戻る？",
-     "url": "https://youtu.be/sNMlk9_N_p8"
-    },
-    {
-     "d": "2026-11-23",
-     "kind": "YouTube",
-     "title": "生成AIの有料プラン、月3,000円なら元は取れる？ 時給2,000円で計算すると",
-     "url": "https://youtu.be/hAcgGiRtJWE"
-    },
-    {
-     "d": "2026-11-23",
-     "kind": "YouTube",
-     "title": "固定費が月60万円のお店、何人来たら黒字になる？（損益分岐点の客数）",
-     "url": "https://youtu.be/DOX9moe0cm8"
+     "url": "https://youtu.be/Q452w1vCdOs"
     }
    ],
    "week": [
-    16,
     17,
     16,
     16,
     15,
     16,
+    15,
     0
    ]
   },
@@ -820,13 +820,13 @@
     {
      "k": "reels",
      "today": 0,
-     "total": 75
+     "total": 76
     },
     {
      "k": "long",
      "today": 0,
      "total": 8,
-     "queued": 0
+     "queued": 1
     },
     {
      "k": "note",
@@ -869,11 +869,11 @@
     }
    ],
    "week": [
-    2,
     0,
     0,
     0,
     1,
+    0,
     0,
     0
    ]
@@ -956,8 +956,8 @@
     0,
     0,
     0,
-    0,
     1,
+    0,
     0
    ]
   },
@@ -1021,7 +1021,7 @@
     1,
     1,
     1,
-    1,
+    0,
     0,
     0
    ]
@@ -1048,15 +1048,11 @@
  "kpi": [
   {
    "id": "ig_followers",
-   "v": 4625,
-   "delta": 287,
-   "prev_d": "2026-11-22",
-   "asof": "2026-11-23",
+   "v": 4698,
+   "delta": 73,
+   "prev_d": "2026-11-23",
+   "asof": "2026-11-24",
    "series": [
-    {
-     "d": "2026-11-08",
-     "v": 3037
-    },
     {
      "d": "2026-11-09",
      "v": 3268
@@ -1108,6 +1104,10 @@
     {
      "d": "2026-11-23",
      "v": 4625
+    },
+    {
+     "d": "2026-11-24",
+     "v": 4698
     }
    ]
   },
@@ -1115,8 +1115,8 @@
    "id": "tt_followers",
    "v": 5444,
    "delta": 0,
-   "prev_d": "2026-11-22",
-   "asof": "2026-11-23",
+   "prev_d": "2026-11-23",
+   "asof": "2026-11-24",
    "series": [
     {
      "d": "2026-11-15",
@@ -1145,26 +1145,26 @@
     {
      "d": "2026-11-23",
      "v": 5444
+    },
+    {
+     "d": "2026-11-24",
+     "v": 5444
     }
    ]
   },
   {
    "id": "week_published",
-   "v": 50,
+   "v": 49,
    "breakdown": {
     "reels": 18,
-    "shorts": 28,
-    "long": 2,
-    "note": 1,
+    "shorts": 29,
+    "long": 1,
+    "note": 0,
     "blog": 0,
     "tools": 1
    },
-   "asof": "2026-11-24",
+   "asof": "2026-11-25",
    "series": [
-    {
-     "d": "2026-11-18",
-     "v": 9
-    },
     {
      "d": "2026-11-19",
      "v": 8
@@ -1187,6 +1187,10 @@
     },
     {
      "d": "2026-11-24",
+     "v": 8
+    },
+    {
+     "d": "2026-11-25",
      "v": 0
     }
    ]
@@ -1194,12 +1198,8 @@
   {
    "id": "tools_total",
    "v": 32,
-   "asof": "2026-11-24",
+   "asof": "2026-11-25",
    "series": [
-    {
-     "d": "2026-11-11",
-     "v": 31
-    },
     {
      "d": "2026-11-12",
      "v": 31
@@ -1251,6 +1251,10 @@
     {
      "d": "2026-11-24",
      "v": 32
+    },
+    {
+     "d": "2026-11-25",
+     "v": 32
     }
    ]
   },
@@ -1260,6 +1264,100 @@
   }
  ],
  "activity": [
+  {
+   "t": "2026-11-24 23:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-24 21:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-24 21:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "「どうですか？」より通る聞き方、知ってる？「二者択一話法」の使い方"
+  },
+  {
+   "t": "2026-11-24 20:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "年会費1,100円のクレジットカード、いくら使えば元が取れる？（ポイント還元率と年会費の計…",
+   "url": "https://www.instagram.com/reel/DgH5CCHBlt-/"
+  },
+  {
+   "t": "2026-11-24 18:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "スマホの充電1回、電気代はいくら？",
+   "url": "https://youtu.be/lMK7n3pB1js"
+  },
+  {
+   "t": "2026-11-24 17:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-24 15:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "海外のサイトがすぐ開くのはなぜ？",
+   "url": "https://youtu.be/54YnSMqDVVA"
+  },
+  {
+   "t": "2026-11-24 12:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "送料無料まであと800円、足すのと送料を払うのはどっちが得？（送料無料ラインの計算）",
+   "url": "https://www.instagram.com/reel/DgHCIq5sBdp/"
+  },
+  {
+   "t": "2026-11-24 12:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "カード払いの手数料3%は、利益から見ると何%？（キャッシュレス決済の手数料）",
+   "url": "https://youtu.be/Q452w1vCdOs"
+  },
+  {
+   "t": "2026-11-24 12:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "USBメモリの空きは10GBあるのに、5GBの動画がコピーできない？ 壊れたの？"
+  },
+  {
+   "t": "2026-11-24 10:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "電子レンジを使うとWi-Fiが遅くなるのはなぜ？",
+   "url": "https://youtu.be/lSAmafpee-Y"
+  },
+  {
+   "t": "2026-11-24 07:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "スマホの白い画面を拡大すると、何色？（約1677万色の正体）",
+   "url": "https://www.instagram.com/reel/DgGfwkQN7QN/"
+  },
+  {
+   "t": "2026-11-24 07:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "100個仕入れて20個売れ残ったら、利益はいくら？（売れ残りと利益の計算）",
+   "url": "https://youtu.be/6noxnOa24O4"
+  },
+  {
+   "t": "2026-11-24 06:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-24 06:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "1割値上げしたら、お客さんが何割減っても大丈夫？"
+  },
   {
    "t": "2026-11-23 23:17",
    "dept": "sns",
@@ -1414,97 +1512,6 @@
    "kind": "Instagram",
    "title": "固定費が月60万円のお店、何人来たら黒字になる？（損益分岐点の客数）",
    "url": "https://www.instagram.com/reel/DgB4fgxSVDT/"
-  },
-  {
-   "t": "2026-11-22 12:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "url": "https://youtu.be/fRUo-YHC-dg"
-  },
-  {
-   "t": "2026-11-22 12:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-22 12:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "値段はそのままで量が1割減ったら、何%の値上げ？"
-  },
-  {
-   "t": "2026-11-22 10:07",
-   "dept": "studio",
-   "kind": "YouTube",
-   "long": true,
-   "title": "もしも検証 もしもコロナが来なかった2026年",
-   "url": "https://youtu.be/8-lhzTGxMYY"
-  },
-  {
-   "t": "2026-11-22 07:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "7掛けで仕入れて2割引きで売ると、粗利率は何%？",
-   "url": "https://www.instagram.com/reel/DgBWM7-PEK6/"
-  },
-  {
-   "t": "2026-11-22 07:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "1割引きのセールで2割多く売れたら、もうかった？（売上と粗利の計算）",
-   "url": "https://youtu.be/vSc074yBHMI"
-  },
-  {
-   "t": "2026-11-22 06:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-22 06:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "スマホの充電1回、電気代はいくら？"
-  },
-  {
-   "t": "2026-11-22",
-   "dept": "pr",
-   "kind": "Hatena",
-   "title": "雨の予備日（20日＋3割では足りない）"
-  },
-  {
-   "t": "2026-11-21 23:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-21 21:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-21 21:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "QRコードは、なぜ汚れていても読めるの？"
-  },
-  {
-   "t": "2026-11-21 20:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "3割引きしたあと3割増しにすると、元の値段に戻る？",
-   "url": "https://www.instagram.com/reel/DgAKpPFSVDy/"
-  },
-  {
-   "t": "2026-11-21 18:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "大きいサイズのほうが安い？ 500ml 198円と2L 880円、100mlあたりで比べる…",
-   "url": "https://youtu.be/kWw6hmC4njI"
-  },
-  {
-   "t": "2026-11-21 17:15",
-   "dept": "sns",
-   "kind": "Threads"
   }
  ],
  "products": {
