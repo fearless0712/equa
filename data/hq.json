@@ -1,7 +1,7 @@
 {
  "about": "EQUA司令塔の公開データ。公開済みの記録から自動で作成。",
- "today": "2026-11-25",
- "built": "2026-11-25 00:38",
+ "today": "2026-11-26",
+ "built": "2026-11-26 00:39",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -45,10 +45,6 @@
   },
   "week": [
    {
-    "d": "2026-11-19",
-    "n": 1
-   },
-   {
     "d": "2026-11-20",
     "n": 1
    },
@@ -70,6 +66,10 @@
    },
    {
     "d": "2026-11-25",
+    "n": 0
+   },
+   {
+    "d": "2026-11-26",
     "n": 0
    }
   ],
@@ -737,7 +737,7 @@
   "daily|00:03": "done",
   "ig_reel|07:20": "queued",
   "ig_reel|12:20": "queued",
-  "long_pub|18:07": "queued"
+  "ig_reel|20:20": "queued"
  },
  "depts": [
   {
@@ -750,13 +750,13 @@
     {
      "k": "threads",
      "today": 0,
-     "total": 108
+     "total": 111
     },
     {
      "k": "ig",
      "today": 0,
-     "total": 74,
-     "queued": 2
+     "total": 77,
+     "queued": 5
     },
     {
      "k": "x",
@@ -766,60 +766,60 @@
     {
      "k": "tiktok",
      "today": 0,
-     "total": 54
+     "total": 57
     },
     {
      "k": "yt",
      "today": 0,
-     "total": 98,
-     "queued": 1
+     "total": 102,
+     "queued": 0
     }
    ],
    "recent": [
     {
-     "d": "2026-11-24",
+     "d": "2026-11-25",
      "kind": "Instagram",
-     "title": "年会費1,100円のクレジットカード、いくら使えば元が取れる？（ポイント還元率と年会費の計…",
-     "url": "https://www.instagram.com/reel/DgH5CCHBlt-/"
+     "title": "配当と値上がり、何がちがう？（インカムゲインとキャピタルゲイン）",
+     "url": "https://www.instagram.com/reel/DgKd0BBoLzy/"
     },
     {
-     "d": "2026-11-24",
+     "d": "2026-11-25",
      "kind": "Instagram",
+     "title": "株価が高い会社ほど大きい会社？（時価総額＝株価×発行済み株式数）",
+     "url": "https://www.instagram.com/reel/DgJm9grSPev/"
+    },
+    {
+     "d": "2026-11-25",
+     "kind": "Instagram",
+     "title": "スマホで動画を1時間見ると、何ギガ使う？（動画のデータ量・通信量の計算）",
+     "url": "https://www.instagram.com/reel/DgJEqIshgYZ/"
+    },
+    {
+     "d": "2026-11-25",
+     "kind": "YouTube",
      "title": "送料無料まであと800円、足すのと送料を払うのはどっちが得？（送料無料ラインの計算）",
-     "url": "https://www.instagram.com/reel/DgHCIq5sBdp/"
+     "url": "https://youtu.be/P3co7s6uZuU"
     },
     {
-     "d": "2026-11-24",
-     "kind": "Instagram",
-     "title": "スマホの白い画面を拡大すると、何色？（約1677万色の正体）",
-     "url": "https://www.instagram.com/reel/DgGfwkQN7QN/"
-    },
-    {
-     "d": "2026-11-24",
+     "d": "2026-11-25",
      "kind": "YouTube",
-     "title": "スマホの充電1回、電気代はいくら？",
-     "url": "https://youtu.be/lMK7n3pB1js"
+     "title": "株価が高い会社ほど大きい会社？（時価総額＝株価×発行済み株式数）",
+     "url": "https://youtu.be/Swt79N6OWTM"
     },
     {
-     "d": "2026-11-24",
+     "d": "2026-11-25",
      "kind": "YouTube",
-     "title": "海外のサイトがすぐ開くのはなぜ？",
-     "url": "https://youtu.be/54YnSMqDVVA"
-    },
-    {
-     "d": "2026-11-24",
-     "kind": "YouTube",
-     "title": "カード払いの手数料3%は、利益から見ると何%？（キャッシュレス決済の手数料）",
-     "url": "https://youtu.be/Q452w1vCdOs"
+     "title": "4桁の番号をランダムに配ると、何人で同じ番号がかぶる？",
+     "url": "https://youtu.be/Sy6A8jpNZUM"
     }
    ],
    "week": [
-    17,
     16,
     16,
     15,
     16,
     15,
+    13,
     0
    ]
   },
@@ -833,13 +833,13 @@
     {
      "k": "reels",
      "today": 0,
-     "total": 76
+     "total": 82
     },
     {
      "k": "long",
      "today": 0,
-     "total": 8,
-     "queued": 1
+     "total": 9,
+     "queued": 0
     },
     {
      "k": "note",
@@ -848,6 +848,12 @@
     }
    ],
    "recent": [
+    {
+     "d": "2026-11-25",
+     "kind": "YouTube",
+     "title": "・もしも検証",
+     "url": "https://youtu.be/A1QNuP6AsNU"
+    },
     {
      "d": "2026-11-22",
      "kind": "YouTube",
@@ -874,20 +880,15 @@
      "d": "2026-11-16",
      "kind": "note",
      "title": "クーポン2枚、使う順番で払う金額は変わる？"
-    },
-    {
-     "d": "2026-11-16",
-     "kind": "note",
-     "title": "値段そのままで量が1割減ったら何%の値上げ"
     }
    ],
    "week": [
     0,
     0,
-    0,
     1,
     0,
     0,
+    1,
     0
    ]
   },
@@ -968,8 +969,8 @@
     0,
     0,
     0,
-    0,
     1,
+    0,
     0,
     0
    ]
@@ -1033,7 +1034,7 @@
     1,
     1,
     1,
-    1,
+    0,
     0,
     0,
     0
@@ -1061,15 +1062,11 @@
  "kpi": [
   {
    "id": "ig_followers",
-   "v": 4698,
-   "delta": 73,
-   "prev_d": "2026-11-23",
-   "asof": "2026-11-24",
+   "v": 4756,
+   "delta": 58,
+   "prev_d": "2026-11-24",
+   "asof": "2026-11-25",
    "series": [
-    {
-     "d": "2026-11-09",
-     "v": 3268
-    },
     {
      "d": "2026-11-10",
      "v": 3366
@@ -1121,15 +1118,19 @@
     {
      "d": "2026-11-24",
      "v": 4698
+    },
+    {
+     "d": "2026-11-25",
+     "v": 4756
     }
    ]
   },
   {
    "id": "tt_followers",
-   "v": 5444,
-   "delta": 0,
-   "prev_d": "2026-11-23",
-   "asof": "2026-11-24",
+   "v": 5446,
+   "delta": 2,
+   "prev_d": "2026-11-24",
+   "asof": "2026-11-25",
    "series": [
     {
      "d": "2026-11-15",
@@ -1162,6 +1163,10 @@
     {
      "d": "2026-11-24",
      "v": 5444
+    },
+    {
+     "d": "2026-11-25",
+     "v": 5446
     }
    ]
   },
@@ -1170,18 +1175,14 @@
    "v": 49,
    "breakdown": {
     "reels": 18,
-    "shorts": 29,
-    "long": 1,
+    "shorts": 28,
+    "long": 2,
     "note": 0,
     "blog": 0,
     "tools": 1
    },
-   "asof": "2026-11-25",
+   "asof": "2026-11-26",
    "series": [
-    {
-     "d": "2026-11-19",
-     "v": 8
-    },
     {
      "d": "2026-11-20",
      "v": 8
@@ -1204,6 +1205,10 @@
     },
     {
      "d": "2026-11-25",
+     "v": 8
+    },
+    {
+     "d": "2026-11-26",
      "v": 0
     }
    ]
@@ -1211,12 +1216,8 @@
   {
    "id": "tools_total",
    "v": 32,
-   "asof": "2026-11-25",
+   "asof": "2026-11-26",
    "series": [
-    {
-     "d": "2026-11-12",
-     "v": 31
-    },
     {
      "d": "2026-11-13",
      "v": 31
@@ -1268,6 +1269,10 @@
     {
      "d": "2026-11-25",
      "v": 32
+    },
+    {
+     "d": "2026-11-26",
+     "v": 32
     }
    ]
   },
@@ -1277,6 +1282,96 @@
   }
  ],
  "activity": [
+  {
+   "t": "2026-11-25 23:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-25 21:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "反対されたとき、最初のひと言なんて言う？「YES・BUT話法」の使い方"
+  },
+  {
+   "t": "2026-11-25 21:14",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-25 20:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "配当と値上がり、何がちがう？（インカムゲインとキャピタルゲイン）",
+   "url": "https://www.instagram.com/reel/DgKd0BBoLzy/"
+  },
+  {
+   "t": "2026-11-25 18:07",
+   "dept": "studio",
+   "kind": "YouTube",
+   "long": true,
+   "title": "・もしも検証",
+   "url": "https://youtu.be/A1QNuP6AsNU"
+  },
+  {
+   "t": "2026-11-25 15:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "送料無料まであと800円、足すのと送料を払うのはどっちが得？（送料無料ラインの計算）",
+   "url": "https://youtu.be/P3co7s6uZuU"
+  },
+  {
+   "t": "2026-11-25 12:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "株価が高い会社ほど大きい会社？（時価総額＝株価×発行済み株式数）",
+   "url": "https://www.instagram.com/reel/DgJm9grSPev/"
+  },
+  {
+   "t": "2026-11-25 12:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "株価が高い会社ほど大きい会社？（時価総額＝株価×発行済み株式数）",
+   "url": "https://youtu.be/Swt79N6OWTM"
+  },
+  {
+   "t": "2026-11-25 12:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "売上が半分になったら、何%増えれば元どおり？ 50%…ではありません"
+  },
+  {
+   "t": "2026-11-25 10:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "4桁の番号をランダムに配ると、何人で同じ番号がかぶる？",
+   "url": "https://youtu.be/Sy6A8jpNZUM"
+  },
+  {
+   "t": "2026-11-25 07:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "スマホで動画を1時間見ると、何ギガ使う？（動画のデータ量・通信量の計算）",
+   "url": "https://www.instagram.com/reel/DgJEqIshgYZ/"
+  },
+  {
+   "t": "2026-11-25 07:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "商品のバーコードの下にある13けたの数字。最後の1けたは何のため？",
+   "url": "https://youtu.be/QwBzXL3hBxM"
+  },
+  {
+   "t": "2026-11-25 06:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-25 06:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "1TB買ったのに、パソコンでは931GB？ 減っているの？"
+  },
   {
    "t": "2026-11-24 23:15",
    "dept": "sns",
@@ -1437,94 +1532,6 @@
    "dept": "sns",
    "kind": "TikTok",
    "title": "クーポン2枚、使う順番で払う金額は変わる？"
-  },
-  {
-   "t": "2026-11-23 10:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "手袋をするとスマホが反応しないのはなぜ？",
-   "url": "https://youtu.be/EwdIX5XW9-s"
-  },
-  {
-   "t": "2026-11-23 07:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "100個仕入れて20個売れ残ったら、利益はいくら？（売れ残りと利益の計算）",
-   "url": "https://www.instagram.com/reel/DgD7EUFB7xg/"
-  },
-  {
-   "t": "2026-11-23 07:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "7掛けで仕入れて2割引きで売ると、粗利率は何%？",
-   "url": "https://youtu.be/fL468vpgEqs"
-  },
-  {
-   "t": "2026-11-23 06:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-23 06:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "4Kはハイビジョンの4倍。なら8Kテレビは何倍？"
-  },
-  {
-   "t": "2026-11-23",
-   "dept": "dev",
-   "kind": "無料ツール",
-   "title": "ウィジェット見本JSON（AIの残り・架空の値・クロール除外）",
-   "url": "https://tools.equaglobal.com/widget-demo/summary.json"
-  },
-  {
-   "t": "2026-11-22 23:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-22 21:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-22 21:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "スマホを毎日充電すると、1年で充電365回分？ 充電の回数の数え方"
-  },
-  {
-   "t": "2026-11-22 20:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "生成AIの有料プラン、月3,000円なら元は取れる？ 時給2,000円で計算すると",
-   "url": "https://www.instagram.com/reel/DgCveRrJ1cp/"
-  },
-  {
-   "t": "2026-11-22 18:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "毎月1万円ずつ買うと、平均いくらで買えた？",
-   "url": "https://youtu.be/Fy5JuIzmPps"
-  },
-  {
-   "t": "2026-11-22 17:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-22 15:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "2038年にパソコンの時計が止まる？ 2038年問題とは",
-   "url": "https://youtu.be/TvICAzJS1aE"
-  },
-  {
-   "t": "2026-11-22 12:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "固定費が月60万円のお店、何人来たら黒字になる？（損益分岐点の客数）",
-   "url": "https://www.instagram.com/reel/DgB4fgxSVDT/"
   }
  ]
 }
