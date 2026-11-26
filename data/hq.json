@@ -1,7 +1,7 @@
 {
  "about": "EQUA司令塔の公開データ。公開済みの記録から自動で作成。",
- "today": "2026-11-26",
- "built": "2026-11-26 00:39",
+ "today": "2026-11-27",
+ "built": "2026-11-27 00:39",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -45,10 +45,6 @@
   },
   "week": [
    {
-    "d": "2026-11-20",
-    "n": 1
-   },
-   {
     "d": "2026-11-21",
     "n": 1
    },
@@ -70,6 +66,10 @@
    },
    {
     "d": "2026-11-26",
+    "n": 0
+   },
+   {
+    "d": "2026-11-27",
     "n": 0
    }
   ],
@@ -750,12 +750,12 @@
     {
      "k": "threads",
      "today": 0,
-     "total": 111
+     "total": 116
     },
     {
      "k": "ig",
      "today": 0,
-     "total": 77,
+     "total": 80,
      "queued": 5
     },
     {
@@ -766,16 +766,40 @@
     {
      "k": "tiktok",
      "today": 0,
-     "total": 57
+     "total": 60
     },
     {
      "k": "yt",
      "today": 0,
-     "total": 102,
+     "total": 103,
      "queued": 0
     }
    ],
    "recent": [
+    {
+     "d": "2026-11-26",
+     "kind": "Instagram",
+     "title": "誰かが勝つと誰かが負ける？（ゼロサムゲームとは）",
+     "url": "https://www.instagram.com/reel/DgNCmmCtbnz/"
+    },
+    {
+     "d": "2026-11-26",
+     "kind": "Instagram",
+     "title": "この保存マーク、元は何？（フロッピーディスクの容量）",
+     "url": "https://www.instagram.com/reel/DgMLrC_Mpr5/"
+    },
+    {
+     "d": "2026-11-26",
+     "kind": "Instagram",
+     "title": "利回り8%の部屋、本当に8%？（表面利回りと実質利回り）",
+     "url": "https://www.instagram.com/reel/DgLpVtyh2Am/"
+    },
+    {
+     "d": "2026-11-26",
+     "kind": "YouTube",
+     "title": "配当と値上がり、何がちがう？（インカムゲインとキャピタルゲイン）",
+     "url": "https://youtu.be/MSIrlf_vKos"
+    },
     {
      "d": "2026-11-25",
      "kind": "Instagram",
@@ -784,42 +808,18 @@
     },
     {
      "d": "2026-11-25",
-     "kind": "Instagram",
-     "title": "株価が高い会社ほど大きい会社？（時価総額＝株価×発行済み株式数）",
-     "url": "https://www.instagram.com/reel/DgJm9grSPev/"
-    },
-    {
-     "d": "2026-11-25",
-     "kind": "Instagram",
-     "title": "スマホで動画を1時間見ると、何ギガ使う？（動画のデータ量・通信量の計算）",
-     "url": "https://www.instagram.com/reel/DgJEqIshgYZ/"
-    },
-    {
-     "d": "2026-11-25",
      "kind": "YouTube",
      "title": "送料無料まであと800円、足すのと送料を払うのはどっちが得？（送料無料ラインの計算）",
      "url": "https://youtu.be/P3co7s6uZuU"
-    },
-    {
-     "d": "2026-11-25",
-     "kind": "YouTube",
-     "title": "株価が高い会社ほど大きい会社？（時価総額＝株価×発行済み株式数）",
-     "url": "https://youtu.be/Swt79N6OWTM"
-    },
-    {
-     "d": "2026-11-25",
-     "kind": "YouTube",
-     "title": "4桁の番号をランダムに配ると、何人で同じ番号がかぶる？",
-     "url": "https://youtu.be/Sy6A8jpNZUM"
     }
    ],
    "week": [
-    16,
     16,
     15,
     16,
     15,
     13,
+    12,
     0
    ]
   },
@@ -833,7 +833,7 @@
     {
      "k": "reels",
      "today": 0,
-     "total": 82
+     "total": 85
     },
     {
      "k": "long",
@@ -884,11 +884,11 @@
    ],
    "week": [
     0,
-    0,
     1,
     0,
     0,
     1,
+    0,
     0
    ]
   },
@@ -968,8 +968,8 @@
    "week": [
     0,
     0,
-    0,
     1,
+    0,
     0,
     0,
     0
@@ -1033,7 +1033,7 @@
    "week": [
     1,
     1,
-    1,
+    0,
     0,
     0,
     0,
@@ -1062,15 +1062,11 @@
  "kpi": [
   {
    "id": "ig_followers",
-   "v": 4756,
-   "delta": 58,
-   "prev_d": "2026-11-24",
-   "asof": "2026-11-25",
+   "v": 4815,
+   "delta": 59,
+   "prev_d": "2026-11-25",
+   "asof": "2026-11-26",
    "series": [
-    {
-     "d": "2026-11-10",
-     "v": 3366
-    },
     {
      "d": "2026-11-11",
      "v": 3452
@@ -1122,15 +1118,19 @@
     {
      "d": "2026-11-25",
      "v": 4756
+    },
+    {
+     "d": "2026-11-26",
+     "v": 4815
     }
    ]
   },
   {
    "id": "tt_followers",
    "v": 5446,
-   "delta": 2,
-   "prev_d": "2026-11-24",
-   "asof": "2026-11-25",
+   "delta": 0,
+   "prev_d": "2026-11-25",
+   "asof": "2026-11-26",
    "series": [
     {
      "d": "2026-11-15",
@@ -1167,26 +1167,26 @@
     {
      "d": "2026-11-25",
      "v": 5446
+    },
+    {
+     "d": "2026-11-26",
+     "v": 5446
     }
    ]
   },
   {
    "id": "week_published",
-   "v": 49,
+   "v": 45,
    "breakdown": {
     "reels": 18,
-    "shorts": 28,
+    "shorts": 24,
     "long": 2,
     "note": 0,
     "blog": 0,
     "tools": 1
    },
-   "asof": "2026-11-26",
+   "asof": "2026-11-27",
    "series": [
-    {
-     "d": "2026-11-20",
-     "v": 8
-    },
     {
      "d": "2026-11-21",
      "v": 8
@@ -1209,6 +1209,10 @@
     },
     {
      "d": "2026-11-26",
+     "v": 4
+    },
+    {
+     "d": "2026-11-27",
      "v": 0
     }
    ]
@@ -1216,12 +1220,8 @@
   {
    "id": "tools_total",
    "v": 32,
-   "asof": "2026-11-26",
+   "asof": "2026-11-27",
    "series": [
-    {
-     "d": "2026-11-13",
-     "v": 31
-    },
     {
      "d": "2026-11-14",
      "v": 31
@@ -1273,6 +1273,10 @@
     {
      "d": "2026-11-26",
      "v": 32
+    },
+    {
+     "d": "2026-11-27",
+     "v": 32
     }
    ]
   },
@@ -1282,6 +1286,77 @@
   }
  ],
  "activity": [
+  {
+   "t": "2026-11-26 23:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-26 21:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "「忙しいから無理」と言われたら、なんて返す？「ブーメラン話法」の使い方"
+  },
+  {
+   "t": "2026-11-26 21:14",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-26 20:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "誰かが勝つと誰かが負ける？（ゼロサムゲームとは）",
+   "url": "https://www.instagram.com/reel/DgNCmmCtbnz/"
+  },
+  {
+   "t": "2026-11-26 18:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "配当と値上がり、何がちがう？（インカムゲインとキャピタルゲイン）",
+   "url": "https://youtu.be/MSIrlf_vKos"
+  },
+  {
+   "t": "2026-11-26 17:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-26 12:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "この保存マーク、元は何？（フロッピーディスクの容量）",
+   "url": "https://www.instagram.com/reel/DgMLrC_Mpr5/"
+  },
+  {
+   "t": "2026-11-26 12:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-26 12:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "燃費が10→15km/Lの車と、25→40km/Lの車。ガソリン代が多く減るのはどっち？"
+  },
+  {
+   "t": "2026-11-26 07:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "利回り8%の部屋、本当に8%？（表面利回りと実質利回り）",
+   "url": "https://www.instagram.com/reel/DgLpVtyh2Am/"
+  },
+  {
+   "t": "2026-11-26 06:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-26 06:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "直径20cmのピザ2枚と、30cmのピザ1枚。量が多いのはどっち？"
+  },
   {
    "t": "2026-11-25 23:15",
    "dept": "sns",
@@ -1459,79 +1534,6 @@
    "t": "2026-11-24 06:16",
    "dept": "sns",
    "kind": "Threads"
-  },
-  {
-   "t": "2026-11-24 06:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "1割値上げしたら、お客さんが何割減っても大丈夫？"
-  },
-  {
-   "t": "2026-11-23 23:17",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-23 21:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-23 21:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "128GBのスマホ、実際に使えるのはどれくらい？"
-  },
-  {
-   "t": "2026-11-23 20:54",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "カード払いの手数料3%は、利益から見ると何%？（キャッシュレス決済の手数料）",
-   "url": "https://www.instagram.com/reel/DgFUfJkB9cF/"
-  },
-  {
-   "t": "2026-11-23 18:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "3割引きしたあと3割増しにすると、元の値段に戻る？",
-   "url": "https://youtu.be/sNMlk9_N_p8"
-  },
-  {
-   "t": "2026-11-23 17:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-23 15:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "生成AIの有料プラン、月3,000円なら元は取れる？ 時給2,000円で計算すると",
-   "url": "https://youtu.be/hAcgGiRtJWE"
-  },
-  {
-   "t": "2026-11-23 12:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "電子レンジを使うとWi-Fiが遅くなるのはなぜ？",
-   "url": "https://www.instagram.com/reel/DgEdUvvAnni/"
-  },
-  {
-   "t": "2026-11-23 12:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "固定費が月60万円のお店、何人来たら黒字になる？（損益分岐点の客数）",
-   "url": "https://youtu.be/DOX9moe0cm8"
-  },
-  {
-   "t": "2026-11-23 12:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-23 12:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "クーポン2枚、使う順番で払う金額は変わる？"
   }
  ]
 }
