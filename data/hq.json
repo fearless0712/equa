@@ -1,7 +1,7 @@
 {
  "about": "EQUA司令塔の公開データ。公開済みの記録から自動で作成。",
- "today": "2026-11-27",
- "built": "2026-11-27 00:39",
+ "today": "2026-11-28",
+ "built": "2026-11-28 00:38",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -20,7 +20,7 @@
  ],
  "published": {
   "today": 0,
-  "total": 208,
+  "total": 209,
   "kinds_today": {
    "ブログ": 0,
    "無料ツール": 0,
@@ -35,7 +35,7 @@
   "kinds_all": {
    "ブログ": 72,
    "無料ツール": 32,
-   "note": 64,
+   "note": 65,
    "Qiita": 17,
    "はてな": 14,
    "X": 0,
@@ -44,10 +44,6 @@
    "EQUAサイト": 2
   },
   "week": [
-   {
-    "d": "2026-11-21",
-    "n": 1
-   },
    {
     "d": "2026-11-22",
     "n": 1
@@ -70,18 +66,16 @@
    },
    {
     "d": "2026-11-27",
+    "n": 1
+   },
+   {
+    "d": "2026-11-28",
     "n": 0
    }
   ],
   "today_items": []
  },
  "log": [
-  {
-   "d": "10/31",
-   "t": null,
-   "kind": "note",
-   "s": "note公開『86残土の量とダンプの台数の計算方法』"
-  },
   {
    "d": "10/31",
    "t": null,
@@ -435,6 +429,12 @@
    "t": null,
    "kind": "無料ツール",
    "s": "無料ツール公開『ウィジェット見本JSON（AIの残り・架空の値・クロール除外）』"
+  },
+  {
+   "d": "11/27",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『121ブラックフライデーの偽通販サイト、見分け方』"
   }
  ],
  "queue": {
@@ -750,12 +750,12 @@
     {
      "k": "threads",
      "today": 0,
-     "total": 116
+     "total": 121
     },
     {
      "k": "ig",
      "today": 0,
-     "total": 80,
+     "total": 83,
      "queued": 5
     },
     {
@@ -766,60 +766,60 @@
     {
      "k": "tiktok",
      "today": 0,
-     "total": 60
+     "total": 63
     },
     {
      "k": "yt",
      "today": 0,
-     "total": 103,
+     "total": 108,
      "queued": 0
     }
    ],
    "recent": [
     {
-     "d": "2026-11-26",
+     "d": "2026-11-27",
      "kind": "Instagram",
-     "title": "誰かが勝つと誰かが負ける？（ゼロサムゲームとは）",
-     "url": "https://www.instagram.com/reel/DgNCmmCtbnz/"
+     "title": "株価が半分になったら、元に戻すには何%上がればいい？（下がった%と戻すのに要る%）",
+     "url": "https://www.instagram.com/reel/DgPnaUbsMHo/"
     },
     {
-     "d": "2026-11-26",
+     "d": "2026-11-27",
      "kind": "Instagram",
+     "title": "100円引きと100円分のおまけ、お店に残るのはどっち？（値引きとおまけの利益の計算）",
+     "url": "https://www.instagram.com/reel/DgOwd_uMKTE/"
+    },
+    {
+     "d": "2026-11-27",
+     "kind": "Instagram",
+     "title": "ビットコインの半減期って何が半分になる？（4年ごとの半減期と上限2,100万BTC）",
+     "url": "https://www.instagram.com/reel/DgOOIlihHh-/"
+    },
+    {
+     "d": "2026-11-27",
+     "kind": "YouTube",
      "title": "この保存マーク、元は何？（フロッピーディスクの容量）",
-     "url": "https://www.instagram.com/reel/DgMLrC_Mpr5/"
+     "url": "https://youtu.be/nJRV2KQA058"
     },
     {
-     "d": "2026-11-26",
-     "kind": "Instagram",
-     "title": "利回り8%の部屋、本当に8%？（表面利回りと実質利回り）",
-     "url": "https://www.instagram.com/reel/DgLpVtyh2Am/"
-    },
-    {
-     "d": "2026-11-26",
+     "d": "2026-11-27",
      "kind": "YouTube",
-     "title": "配当と値上がり、何がちがう？（インカムゲインとキャピタルゲイン）",
-     "url": "https://youtu.be/MSIrlf_vKos"
+     "title": "誰かが勝つと誰かが負ける？（ゼロサムゲームとは）",
+     "url": "https://youtu.be/KOy1Z-buOVc"
     },
     {
-     "d": "2026-11-25",
-     "kind": "Instagram",
-     "title": "配当と値上がり、何がちがう？（インカムゲインとキャピタルゲイン）",
-     "url": "https://www.instagram.com/reel/DgKd0BBoLzy/"
-    },
-    {
-     "d": "2026-11-25",
+     "d": "2026-11-27",
      "kind": "YouTube",
-     "title": "送料無料まであと800円、足すのと送料を払うのはどっちが得？（送料無料ラインの計算）",
-     "url": "https://youtu.be/P3co7s6uZuU"
+     "title": "年会費1,100円のクレジットカード、いくら使えば元が取れる？（ポイント還元率と年会費の計…",
+     "url": "https://youtu.be/V5Ea-dOS3C4"
     }
    ],
    "week": [
-    16,
     15,
     16,
     15,
     13,
     12,
+    16,
     0
    ]
   },
@@ -833,7 +833,7 @@
     {
      "k": "reels",
      "today": 0,
-     "total": 85
+     "total": 88
     },
     {
      "k": "long",
@@ -844,10 +844,15 @@
     {
      "k": "note",
      "today": 0,
-     "total": 64
+     "total": 65
     }
    ],
    "recent": [
+    {
+     "d": "2026-11-27",
+     "kind": "note",
+     "title": "121ブラックフライデーの偽通販サイト、見分け方"
+    },
     {
      "d": "2026-11-25",
      "kind": "YouTube",
@@ -875,20 +880,15 @@
      "d": "2026-11-17",
      "kind": "note",
      "title": "3個買うと1個無料は何%引き"
-    },
-    {
-     "d": "2026-11-16",
-     "kind": "note",
-     "title": "クーポン2枚、使う順番で払う金額は変わる？"
     }
    ],
    "week": [
-    0,
     1,
     0,
     0,
     1,
     0,
+    1,
     0
    ]
   },
@@ -967,8 +967,8 @@
    ],
    "week": [
     0,
-    0,
     1,
+    0,
     0,
     0,
     0,
@@ -1032,7 +1032,7 @@
    ],
    "week": [
     1,
-    1,
+    0,
     0,
     0,
     0,
@@ -1062,15 +1062,11 @@
  "kpi": [
   {
    "id": "ig_followers",
-   "v": 4815,
-   "delta": 59,
-   "prev_d": "2026-11-25",
-   "asof": "2026-11-26",
+   "v": 4839,
+   "delta": 24,
+   "prev_d": "2026-11-26",
+   "asof": "2026-11-27",
    "series": [
-    {
-     "d": "2026-11-11",
-     "v": 3452
-    },
     {
      "d": "2026-11-13",
      "v": 3564
@@ -1122,15 +1118,19 @@
     {
      "d": "2026-11-26",
      "v": 4815
+    },
+    {
+     "d": "2026-11-27",
+     "v": 4839
     }
    ]
   },
   {
    "id": "tt_followers",
-   "v": 5446,
-   "delta": 0,
-   "prev_d": "2026-11-25",
-   "asof": "2026-11-26",
+   "v": 5447,
+   "delta": 1,
+   "prev_d": "2026-11-26",
+   "asof": "2026-11-27",
    "series": [
     {
      "d": "2026-11-15",
@@ -1171,26 +1171,26 @@
     {
      "d": "2026-11-26",
      "v": 5446
+    },
+    {
+     "d": "2026-11-27",
+     "v": 5447
     }
    ]
   },
   {
    "id": "week_published",
-   "v": 45,
+   "v": 46,
    "breakdown": {
     "reels": 18,
     "shorts": 24,
     "long": 2,
-    "note": 0,
+    "note": 1,
     "blog": 0,
     "tools": 1
    },
-   "asof": "2026-11-27",
+   "asof": "2026-11-28",
    "series": [
-    {
-     "d": "2026-11-21",
-     "v": 8
-    },
     {
      "d": "2026-11-22",
      "v": 8
@@ -1213,6 +1213,10 @@
     },
     {
      "d": "2026-11-27",
+     "v": 9
+    },
+    {
+     "d": "2026-11-28",
      "v": 0
     }
    ]
@@ -1220,12 +1224,8 @@
   {
    "id": "tools_total",
    "v": 32,
-   "asof": "2026-11-27",
+   "asof": "2026-11-28",
    "series": [
-    {
-     "d": "2026-11-14",
-     "v": 31
-    },
     {
      "d": "2026-11-15",
      "v": 31
@@ -1277,6 +1277,10 @@
     {
      "d": "2026-11-27",
      "v": 32
+    },
+    {
+     "d": "2026-11-28",
+     "v": 32
     }
    ]
   },
@@ -1286,6 +1290,111 @@
   }
  ],
  "activity": [
+  {
+   "t": "2026-11-27 23:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-27 21:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-27 21:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "株価が半分になったら、元に戻すには何%上がればいい？（下がった%と戻すのに要る%）"
+  },
+  {
+   "t": "2026-11-27 20:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "株価が半分になったら、元に戻すには何%上がればいい？（下がった%と戻すのに要る%）",
+   "url": "https://www.instagram.com/reel/DgPnaUbsMHo/"
+  },
+  {
+   "t": "2026-11-27 18:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "この保存マーク、元は何？（フロッピーディスクの容量）",
+   "url": "https://youtu.be/nJRV2KQA058"
+  },
+  {
+   "t": "2026-11-27 17:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-27 15:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "誰かが勝つと誰かが負ける？（ゼロサムゲームとは）",
+   "url": "https://youtu.be/KOy1Z-buOVc"
+  },
+  {
+   "t": "2026-11-27 12:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "100円引きと100円分のおまけ、お店に残るのはどっち？（値引きとおまけの利益の計算）",
+   "url": "https://www.instagram.com/reel/DgOwd_uMKTE/"
+  },
+  {
+   "t": "2026-11-27 12:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "年会費1,100円のクレジットカード、いくら使えば元が取れる？（ポイント還元率と年会費の計…",
+   "url": "https://youtu.be/V5Ea-dOS3C4"
+  },
+  {
+   "t": "2026-11-27 12:16",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-27 12:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "手袋をするとスマホが反応しないのはなぜ？"
+  },
+  {
+   "t": "2026-11-27 10:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "利回り8%の部屋、本当に8%？（表面利回りと実質利回り）",
+   "url": "https://youtu.be/h9DCIZrOrSs"
+  },
+  {
+   "t": "2026-11-27 07:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "ビットコインの半減期って何が半分になる？（4年ごとの半減期と上限2,100万BTC）",
+   "url": "https://www.instagram.com/reel/DgOOIlihHh-/"
+  },
+  {
+   "t": "2026-11-27 07:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "スマホで動画を1時間見ると、何ギガ使う？（動画のデータ量・通信量の計算）",
+   "url": "https://youtu.be/MfpQAIMDIYY"
+  },
+  {
+   "t": "2026-11-27 06:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-27 06:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "7掛けで仕入れて2割引きで売ると、粗利率は何%？"
+  },
+  {
+   "t": "2026-11-27",
+   "dept": "studio",
+   "kind": "note",
+   "title": "121ブラックフライデーの偽通販サイト、見分け方"
+  },
   {
    "t": "2026-11-26 23:15",
    "dept": "sns",
@@ -1428,112 +1537,6 @@
    "kind": "Instagram",
    "title": "スマホで動画を1時間見ると、何ギガ使う？（動画のデータ量・通信量の計算）",
    "url": "https://www.instagram.com/reel/DgJEqIshgYZ/"
-  },
-  {
-   "t": "2026-11-25 07:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "商品のバーコードの下にある13けたの数字。最後の1けたは何のため？",
-   "url": "https://youtu.be/QwBzXL3hBxM"
-  },
-  {
-   "t": "2026-11-25 06:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-25 06:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "1TB買ったのに、パソコンでは931GB？ 減っているの？"
-  },
-  {
-   "t": "2026-11-24 23:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-24 21:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-24 21:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "「どうですか？」より通る聞き方、知ってる？「二者択一話法」の使い方"
-  },
-  {
-   "t": "2026-11-24 20:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "年会費1,100円のクレジットカード、いくら使えば元が取れる？（ポイント還元率と年会費の計…",
-   "url": "https://www.instagram.com/reel/DgH5CCHBlt-/"
-  },
-  {
-   "t": "2026-11-24 18:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "スマホの充電1回、電気代はいくら？",
-   "url": "https://youtu.be/lMK7n3pB1js"
-  },
-  {
-   "t": "2026-11-24 17:16",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-24 15:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "海外のサイトがすぐ開くのはなぜ？",
-   "url": "https://youtu.be/54YnSMqDVVA"
-  },
-  {
-   "t": "2026-11-24 12:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "送料無料まであと800円、足すのと送料を払うのはどっちが得？（送料無料ラインの計算）",
-   "url": "https://www.instagram.com/reel/DgHCIq5sBdp/"
-  },
-  {
-   "t": "2026-11-24 12:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "カード払いの手数料3%は、利益から見ると何%？（キャッシュレス決済の手数料）",
-   "url": "https://youtu.be/Q452w1vCdOs"
-  },
-  {
-   "t": "2026-11-24 12:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "USBメモリの空きは10GBあるのに、5GBの動画がコピーできない？ 壊れたの？"
-  },
-  {
-   "t": "2026-11-24 10:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "電子レンジを使うとWi-Fiが遅くなるのはなぜ？",
-   "url": "https://youtu.be/lSAmafpee-Y"
-  },
-  {
-   "t": "2026-11-24 07:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "スマホの白い画面を拡大すると、何色？（約1677万色の正体）",
-   "url": "https://www.instagram.com/reel/DgGfwkQN7QN/"
-  },
-  {
-   "t": "2026-11-24 07:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "100個仕入れて20個売れ残ったら、利益はいくら？（売れ残りと利益の計算）",
-   "url": "https://youtu.be/6noxnOa24O4"
-  },
-  {
-   "t": "2026-11-24 06:16",
-   "dept": "sns",
-   "kind": "Threads"
   }
  ]
 }
