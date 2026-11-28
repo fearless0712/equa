@@ -1,7 +1,7 @@
 {
  "about": "EQUA司令塔の公開データ。公開済みの記録から自動で作成。",
- "today": "2026-11-28",
- "built": "2026-11-28 00:38",
+ "today": "2026-11-29",
+ "built": "2026-11-29 00:37",
  "operator": [
   "Eternal Philosophy",
   "EQUA",
@@ -20,7 +20,7 @@
  ],
  "published": {
   "today": 0,
-  "total": 209,
+  "total": 210,
   "kinds_today": {
    "ブログ": 0,
    "無料ツール": 0,
@@ -35,7 +35,7 @@
   "kinds_all": {
    "ブログ": 72,
    "無料ツール": 32,
-   "note": 65,
+   "note": 66,
    "Qiita": 17,
    "はてな": 14,
    "X": 0,
@@ -44,10 +44,6 @@
    "EQUAサイト": 2
   },
   "week": [
-   {
-    "d": "2026-11-22",
-    "n": 1
-   },
    {
     "d": "2026-11-23",
     "n": 1
@@ -70,18 +66,16 @@
    },
    {
     "d": "2026-11-28",
+    "n": 1
+   },
+   {
+    "d": "2026-11-29",
     "n": 0
    }
   ],
   "today_items": []
  },
  "log": [
-  {
-   "d": "10/31",
-   "t": null,
-   "kind": "Qiita",
-   "s": "Qiita公開『数量の切り上げと浮動小数点の誤差』"
-  },
   {
    "d": "10/31",
    "t": null,
@@ -435,6 +429,12 @@
    "t": null,
    "kind": "note",
    "s": "note公開『121ブラックフライデーの偽通販サイト、見分け方』"
+  },
+  {
+   "d": "11/28",
+   "t": null,
+   "kind": "note",
+   "s": "note公開『122送ったメールが相手の迷惑メールに入るのはなぜ？SPF・DKIM・DMARC』"
   }
  ],
  "queue": {
@@ -735,6 +735,8 @@
  },
  "proof": {
   "daily|00:03": "done",
+  "yt_res|05:47": "done",
+  "yt_pub|10:37": "queued",
   "ig_reel|07:20": "queued",
   "ig_reel|12:20": "queued",
   "ig_reel|20:20": "queued"
@@ -750,12 +752,12 @@
     {
      "k": "threads",
      "today": 0,
-     "total": 121
+     "total": 126
     },
     {
      "k": "ig",
      "today": 0,
-     "total": 83,
+     "total": 86,
      "queued": 5
     },
     {
@@ -766,59 +768,59 @@
     {
      "k": "tiktok",
      "today": 0,
-     "total": 63
+     "total": 66
     },
     {
      "k": "yt",
      "today": 0,
-     "total": 108,
-     "queued": 0
+     "total": 113,
+     "queued": 1
     }
    ],
    "recent": [
     {
-     "d": "2026-11-27",
+     "d": "2026-11-28",
      "kind": "Instagram",
+     "title": "毎月1万円を20年、年5%で増えたら、いくらになる？（積み立てと複利の計算）",
+     "url": "https://www.instagram.com/reel/DgSMMjvu4u2/"
+    },
+    {
+     "d": "2026-11-28",
+     "kind": "Instagram",
+     "title": "仕入れが5%安くなったら、利益は何%増える？（仕入れ値と粗利の計算）",
+     "url": "https://www.instagram.com/reel/DgRVRCLBTmN/"
+    },
+    {
+     "d": "2026-11-28",
+     "kind": "Instagram",
+     "title": "仮想通貨で100万円もうかったら、税金はいくら？（暗号資産は雑所得・総合課税、株は約20%）",
+     "url": "https://www.instagram.com/reel/DgQy7yrBpgb/"
+    },
+    {
+     "d": "2026-11-28",
+     "kind": "YouTube",
      "title": "株価が半分になったら、元に戻すには何%上がればいい？（下がった%と戻すのに要る%）",
-     "url": "https://www.instagram.com/reel/DgPnaUbsMHo/"
+     "url": "https://youtu.be/fl76qXoTfxo"
     },
     {
-     "d": "2026-11-27",
-     "kind": "Instagram",
-     "title": "100円引きと100円分のおまけ、お店に残るのはどっち？（値引きとおまけの利益の計算）",
-     "url": "https://www.instagram.com/reel/DgOwd_uMKTE/"
+     "d": "2026-11-28",
+     "kind": "YouTube",
+     "title": "スマホの白い画面を拡大すると、何色？（約1677万色の正体）",
+     "url": "https://youtu.be/n9jb9RidyD8"
     },
     {
-     "d": "2026-11-27",
-     "kind": "Instagram",
+     "d": "2026-11-28",
+     "kind": "YouTube",
      "title": "ビットコインの半減期って何が半分になる？（4年ごとの半減期と上限2,100万BTC）",
-     "url": "https://www.instagram.com/reel/DgOOIlihHh-/"
-    },
-    {
-     "d": "2026-11-27",
-     "kind": "YouTube",
-     "title": "この保存マーク、元は何？（フロッピーディスクの容量）",
-     "url": "https://youtu.be/nJRV2KQA058"
-    },
-    {
-     "d": "2026-11-27",
-     "kind": "YouTube",
-     "title": "誰かが勝つと誰かが負ける？（ゼロサムゲームとは）",
-     "url": "https://youtu.be/KOy1Z-buOVc"
-    },
-    {
-     "d": "2026-11-27",
-     "kind": "YouTube",
-     "title": "年会費1,100円のクレジットカード、いくら使えば元が取れる？（ポイント還元率と年会費の計…",
-     "url": "https://youtu.be/V5Ea-dOS3C4"
+     "url": "https://youtu.be/n4zkw0vFZbg"
     }
    ],
    "week": [
-    15,
     16,
     15,
     13,
     12,
+    16,
     16,
     0
    ]
@@ -833,7 +835,7 @@
     {
      "k": "reels",
      "today": 0,
-     "total": 88
+     "total": 91
     },
     {
      "k": "long",
@@ -844,10 +846,15 @@
     {
      "k": "note",
      "today": 0,
-     "total": 65
+     "total": 66
     }
    ],
    "recent": [
+    {
+     "d": "2026-11-28",
+     "kind": "note",
+     "title": "122送ったメールが相手の迷惑メールに入るのはなぜ？SPF・DKIM・DMARC"
+    },
     {
      "d": "2026-11-27",
      "kind": "note",
@@ -875,19 +882,14 @@
      "d": "2026-11-18",
      "kind": "note",
      "title": "USBの速さは何で決まる"
-    },
-    {
-     "d": "2026-11-17",
-     "kind": "note",
-     "title": "3個買うと1個無料は何%引き"
     }
    ],
    "week": [
-    1,
     0,
     0,
     1,
     0,
+    1,
     1,
     0
    ]
@@ -966,8 +968,8 @@
     }
    ],
    "week": [
-    0,
     1,
+    0,
     0,
     0,
     0,
@@ -1031,7 +1033,7 @@
     }
    ],
    "week": [
-    1,
+    0,
     0,
     0,
     0,
@@ -1062,15 +1064,11 @@
  "kpi": [
   {
    "id": "ig_followers",
-   "v": 4839,
-   "delta": 24,
-   "prev_d": "2026-11-26",
-   "asof": "2026-11-27",
+   "v": 4877,
+   "delta": 38,
+   "prev_d": "2026-11-27",
+   "asof": "2026-11-28",
    "series": [
-    {
-     "d": "2026-11-13",
-     "v": 3564
-    },
     {
      "d": "2026-11-14",
      "v": 3632
@@ -1122,15 +1120,19 @@
     {
      "d": "2026-11-27",
      "v": 4839
+    },
+    {
+     "d": "2026-11-28",
+     "v": 4877
     }
    ]
   },
   {
    "id": "tt_followers",
-   "v": 5447,
-   "delta": 1,
-   "prev_d": "2026-11-26",
-   "asof": "2026-11-27",
+   "v": 5451,
+   "delta": 4,
+   "prev_d": "2026-11-27",
+   "asof": "2026-11-28",
    "series": [
     {
      "d": "2026-11-15",
@@ -1175,26 +1177,26 @@
     {
      "d": "2026-11-27",
      "v": 5447
+    },
+    {
+     "d": "2026-11-28",
+     "v": 5451
     }
    ]
   },
   {
    "id": "week_published",
-   "v": 46,
+   "v": 47,
    "breakdown": {
     "reels": 18,
-    "shorts": 24,
-    "long": 2,
-    "note": 1,
+    "shorts": 25,
+    "long": 1,
+    "note": 2,
     "blog": 0,
     "tools": 1
    },
-   "asof": "2026-11-28",
+   "asof": "2026-11-29",
    "series": [
-    {
-     "d": "2026-11-22",
-     "v": 8
-    },
     {
      "d": "2026-11-23",
      "v": 9
@@ -1217,6 +1219,10 @@
     },
     {
      "d": "2026-11-28",
+     "v": 9
+    },
+    {
+     "d": "2026-11-29",
      "v": 0
     }
    ]
@@ -1224,12 +1230,8 @@
   {
    "id": "tools_total",
    "v": 32,
-   "asof": "2026-11-28",
+   "asof": "2026-11-29",
    "series": [
-    {
-     "d": "2026-11-15",
-     "v": 31
-    },
     {
      "d": "2026-11-16",
      "v": 31
@@ -1281,6 +1283,10 @@
     {
      "d": "2026-11-28",
      "v": 32
+    },
+    {
+     "d": "2026-11-29",
+     "v": 32
     }
    ]
   },
@@ -1290,6 +1296,108 @@
   }
  ],
  "activity": [
+  {
+   "t": "2026-11-28 23:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-28 21:15",
+   "dept": "sns",
+   "kind": "TikTok",
+   "title": "仮想通貨で100万円もうかったら、税金はいくら？（暗号資産は雑所得・総合課税、株は約20%）"
+  },
+  {
+   "t": "2026-11-28 21:14",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-28 20:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "毎月1万円を20年、年5%で増えたら、いくらになる？（積み立てと複利の計算）",
+   "url": "https://www.instagram.com/reel/DgSMMjvu4u2/"
+  },
+  {
+   "t": "2026-11-28 18:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "株価が半分になったら、元に戻すには何%上がればいい？（下がった%と戻すのに要る%）",
+   "url": "https://youtu.be/fl76qXoTfxo"
+  },
+  {
+   "t": "2026-11-28 17:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-28 15:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "スマホの白い画面を拡大すると、何色？（約1677万色の正体）",
+   "url": "https://youtu.be/n9jb9RidyD8"
+  },
+  {
+   "t": "2026-11-28 12:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "仕入れが5%安くなったら、利益は何%増える？（仕入れ値と粗利の計算）",
+   "url": "https://www.instagram.com/reel/DgRVRCLBTmN/"
+  },
+  {
+   "t": "2026-11-28 12:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "ビットコインの半減期って何が半分になる？（4年ごとの半減期と上限2,100万BTC）",
+   "url": "https://youtu.be/n4zkw0vFZbg"
+  },
+  {
+   "t": "2026-11-28 12:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-28 12:15",
+   "dept": "sns",
+   "kind": "TikTok"
+  },
+  {
+   "t": "2026-11-28 10:07",
+   "dept": "sns",
+   "kind": "YouTube",
+   "url": "https://youtu.be/UfEC8a3_oGE"
+  },
+  {
+   "t": "2026-11-28 07:52",
+   "dept": "sns",
+   "kind": "Instagram",
+   "title": "仮想通貨で100万円もうかったら、税金はいくら？（暗号資産は雑所得・総合課税、株は約20%）",
+   "url": "https://www.instagram.com/reel/DgQy7yrBpgb/"
+  },
+  {
+   "t": "2026-11-28 07:37",
+   "dept": "sns",
+   "kind": "YouTube",
+   "title": "100円引きと100円分のおまけ、お店に残るのはどっち？（値引きとおまけの利益の計算）",
+   "url": "https://youtu.be/yNNy6B6Ia94"
+  },
+  {
+   "t": "2026-11-28 06:15",
+   "dept": "sns",
+   "kind": "Threads"
+  },
+  {
+   "t": "2026-11-28 06:15",
+   "dept": "sns",
+   "kind": "TikTok"
+  },
+  {
+   "t": "2026-11-28",
+   "dept": "studio",
+   "kind": "note",
+   "title": "122送ったメールが相手の迷惑メールに入るのはなぜ？SPF・DKIM・DMARC"
+  },
   {
    "t": "2026-11-27 23:15",
    "dept": "sns",
@@ -1429,114 +1537,6 @@
    "t": "2026-11-26 17:15",
    "dept": "sns",
    "kind": "Threads"
-  },
-  {
-   "t": "2026-11-26 12:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "この保存マーク、元は何？（フロッピーディスクの容量）",
-   "url": "https://www.instagram.com/reel/DgMLrC_Mpr5/"
-  },
-  {
-   "t": "2026-11-26 12:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-26 12:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "燃費が10→15km/Lの車と、25→40km/Lの車。ガソリン代が多く減るのはどっち？"
-  },
-  {
-   "t": "2026-11-26 07:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "利回り8%の部屋、本当に8%？（表面利回りと実質利回り）",
-   "url": "https://www.instagram.com/reel/DgLpVtyh2Am/"
-  },
-  {
-   "t": "2026-11-26 06:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-26 06:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "直径20cmのピザ2枚と、30cmのピザ1枚。量が多いのはどっち？"
-  },
-  {
-   "t": "2026-11-25 23:15",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-25 21:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "反対されたとき、最初のひと言なんて言う？「YES・BUT話法」の使い方"
-  },
-  {
-   "t": "2026-11-25 21:14",
-   "dept": "sns",
-   "kind": "Threads"
-  },
-  {
-   "t": "2026-11-25 20:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "配当と値上がり、何がちがう？（インカムゲインとキャピタルゲイン）",
-   "url": "https://www.instagram.com/reel/DgKd0BBoLzy/"
-  },
-  {
-   "t": "2026-11-25 18:07",
-   "dept": "studio",
-   "kind": "YouTube",
-   "long": true,
-   "title": "・もしも検証",
-   "url": "https://youtu.be/A1QNuP6AsNU"
-  },
-  {
-   "t": "2026-11-25 15:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "送料無料まであと800円、足すのと送料を払うのはどっちが得？（送料無料ラインの計算）",
-   "url": "https://youtu.be/P3co7s6uZuU"
-  },
-  {
-   "t": "2026-11-25 12:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "株価が高い会社ほど大きい会社？（時価総額＝株価×発行済み株式数）",
-   "url": "https://www.instagram.com/reel/DgJm9grSPev/"
-  },
-  {
-   "t": "2026-11-25 12:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "株価が高い会社ほど大きい会社？（時価総額＝株価×発行済み株式数）",
-   "url": "https://youtu.be/Swt79N6OWTM"
-  },
-  {
-   "t": "2026-11-25 12:15",
-   "dept": "sns",
-   "kind": "TikTok",
-   "title": "売上が半分になったら、何%増えれば元どおり？ 50%…ではありません"
-  },
-  {
-   "t": "2026-11-25 10:37",
-   "dept": "sns",
-   "kind": "YouTube",
-   "title": "4桁の番号をランダムに配ると、何人で同じ番号がかぶる？",
-   "url": "https://youtu.be/Sy6A8jpNZUM"
-  },
-  {
-   "t": "2026-11-25 07:52",
-   "dept": "sns",
-   "kind": "Instagram",
-   "title": "スマホで動画を1時間見ると、何ギガ使う？（動画のデータ量・通信量の計算）",
-   "url": "https://www.instagram.com/reel/DgJEqIshgYZ/"
   }
  ]
 }
